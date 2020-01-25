@@ -1,0 +1,84 @@
+{
+  "compulsories": [
+    {
+      "id": "F1",
+      "type": "Flexibility",
+      "name": "Inside leg hang",
+      "techValue": 0.1,
+      "criteria": "",
+      "imgage": ""
+    },
+    {
+      "id": "F2",
+      "type": "Flexibility",
+      "name": "Side pole straddle base",
+      "techValue": 0.1,
+      "criteria": "",
+      "imgage": ""
+    },
+    {
+      "id": "F3",
+      "type": "Flexibility",
+      "name": "Ballerina sit attitude",
+      "techValue": 0.2,
+      "criteria": "",
+      "imgage": ""
+    },
+    {
+      "id": "F4",
+      "type": "Flexibility",
+      "name": "Inside leg hang",
+      "techValue": 0.2,
+      "criteria": "",
+      "imgage": ""
+    },
+    {
+      "id": "F5",
+      "type": "Flexibility",
+      "name": "Side pole straddle base",
+      "techValue": 0.2,
+      "criteria": "",
+      "imgage": ""
+    },
+    {
+      "id": "F6",
+      "type": "Flexibility",
+      "name": "Allegra split 1",
+      "techValue": 0.3,
+      "criteria": "",
+      "imgage": ""
+    },
+    {
+      "id": "F7",
+      "type": "Flexibility",
+      "name": "Hip hold split",
+      "techValue": 0.3,
+      "criteria": "",
+      "imgage": ""
+    },
+    {
+      "id": "F8",
+      "type": "Flexibility",
+      "name": "Pole straddle",
+      "techValue": 0.3,
+      "criteria": "",
+      "imgage": ""
+    },
+    {
+      "id": "F9",
+      "type": "Flexibility",
+      "name": "Front splits on pole",
+      "techValue": 0.3,
+      "criteria": "",
+      "imgage": ""
+    },
+    {
+      "id": "F10",
+      "type": "Flexibility",
+      "name": "Allegra split 2",
+      "techValue": 0.4,
+      "criteria": "",
+      "imgage": ""
+    }
+  ]
+}
