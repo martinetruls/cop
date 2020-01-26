@@ -35,7 +35,7 @@ p {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
   padding: 1rem 2rem;
 }
 </style>

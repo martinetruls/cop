@@ -8,10 +8,8 @@
       <div class="id">{{ compulsory.id}}</div>
 
       <div class="right-side">
-        <!-- <div :class="`type type-${compulsory.type}`">{{ compulsory.type}}</div> -->
-        <!-- <div class="value">{{ compulsory.techValue}}</div> -->
         <Tag v-bind:label="compulsory.type" v-bind:type="compulsory.type" />
-        <Tag v-bind:label="compulsory.techValue" />
+        <Tag v-bind:label="compulsory.techValue.toString()" />
       </div>
     </div>
     <h2>{{ compulsory.name }}</h2>
@@ -61,17 +59,6 @@ export default {
   font-weight: 700;
   margin-right: 0.5rem;
 }
-
-/* .type {
-  padding: 0.3rem 0.6rem;
-  background-color: rgba(255, 175, 189, 0.2);
-  color: #e6667d;
-  font-weight: 600;
-  font-size: 12px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
-  border-radius: 2px;
-  margin-right: 0.5rem;
-} */
 
 .img-wrapper {
   width: 100%;

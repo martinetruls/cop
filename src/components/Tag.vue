@@ -14,7 +14,7 @@ export default {
 
 <style scoped>
 .tag {
-  padding: 0.3rem 0.6rem;
+  padding: 0.3rem 0.5rem;
   font-weight: 600;
   font-size: 12px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
