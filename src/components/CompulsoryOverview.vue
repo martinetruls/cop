@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overview">
     <p>Showing: {{ compulsories.length }}</p>
     <div class="grid">
       <CompulsoryCard
@@ -26,16 +26,21 @@ export default {
 };
 </script>
 
-<style  scoped>
+<style lang="scss" scoped>
+@import "../styles/vars.scss";
+
+.overview {
+  padding: $ws-xxl;
+}
+
 p {
-  padding-top: 1.5rem;
-  padding-right: 3rem;
   text-align: right;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
-  padding: 1rem 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  margin-left: -$ws-m;
+  margin-right: -$ws-m;
 }
 </style>

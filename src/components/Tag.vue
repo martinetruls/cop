@@ -12,40 +12,38 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "../styles/vars.scss";
+
 .tag {
-  padding: 0.3rem 0.5rem;
+  padding: $ws-xxs $ws-s;
   font-weight: 600;
-  font-size: 12px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+  font-size: 1.2rem;
+  box-shadow: $shadow-std;
   border-radius: 2px;
 
   /* default colors */
-  background-color: rgba(77, 73, 94, 0.07);
-  color: rgba(77, 73, 94, 1);
+  background-color: $dark-07;
+  color: $dark;
 }
 
 .tag-Flexibility {
-  background-color: rgba(255, 175, 189, 0.3);
-  /* color: #e6667d; */
-  color: #d45168;
+  background-color: $pink-03;
+  color: $pink-dark;
 }
 
 .tag-Strength {
-  background-color: rgba(255, 195, 160, 0.2);
-  /* color: #e27535; */
-  color: #f06818;
+  background-color: $orange-02;
+  color: $orange-darker;
 }
 
 .tag-Spins-on-static {
-  background-color: rgba(40, 57, 101, 0.15);
-  /* color: #283965; */
-  color: #2b3f85;
+  background-color: $blue-15;
+  color: $blue-dark;
 }
 
 .tag-Spins-on-spinning {
-  background-color: rgba(117, 228, 214, 0.3);
-  /* color: #0eb19c; */
-  color: #0ca287;
+  background-color: $turquoise-3;
+  color: $turquoise-dark;
 }
 </style>

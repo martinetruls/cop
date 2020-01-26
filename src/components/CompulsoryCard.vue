@@ -5,7 +5,7 @@
     </div>
 
     <div class="info-row">
-      <div class="id">{{ compulsory.id}}</div>
+      <div class="id">{{ compulsory.id }}</div>
 
       <div class="right-side">
         <Tag v-bind:label="compulsory.type" v-bind:type="compulsory.type" />
@@ -28,20 +28,22 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+@import "../styles/vars.scss";
+
 .card {
-  padding: 1rem;
-  margin: 1rem;
+  padding: $ws-m;
+  margin: $ws-m;
   box-sizing: border-box;
   background-color: white;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: $shadow-darker;
   border-radius: 2px;
 }
 
 .info-row {
   display: flex;
   justify-content: space-between;
-  padding: 0.5rem 0;
+  padding: $ws-s 0;
   align-items: center;
 }
 
@@ -50,21 +52,21 @@ export default {
 }
 
 .right-side div + div {
-  margin-left: 0.5rem;
+  margin-left: $ws-s;
 }
 
 .id {
   text-transform: uppercase;
-  font-size: 16px;
   font-weight: 700;
-  margin-right: 0.5rem;
+  margin-right: $ws-s;
 }
 
 .img-wrapper {
   width: 100%;
   height: 150px;
-  border: 1px solid rgba(77, 73, 94, 0.15);
+  border: 1px solid $light-border;
   position: relative;
+  text-align: center;
 }
 
 img {

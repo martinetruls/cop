@@ -1,0 +1,45 @@
+// COLORS
+
+// orannge
+$orange-darker: #f06818;
+$orange-dark: #e27535;
+$orange-std: rgba(255, 195, 160, 1);
+$orange-02: rgba(255, 195, 160, 0.2);
+
+// pink
+$pink-dark: #d45168;
+$pink-std: rgba(255, 175, 189, 1);
+$pink-03: rgba(255, 175, 189, 0.3);
+$pink-02: rgba(255, 175, 189, 0.2);
+
+// blue
+$blue-dark: #2b3f85;
+$blue-std: #283965;
+$blue-15: rgba(40, 57, 101, 0.15);
+
+// turquoise
+$turquoise-dark: #0ca287;
+$turquoise-std: #0eb19c;
+$turquoise-3: rgba(117, 228, 214, 0.3);
+
+// dark
+$dark: rgba(77, 73, 94, 1);
+$dark-15: rgba(77, 73, 94, 0.15);
+$dark-07: rgba(77, 73, 94, 0.07);
+
+// shadow
+$shadow-color-std: rgba(0, 0, 0, 0.07);
+$shadow-std: 0 1px 2px $shadow-color-std;
+$shadow-color-darker: rgba(0, 0, 0, 0.2);
+$shadow-darker: 0 1px 2px $shadow-color-darker;
+
+$light-border: $dark-15;
+$text-color: $dark;
+
+// whitespace
+$ws-xxs: 0.4rem;
+$ws-s: 0.8rem;
+$ws-m: 1.6rem;
+$ws-l: 2.4rem;
+$ws-xl: 3.2rem;
+$ws-xxl: 6.4rem;
