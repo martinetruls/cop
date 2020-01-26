@@ -1,84 +1,116 @@
 {
   "compulsories": [
     {
-      "id": "F1",
+      "id": "f1",
       "type": "Flexibility",
       "name": "Inside leg hang",
       "techValue": 0.1,
-      "criteria": "",
-      "imgage": ""
+      "criteria": ""
     },
     {
-      "id": "F2",
+      "id": "f2",
       "type": "Flexibility",
       "name": "Side pole straddle base",
       "techValue": 0.1,
-      "criteria": "",
-      "imgage": ""
+      "criteria": ""
     },
     {
-      "id": "F3",
+      "id": "f3",
       "type": "Flexibility",
       "name": "Ballerina sit attitude",
       "techValue": 0.2,
-      "criteria": "",
-      "imgage": ""
+      "criteria": ""
     },
     {
-      "id": "F4",
+      "id": "f4",
       "type": "Flexibility",
       "name": "Inside leg hang",
       "techValue": 0.2,
-      "criteria": "",
-      "imgage": ""
+      "criteria": ""
     },
     {
-      "id": "F5",
+      "id": "f5",
       "type": "Flexibility",
       "name": "Side pole straddle base",
       "techValue": 0.2,
-      "criteria": "",
-      "imgage": ""
+      "criteria": ""
     },
     {
-      "id": "F6",
+      "id": "f6",
       "type": "Flexibility",
       "name": "Allegra split 1",
       "techValue": 0.3,
-      "criteria": "",
-      "imgage": ""
+      "criteria": ""
     },
     {
-      "id": "F7",
+      "id": "f7",
       "type": "Flexibility",
       "name": "Hip hold split",
       "techValue": 0.3,
-      "criteria": "",
-      "imgage": ""
+      "criteria": ""
     },
     {
-      "id": "F8",
+      "id": "f8",
       "type": "Flexibility",
       "name": "Pole straddle",
       "techValue": 0.3,
-      "criteria": "",
-      "imgage": ""
+      "criteria": ""
     },
     {
-      "id": "F9",
+      "id": "f9",
       "type": "Flexibility",
       "name": "Front splits on pole",
       "techValue": 0.3,
-      "criteria": "",
-      "imgage": ""
+      "criteria": ""
     },
     {
-      "id": "F10",
+      "id": "f10",
       "type": "Flexibility",
       "name": "Allegra split 2",
       "techValue": 0.4,
-      "criteria": "",
-      "imgage": ""
+      "criteria": ""
+    },
+    {
+      "id": "s1",
+      "type": "Strength",
+      "name": "Basic invert no hands",
+      "techValue": 0.1,
+      "criteria": ""
+    },
+    {
+      "id": "s2",
+      "type": "Strength",
+      "name": "Inverted straddle",
+      "techValue": 0.1,
+      "criteria": ""
+    },
+    {
+      "id": "st1",
+      "type": "Spins on static",
+      "name": "Back hook spin",
+      "techValue": 0.1,
+      "criteria": ""
+    },
+    {
+      "id": "st2",
+      "type": "Spins on static",
+      "name": "Fireman spin crossed ancle",
+      "techValue": 0.1,
+      "criteria": ""
+    },
+    {
+      "id": "sp1",
+      "type": "Spins on spinning",
+      "name": "Fireman spin chair",
+      "techValue": 0.1,
+      "criteria": ""
+    },
+    {
+      "id": "sp1",
+      "type": "Spins on spinning",
+      "name": "Helix spin",
+      "techValue": 0.2,
+      "criteria": ""
     }
   ]
 }
