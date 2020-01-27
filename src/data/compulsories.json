@@ -71,6 +71,27 @@
       "criteria": ""
     },
     {
+      "id": "f99",
+      "type": "Flexibility",
+      "name": "Superma crecet attitude",
+      "techValue": 1.0,
+      "criteria": ""
+    },
+    {
+      "id": "f100",
+      "type": "Flexibility",
+      "name": "Vertical Marchenko split",
+      "techValue": 1.0,
+      "criteria": ""
+    },
+    {
+      "id": "f101",
+      "type": "Flexibility",
+      "name": "Vertical split no hands",
+      "techValue": 1.0,
+      "criteria": ""
+    },
+    {
       "id": "s1",
       "type": "Strength",
       "name": "Basic invert no hands",
@@ -82,6 +103,48 @@
       "type": "Strength",
       "name": "Inverted straddle",
       "techValue": 0.1,
+      "criteria": ""
+    },
+    {
+      "id": "s36",
+      "type": "Strength",
+      "name": "Forearm grip innverted straddle/pencil",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "s37",
+      "type": "Strength",
+      "name": "Hiphold half split",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "s38",
+      "type": "Strength",
+      "name": "Superpassé",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "s83",
+      "type": "Strength",
+      "name": "Split grip reverse plank",
+      "techValue": 1.0,
+      "criteria": ""
+    },
+    {
+      "id": "s84",
+      "type": "Strength",
+      "name": "Split grip side plank",
+      "techValue": 1.0,
+      "criteria": ""
+    },
+    {
+      "id": "s85",
+      "type": "Strength",
+      "name": "720 degrees air walk",
+      "techValue": 1.0,
       "criteria": ""
     },
     {
@@ -99,6 +162,34 @@
       "criteria": ""
     },
     {
+      "id": "st19",
+      "type": "Spins on static",
+      "name": "Cup grip pencil",
+      "techValue": 0.6,
+      "criteria": ""
+    },
+    {
+      "id": "st20",
+      "type": "Spins on static",
+      "name": "Cradle spin into extended butterfly",
+      "techValue": 0.6,
+      "criteria": ""
+    },
+    {
+      "id": "st26",
+      "type": "Spins on static",
+      "name": "Chinese grip phoenix",
+      "techValue": 1.0,
+      "criteria": ""
+    },
+    {
+      "id": "st27",
+      "type": "Spins on static",
+      "name": "Double reverse grab into phoenix",
+      "techValue": 1.0,
+      "criteria": ""
+    },
+    {
       "id": "sp1",
       "type": "Spins on spinning",
       "name": "Fireman spin chair",
@@ -110,6 +201,34 @@
       "type": "Spins on spinning",
       "name": "Helix spin",
       "techValue": 0.2,
+      "criteria": ""
+    },
+    {
+      "id": "sp18",
+      "type": "Spins on spinning",
+      "name": "Cradle spin pike no hands legs fully stretched",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "sp19",
+      "type": "Spins on spinning",
+      "name": "Cradle spin oe handed pike",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "sp45",
+      "type": "Spins on spinning",
+      "name": "Split grip contortion spin",
+      "techValue": 1.0,
+      "criteria": ""
+    },
+    {
+      "id": "sp46",
+      "type": "Spins on spinning",
+      "name": "Supported sailor back bend",
+      "techValue": 1.0,
       "criteria": ""
     }
   ]
