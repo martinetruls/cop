@@ -27,8 +27,8 @@ body {
   color: $text-color;
   background-image: linear-gradient(
     to right bottom,
-    $orange-02 0%,
-    $pink-03 100%
+    rgba(22, 193, 210, 0.2) 0%,
+    rgba(33, 22, 179, 0.2) 100%
   );
   min-height: 100vh;
 }

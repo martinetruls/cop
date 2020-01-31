@@ -8,8 +8,8 @@
       <div class="id">{{ compulsory.id }}</div>
 
       <div class="right-side">
-        <Tag v-bind:label="compulsory.type" v-bind:type="compulsory.type" />
-        <Tag v-bind:label="compulsory.techValue.toString()" />
+        <Tag :label="compulsory.type" :type="compulsory.type" />
+        <Tag :label="compulsory.techValue.toFixed(1).toString()" />
       </div>
     </div>
     <h2>{{ compulsory.name }}</h2>

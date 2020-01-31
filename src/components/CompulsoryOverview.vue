@@ -1,17 +1,19 @@
 <template>
   <div class="overview">
     <div class="flex">
-      <button
-        class="temp-button"
-        type="button"
-        v-on:click="compulsories = filterByStrength()"
-      >Show only strength</button>
       <p>Showing: {{ compulsories.length }}</p>
+    </div>
+
+    <div class="test-row">
+      <Tag label="Strength" type="Strength" :clickMe="filterByType" />
+      <Tag label="Spins on spinning" type="Spins on spinning" :clickMe="filterByType" />
+      <Tag label="Spins on static" type="Spins on static" :clickMe="filterByType" />
+      <Tag label="Flexibility" type="Flexibility" :clickMe="filterByType" />
     </div>
 
     <div class="grid">
       <CompulsoryCard
-        v-for="compulsory in compulsories"
+        v-for="compulsory in compulsories.filter(trick => filters.includes(trick.type))"
         v-bind:key="compulsory.id"
         v-bind:compulsory="compulsory"
       ></CompulsoryCard>
@@ -22,24 +24,30 @@
 <script>
 import Data from "../data/compulsories.json";
 import CompulsoryCard from "./CompulsoryCard";
-
-const filterByStrength = () => {
-  const filteredList = Data.compulsories.filter(
-    compulsory => compulsory.type === "Strength"
-  );
-  return filteredList;
-};
+import Tag from "./Tag";
 
 export default {
   name: "CompulsoryOverview",
-  components: { CompulsoryCard },
-  data: function() {
+  components: { CompulsoryCard, Tag },
+  data() {
     return {
-      compulsories: Data.compulsories
+      compulsories: Data.compulsories,
+      filters: [
+        "Strength",
+        "Flexibility",
+        "Spins on spinning",
+        "Spins on static"
+      ]
     };
   },
   methods: {
-    filterByStrength: filterByStrength
+    filterByType(type) {
+      if (this.filters.includes(type)) {
+        this.filters = this.filters.filter(x => x !== type);
+      } else {
+        this.filters.push(type);
+      }
+    }
   }
 };
 </script>
@@ -47,8 +55,18 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
+.test-row {
+  padding: $ws-s;
+  margin: $ws-s 0;
+  display: flex;
+  background-color: white;
+  div + div {
+    margin-left: $ws-s;
+  }
+}
+
 .temp-button {
-  background-color: #f56f86; // to do
+  background-color: black; // to do
   border: none;
   padding: $ws-s $ws-m;
   font-weight: 500;

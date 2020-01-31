@@ -1,5 +1,5 @@
 <template>
-  <div :class="`tag tag-${type && type.replace(/\s+/g, '-')}`">{{ label }}</div>
+  <div :class="`tag tag-${type && type.replace(/\s+/g, '-')}`" @click="clickMe(type)">{{ label }}</div>
 </template>
 
 <script>
@@ -7,7 +7,8 @@ export default {
   name: "Tag",
   props: {
     label: String,
-    type: String
+    type: String,
+    clickMe: Function
   }
 };
 </script>
@@ -28,22 +29,22 @@ export default {
 }
 
 .tag-Flexibility {
-  background-color: $pink-03;
-  color: $pink-dark;
+  background-color: #d0e8ec;
+  color: #008997;
 }
 
 .tag-Strength {
-  background-color: $orange-02;
-  color: $orange-darker;
+  background-color: #fbded5;
+  color: #ea4a1a;
 }
 
 .tag-Spins-on-static {
-  background-color: $blue-15;
-  color: $blue-dark;
+  background-color: #fedee6;
+  color: #e91e64;
 }
 
 .tag-Spins-on-spinning {
-  background-color: $turquoise-3;
-  color: $turquoise-dark;
+  background-color: #d6d7f2;
+  color: #2117b3;
 }
 </style>
