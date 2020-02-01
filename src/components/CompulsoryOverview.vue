@@ -1,19 +1,28 @@
 <template>
   <div class="overview">
-    <div class="flex">
-      <p>Showing: {{ compulsories.length }}</p>
-    </div>
+    <FilterSection></FilterSection>
+    <p class="showing">Showing {{ compulsories.length }} compulsories</p>
 
     <div class="test-row">
-      <Tag label="Strength" type="Strength" :clickMe="filterByType" />
-      <Tag label="Spins on spinning" type="Spins on spinning" :clickMe="filterByType" />
-      <Tag label="Spins on static" type="Spins on static" :clickMe="filterByType" />
+      <FilterToggle label="Strength" type="Strength" :clickMe="filterByType" />
+      <Tag
+        label="Spins on spinning"
+        type="Spins on spinning"
+        :clickMe="filterByType"
+      />
+      <Tag
+        label="Spins on static"
+        type="Spins on static"
+        :clickMe="filterByType"
+      />
       <Tag label="Flexibility" type="Flexibility" :clickMe="filterByType" />
     </div>
 
     <div class="grid">
       <CompulsoryCard
-        v-for="compulsory in compulsories.filter(trick => filters.includes(trick.type))"
+        v-for="compulsory in compulsories.filter(trick =>
+          filters.includes(trick.type)
+        )"
         v-bind:key="compulsory.id"
         v-bind:compulsory="compulsory"
       ></CompulsoryCard>
@@ -25,10 +34,12 @@
 import Data from "../data/compulsories.json";
 import CompulsoryCard from "./CompulsoryCard";
 import Tag from "./Tag";
+import FilterToggle from "./FilterToggle";
+import FilterSection from "./FilterSection";
 
 export default {
   name: "CompulsoryOverview",
-  components: { CompulsoryCard, Tag },
+  components: { CompulsoryCard, Tag, FilterToggle, FilterSection },
   data() {
     return {
       compulsories: Data.compulsories,
@@ -55,7 +66,44 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
+.search-wrapper {
+  position: relative;
+
+  i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: $ws-m;
+    font-size: 2.4rem;
+  }
+}
+
+#search {
+  padding: $ws-s $ws-m $ws-s 4.8rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  //border: 1px solid #cddfe6;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  width: 400px;
+
+  &::placeholder {
+    font-style: italic;
+    font-weight: 300;
+    color: #89888d;
+  }
+}
+
+.showing {
+  font-size: 1.4rem;
+  text-align: right;
+  font-weight: 400;
+  flex-grow: 1;
+}
+
 .test-row {
+  display: none;
   padding: $ws-s;
   margin: $ws-s 0;
   display: flex;
@@ -63,6 +111,8 @@ export default {
   div + div {
     margin-left: $ws-s;
   }
+
+  display: none;
 }
 
 .temp-button {

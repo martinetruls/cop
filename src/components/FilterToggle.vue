@@ -1,5 +1,10 @@
 <template>
-  <div :class="`tag tag-${type && type.replace(/\s+/g, '-')}`" @click="clickMe(type)">{{ label }}</div>
+  <div
+    :class="`toggle toggle-${type && type.replace(/\s+/g, '-')}`"
+    @click="clickMe(type)"
+  >
+    {{ label }}
+  </div>
 </template>
 
 <script>
@@ -16,26 +21,34 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
-.tag {
-  padding: $ws-xs $ws-s;
-  font-weight: 600;
-  font-size: 1.2rem;
+.toggle {
+  padding: 0.6rem 1rem;
+  font-weight: 500;
+  font-size: 1.4rem;
   box-shadow: $shadow-std;
-  border-radius: 2px;
+  border-radius: 4px;
 
   /* default colors */
-  background-color: $dark-07;
+  background-color: white;
   color: $dark;
+  border: 1px solid #aaa8b3;
+
+  &:hover {
+    background-color: #352bc7;
+    border-color: #352bc7;
+    color: white;
+  }
 }
 
-.tag-Flexibility {
+.toggle-Flexibility {
   background-color: #d0e8ec;
   color: #008997;
 }
 
-.tag-Strength {
+.toggle-Strength {
   background-color: #fbded5;
   color: #ea4a1a;
+  border: 1px solid #ea4a1a;
 }
 
 .tag-Spins-on-static {
