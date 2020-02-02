@@ -7,8 +7,12 @@
       <input id="search" type="text" placeholder="Search" />
     </div>
     <div class="flex">
-      <ToggleBar label="Filter by levels" :list="levels" />
-      <ToggleBar label="Filter by type" :list="types" />
+      <!-- <ToggleBar label="Filter by levels" :list="levelOptions" /> -->
+      <ToggleBar
+        label="Filter by types"
+        :list="typeOptions"
+        @handleFilterChange="value => $emit('handleTypeFilter', value)"
+      />
     </div>
   </div>
 </template>
@@ -16,8 +20,8 @@
 <script>
 import ToggleBar from "./ToggleBar";
 
-const levels = ["Amature", "Professional", "Elite"];
-const types = [
+const levelOptions = ["Amature", "Professional", "Elite"];
+const typeOptions = [
   "Flexibility",
   "Strength",
   "Spins on spinning",
@@ -29,8 +33,8 @@ export default {
   components: { ToggleBar },
   data() {
     return {
-      levels: levels,
-      types: types
+      levelOptions: levelOptions,
+      typeOptions: typeOptions
     };
   }
 };

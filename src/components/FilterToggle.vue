@@ -26,7 +26,7 @@ export default {
   methods: {
     clickedFilter(target) {
       this.isChecked = target.checked;
-      this.$emit("onFilterClick", target.value, target.checked);
+      this.$emit("handleFilterChange", target.value);
     }
   }
 };

@@ -6,10 +6,8 @@
       v-bind:key="index"
       :label="item"
       :filterValue="item.replace(/\s+/g, '-')"
-      @onFilterClick="updateFilter"
-      v-model="selectedFilters"
+      @handleFilterChange="value => $emit('handleFilterChange', value)"
     />
-    <div>Selected data: {{ selectedFilters }}</div>
   </div>
 </template>
 
@@ -21,20 +19,6 @@ export default {
   props: {
     label: String,
     list: Array
-  },
-  data() {
-    return {
-      selectedFilters: []
-    };
-  },
-  methods: {
-    updateFilter(value, checked) {
-      if (checked) {
-        this.selectedFilters.push(value);
-      } else {
-        this.selectedFilters = this.selectedFilters.filter(x => x !== value);
-      }
-    }
   }
 };
 </script>

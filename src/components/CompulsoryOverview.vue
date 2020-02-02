@@ -1,6 +1,7 @@
 <template>
   <div class="overview">
-    <FilterSection></FilterSection>
+    <FilterSection @handleTypeFilter="filterByType"></FilterSection>
+    <!-- <p>{{ selectedTypes }}</p> -->
     <p class="showing">Showing {{ filteredList.length }} compulsories</p>
 
     <div class="grid">
@@ -24,22 +25,26 @@ export default {
   data() {
     return {
       compulsories: Data.compulsories,
-      filters: ["Spins on spinning", "Spins on static"]
+      selectedTypes: []
     };
   },
   computed: {
     filteredList() {
-      return this.compulsories.filter(trick =>
-        this.filters.includes(trick.type)
-      );
+      if (this.selectedTypes.length === 0) {
+        return Data.compulsories;
+      } else {
+        return this.compulsories.filter(trick =>
+          this.selectedTypes.includes(trick.type.replace(/\s+/g, "-"))
+        );
+      }
     }
   },
   methods: {
     filterByType(type) {
-      if (this.filters.includes(type)) {
-        this.filters = this.filters.filter(x => x !== type);
+      if (this.selectedTypes.includes(type)) {
+        this.selectedTypes = this.selectedTypes.filter(x => x !== type);
       } else {
-        this.filters.push(type);
+        this.selectedTypes.push(type);
       }
     }
   }
