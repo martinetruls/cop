@@ -1,28 +1,11 @@
 <template>
   <div class="overview">
     <FilterSection></FilterSection>
-    <p class="showing">Showing {{ compulsories.length }} compulsories</p>
-    <!-- 
-    <div class="test-row">
-      <FilterToggle label="Strength" type="Strength" :clickMe="filterByType" />
-      <Tag
-        label="Spins on spinning"
-        type="Spins on spinning"
-        :clickMe="filterByType"
-      />
-      <Tag
-        label="Spins on static"
-        type="Spins on static"
-        :clickMe="filterByType"
-      />
-      <Tag label="Flexibility" type="Flexibility" :clickMe="filterByType" />
-    </div> -->
+    <p class="showing">Showing {{ filteredList.length }} compulsories</p>
 
     <div class="grid">
       <CompulsoryCard
-        v-for="compulsory in compulsories.filter(trick =>
-          filters.includes(trick.type)
-        )"
+        v-for="compulsory in filteredList"
         v-bind:key="compulsory.id"
         v-bind:compulsory="compulsory"
       ></CompulsoryCard>
@@ -41,13 +24,15 @@ export default {
   data() {
     return {
       compulsories: Data.compulsories,
-      filters: [
-        "Strength",
-        "Flexibility",
-        "Spins on spinning",
-        "Spins on static"
-      ]
+      filters: ["Spins on spinning", "Spins on static"]
     };
+  },
+  computed: {
+    filteredList() {
+      return this.compulsories.filter(trick =>
+        this.filters.includes(trick.type)
+      );
+    }
   },
   methods: {
     filterByType(type) {
