@@ -84,5 +84,10 @@ export default {
     font-weight: 300;
     color: #89888d;
   }
+
+  &:focus {
+    outline: none;
+    border: 1px solid rgba(33, 22, 179, 1);
+  }
 }
 </style>

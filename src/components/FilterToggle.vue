@@ -27,16 +27,23 @@ export default {
   font-size: 1.4rem;
   box-shadow: $shadow-std;
   border-radius: 4px;
+  cursor: pointer;
+
+  transition: transform ease-in-out 0.2s, background-color ease-in-out 0.2s,
+    color ease-in-out 0.2s, border ease-in-out 0.2s;
 
   /* default colors */
-  background-color: white;
-  color: $dark;
-  border: 1px solid #aaa8b3;
+  background-color: rgba(33, 22, 179, 0.05);
+  color: rgba(33, 22, 179, 1);
+  border: 1px solid rgba(33, 22, 179, 1);
 
   &:hover {
-    background-color: #352bc7;
-    border-color: #352bc7;
-    color: white;
+    background-color: rgba(33, 22, 179, 0.2);
+  }
+
+  &:active {
+    background-color: rgba(33, 22, 179, 0.3);
+    transform: scale(0.95);
   }
 }
 
