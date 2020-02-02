@@ -5,10 +5,11 @@
       v-for="(item, index) in list"
       v-bind:key="index"
       :label="item"
-      :shit="item.replace(/\s+/g, '-')"
-      v-model="selectedData"
+      :filterValue="item.replace(/\s+/g, '-')"
+      @onFilterClick="updateFilter"
+      v-model="selectedFilters"
     />
-    <!-- <div>Selected data: {{ selectedData }}</div> -->
+    <div>Selected data: {{ selectedFilters }}</div>
   </div>
 </template>
 
@@ -23,8 +24,17 @@ export default {
   },
   data() {
     return {
-      selectedData: []
+      selectedFilters: []
     };
+  },
+  methods: {
+    updateFilter(value, checked) {
+      if (checked) {
+        this.selectedFilters.push(value);
+      } else {
+        this.selectedFilters = this.selectedFilters.filter(x => x !== value);
+      }
+    }
   }
 };
 </script>

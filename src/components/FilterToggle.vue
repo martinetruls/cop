@@ -1,14 +1,13 @@
 <template>
   <div>
-    <label :for="shit">{{ label }}</label>
+    <label :for="filterValue">{{ label }}</label>
     <input
       type="checkbox"
-      :id="shit"
-      :value="shit"
-      v-on:input="$emit('input', $event.target.value)"
+      :id="filterValue"
+      :value="filterValue"
+      :checked="isChecked"
+      v-on:input="clickedFilter($event.target)"
     />
-    <!-- :class="`toggle toggle-${type && type.replace(/\s+/g, '-')}`"
-    @click="clickMe(type)" -->
   </div>
 </template>
 
@@ -17,7 +16,18 @@ export default {
   name: "FilterToggle",
   props: {
     label: String,
-    shit: String
+    filterValue: String
+  },
+  data() {
+    return {
+      isChecked: false
+    };
+  },
+  methods: {
+    clickedFilter(target) {
+      this.isChecked = target.checked;
+      this.$emit("onFilterClick", target.value, target.checked);
+    }
   }
 };
 </script>
