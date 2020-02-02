@@ -1,19 +1,23 @@
 <template>
-  <div
-    :class="`toggle toggle-${type && type.replace(/\s+/g, '-')}`"
-    @click="clickMe(type)"
-  >
-    {{ label }}
+  <div>
+    <label :for="shit">{{ label }}</label>
+    <input
+      type="checkbox"
+      :id="shit"
+      :value="shit"
+      v-on:input="$emit('input', $event.target.value)"
+    />
+    <!-- :class="`toggle toggle-${type && type.replace(/\s+/g, '-')}`"
+    @click="clickMe(type)" -->
   </div>
 </template>
 
 <script>
 export default {
-  name: "Tag",
+  name: "FilterToggle",
   props: {
     label: String,
-    type: String,
-    clickMe: Function
+    shit: String
   }
 };
 </script>

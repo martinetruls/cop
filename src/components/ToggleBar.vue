@@ -3,9 +3,12 @@
     <div class="label">{{ label }}</div>
     <ToggleButton
       v-for="(item, index) in list"
-      :label="item"
       v-bind:key="index"
+      :label="item"
+      :shit="item.replace(/\s+/g, '-')"
+      v-model="selectedData"
     />
+    <!-- <div>Selected data: {{ selectedData }}</div> -->
   </div>
 </template>
 
@@ -17,6 +20,11 @@ export default {
   props: {
     label: String,
     list: Array
+  },
+  data() {
+    return {
+      selectedData: []
+    };
   }
 };
 </script>

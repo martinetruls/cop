@@ -2,7 +2,7 @@
   <div class="overview">
     <FilterSection></FilterSection>
     <p class="showing">Showing {{ compulsories.length }} compulsories</p>
-
+    <!-- 
     <div class="test-row">
       <FilterToggle label="Strength" type="Strength" :clickMe="filterByType" />
       <Tag
@@ -16,7 +16,7 @@
         :clickMe="filterByType"
       />
       <Tag label="Flexibility" type="Flexibility" :clickMe="filterByType" />
-    </div>
+    </div> -->
 
     <div class="grid">
       <CompulsoryCard
@@ -33,13 +33,11 @@
 <script>
 import Data from "../data/compulsories.json";
 import CompulsoryCard from "./CompulsoryCard";
-import Tag from "./Tag";
-import FilterToggle from "./FilterToggle";
 import FilterSection from "./FilterSection";
 
 export default {
   name: "CompulsoryOverview",
-  components: { CompulsoryCard, Tag, FilterToggle, FilterSection },
+  components: { CompulsoryCard, FilterSection },
   data() {
     return {
       compulsories: Data.compulsories,
