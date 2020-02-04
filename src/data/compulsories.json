@@ -71,9 +71,79 @@
       "criteria": ""
     },
     {
+      "id": "f11",
+      "type": "Flexibility",
+      "name": "Allegra passé 1",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "f12",
+      "type": "Flexibility",
+      "name": "Brigde",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "f13",
+      "type": "Flexibility",
+      "name": "Capezio passé",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "f14",
+      "type": "Flexibility",
+      "name": "Cross bow elbow hold",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "f15",
+      "type": "Flexibility",
+      "name": "Handstand veritcal split",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "f16",
+      "type": "Flexibility",
+      "name": "Pole straddle",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "f17",
+      "type": "Flexibility",
+      "name": "Split grip leg through split",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "f18",
+      "type": "Flexibility",
+      "name": "Superman crescent",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "f19",
+      "type": "Flexibility",
+      "name": "Underarm hold pike",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "f20",
+      "type": "Flexibility",
+      "name": "Yogini",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
       "id": "f99",
       "type": "Flexibility",
-      "name": "Superma crecet attitude",
+      "name": "Superman crecent attitude",
       "techValue": 1.0,
       "criteria": ""
     },
