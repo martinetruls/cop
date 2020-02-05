@@ -141,6 +141,76 @@
       "criteria": ""
     },
     {
+      "id": "f21",
+      "type": "Flexibility",
+      "name": "Allegra passé 2",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "f22",
+      "type": "Flexibility",
+      "name": "Chopsticks",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "f23",
+      "type": "Flexibility",
+      "name": "Front splits",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "f24",
+      "type": "Flexibility",
+      "name": "Handsprinng split",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "f25",
+      "type": "Flexibility",
+      "name": "Hip hold split",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "f26",
+      "type": "Flexibility",
+      "name": "Inside leg hang back split",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "f27",
+      "type": "Flexibility",
+      "name": "Inverted front split",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "f28",
+      "type": "Flexibility",
+      "name": "Inverted split",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "f29",
+      "type": "Flexibility",
+      "name": "Lux",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "f30",
+      "type": "Flexibility",
+      "name": "Pegasus split facing floor 1",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
       "id": "f99",
       "type": "Flexibility",
       "name": "Superman crecent attitude",
