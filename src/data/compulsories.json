@@ -211,6 +211,76 @@
       "criteria": ""
     },
     {
+      "id": "f31",
+      "type": "Flexibility",
+      "name": "Split grip leg through split",
+      "techValue": 0.5,
+      "criteria": ""
+    },
+    {
+      "id": "f32",
+      "type": "Flexibility",
+      "name": "Allegra",
+      "techValue": 0.6,
+      "criteria": ""
+    },
+    {
+      "id": "f33",
+      "type": "Flexibility",
+      "name": "Capezio passé",
+      "techValue": 0.6,
+      "criteria": ""
+    },
+    {
+      "id": "f34",
+      "type": "Flexibility",
+      "name": "Chopstick passé",
+      "techValue": 0.6,
+      "criteria": ""
+    },
+    {
+      "id": "f35",
+      "type": "Flexibility",
+      "name": "Cocoon",
+      "techValue": 0.6,
+      "criteria": ""
+    },
+    {
+      "id": "f36",
+      "type": "Flexibility",
+      "name": "Handstand hip hold split",
+      "techValue": 0.6,
+      "criteria": ""
+    },
+    {
+      "id": "f37",
+      "type": "Flexibility",
+      "name": "Handstand vertical split",
+      "techValue": 0.6,
+      "criteria": ""
+    },
+    {
+      "id": "f38",
+      "type": "Flexibility",
+      "name": "Yogini",
+      "techValue": 0.6,
+      "criteria": ""
+    },
+    {
+      "id": "f39",
+      "type": "Flexibility",
+      "name": "Inverted front split",
+      "techValue": 0.6,
+      "criteria": ""
+    },
+    {
+      "id": "f40",
+      "type": "Flexibility",
+      "name": "Onne hand flying split",
+      "techValue": 0.6,
+      "criteria": ""
+    },
+    {
       "id": "f99",
       "type": "Flexibility",
       "name": "Superman crecent attitude",
