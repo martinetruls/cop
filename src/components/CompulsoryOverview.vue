@@ -1,6 +1,10 @@
 <template>
   <div class="overview">
-    <FilterSection @handleTypeFilter="filterByType" @handleLevelFilter="filterByLevel"></FilterSection>
+    <FilterSection
+      @handleTypeFilter="filterByType"
+      @handleLevelFilter="filterByLevel"
+      @handleSearch="filterbySearch"
+    ></FilterSection>
     <!-- <p>{{ selectedTypes }}</p> -->
     <p class="showing">Showing {{ filteredList.length }} compulsories</p>
 
@@ -39,7 +43,8 @@ export default {
     return {
       compulsories: Data.compulsories,
       selectedTypes: [],
-      selectedLevels: []
+      selectedLevels: [],
+      searchWord: "split"
     };
   },
   computed: {
@@ -55,6 +60,12 @@ export default {
         filteredList = filteredList.filter(trick => {
           return verifyTrickLevel(trick.techValue, this.selectedLevels);
         });
+      }
+
+      if (this.searchWord.length > 0) {
+        filteredList = filteredList.filter(trick =>
+          trick.name.toLowerCase().includes(this.searchWord.toLowerCase())
+        );
       }
       return filteredList;
     }
@@ -73,6 +84,9 @@ export default {
       } else {
         this.selectedLevels.push(level);
       }
+    },
+    filterbySearch(word) {
+      this.searchWord = word;
     }
   }
 };

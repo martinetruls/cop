@@ -4,7 +4,12 @@
       <label for="search">
         <i class="material-icons">search</i>
       </label>
-      <input id="search" type="text" placeholder="Search" />
+      <input
+        id="search"
+        type="text"
+        placeholder="Search"
+        @input="event => $emit('handleSearch', event.target.value)"
+      />
     </div>
     <div class="flex">
       <ToggleBar
