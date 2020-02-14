@@ -11,7 +11,7 @@
         @input="event => $emit('handleSearch', event.target.value)"
       />
     </div>
-    <div class="flex">
+    <div class="filter-bars">
       <ToggleBar
         label="Filter by types"
         :list="typeOptions"
@@ -52,25 +52,22 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
-.flex {
-  display: flex;
-
-  div + div {
-    margin-left: $ws-m;
-  }
-}
-
 .filter-section {
   display: flex;
   align-items: center;
-  margin-bottom: $ws-m;
   justify-content: space-between;
+
+  @media all and (max-width: 1340px) {
+    flex-wrap: wrap;
+  }
 }
 
 .search-wrapper {
   position: relative;
   flex-grow: 1;
+  max-width: 400px;
   margin-right: $ws-m;
+  margin-bottom: $ws-m;
 
   i {
     position: absolute;
@@ -78,6 +75,11 @@ export default {
     transform: translateY(-50%);
     left: $ws-m;
     font-size: 2.4rem;
+  }
+
+  @media all and (max-width: 650px) {
+    max-width: none;
+    margin-right: 0;
   }
 }
 
@@ -101,6 +103,26 @@ export default {
   &:focus {
     outline: none;
     border: 1px solid rgba(33, 22, 179, 1);
+  }
+}
+
+.filter-bars {
+  display: flex;
+
+  div + div {
+    margin-left: $ws-m;
+  }
+
+  @media all and (max-width: 1340px) {
+    width: 100%;
+  }
+
+  @media all and (max-width: 760px) {
+    flex-direction: column;
+
+    div + div {
+      margin-left: 0;
+    }
   }
 }
 </style>

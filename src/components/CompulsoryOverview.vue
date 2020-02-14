@@ -162,6 +162,10 @@ export default {
 
 .overview {
   padding: $ws-xxl;
+
+  @media all and (max-width: 850px) {
+    padding: $ws-xl $ws-l;
+  }
 }
 
 p {

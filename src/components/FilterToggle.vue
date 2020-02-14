@@ -43,6 +43,7 @@ export default {
   font-size: 1.4rem;
   box-shadow: $shadow-std;
   border-radius: 4px;
+  white-space: nowrap;
   cursor: pointer;
 
   transition: transform ease-in-out 0.2s, background-color ease-in-out 0.2s,
