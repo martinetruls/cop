@@ -276,8 +276,78 @@
     {
       "id": "f40",
       "type": "Flexibility",
-      "name": "Onne hand flying split",
+      "name": "One hand flying split",
       "techValue": 0.6,
+      "criteria": ""
+    },
+    {
+      "id": "f41",
+      "type": "Flexibility",
+      "name": "Eagle 1",
+      "techValue": 0.6,
+      "criteria": ""
+    },
+    {
+      "id": "f42",
+      "type": "Flexibility",
+      "name": "Brass monkey split",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f43",
+      "type": "Flexibility",
+      "name": "Back split to pole ring position",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f44",
+      "type": "Flexibility",
+      "name": "Bird of paradise inverted",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f45",
+      "type": "Flexibility",
+      "name": "Capezio split",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f46",
+      "type": "Flexibility",
+      "name": "Chopsticks",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f47",
+      "type": "Flexibility",
+      "name": "Dragon tail split",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f48",
+      "type": "Flexibility",
+      "name": "Elbow bracket split 1",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f49",
+      "type": "Flexibility",
+      "name": "Elbow hold frontal split",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f50",
+      "type": "Flexibility",
+      "name": "Forearm grip leg through split",
+      "techValue": 0.7,
       "criteria": ""
     },
     {
