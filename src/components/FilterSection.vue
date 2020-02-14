@@ -7,11 +7,15 @@
       <input id="search" type="text" placeholder="Search" />
     </div>
     <div class="flex">
-      <!-- <ToggleBar label="Filter by levels" :list="levelOptions" /> -->
       <ToggleBar
         label="Filter by types"
         :list="typeOptions"
         @handleFilterChange="value => $emit('handleTypeFilter', value)"
+      />
+      <ToggleBar
+        label="Filter by level"
+        :list="levelOptions"
+        @handleFilterChange="value => $emit('handleLevelFilter', value)"
       />
     </div>
   </div>

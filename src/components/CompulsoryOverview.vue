@@ -1,6 +1,6 @@
 <template>
   <div class="overview">
-    <FilterSection @handleTypeFilter="filterByType"></FilterSection>
+    <FilterSection @handleTypeFilter="filterByType" @handleLevelFilter="filterByLevel"></FilterSection>
     <!-- <p>{{ selectedTypes }}</p> -->
     <p class="showing">Showing {{ filteredList.length }} compulsories</p>
 
@@ -19,24 +19,44 @@ import Data from "../data/compulsories.json";
 import CompulsoryCard from "./CompulsoryCard";
 import FilterSection from "./FilterSection";
 
+const verifyTrickLevel = (value, selectedLevels) => {
+  return selectedLevels.some(level => {
+    if (level === "Amature" && value <= 0.5) {
+      return true;
+    } else if (level === "Professional" && value >= 0.3 && value <= 0.8) {
+      return true;
+    } else if (level === "Elite" && value >= 0.5) {
+      return true;
+    }
+    return false;
+  });
+};
+
 export default {
   name: "CompulsoryOverview",
   components: { CompulsoryCard, FilterSection },
   data() {
     return {
       compulsories: Data.compulsories,
-      selectedTypes: []
+      selectedTypes: [],
+      selectedLevels: []
     };
   },
   computed: {
     filteredList() {
-      if (this.selectedTypes.length === 0) {
-        return Data.compulsories;
-      } else {
-        return this.compulsories.filter(trick =>
+      let filteredList = Data.compulsories;
+      if (this.selectedTypes.length > 0) {
+        filteredList = this.compulsories.filter(trick =>
           this.selectedTypes.includes(trick.type.replace(/\s+/g, "-"))
         );
       }
+
+      if (this.selectedLevels.length > 0) {
+        filteredList = filteredList.filter(trick => {
+          return verifyTrickLevel(trick.techValue, this.selectedLevels);
+        });
+      }
+      return filteredList;
     }
   },
   methods: {
@@ -45,6 +65,13 @@ export default {
         this.selectedTypes = this.selectedTypes.filter(x => x !== type);
       } else {
         this.selectedTypes.push(type);
+      }
+    },
+    filterByLevel(level) {
+      if (this.selectedLevels.includes(level)) {
+        this.selectedLevels = this.selectedLevels.filter(x => x !== level);
+      } else {
+        this.selectedLevels.push(level);
       }
     }
   }
