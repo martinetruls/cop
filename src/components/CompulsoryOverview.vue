@@ -6,7 +6,9 @@
       @handleSearch="filterbySearch"
     ></FilterSection>
     <!-- <p>{{ selectedTypes }}</p> -->
-    <p class="showing">Showing {{ filteredList.length }} compulsories</p>
+    <p
+      class="showing"
+    >Showing {{ totalNumber > filteredList.length ? filteredList.length + " of" : ""}} {{ totalNumber}} compulsories</p>
 
     <div class="grid">
       <CompulsoryCard
@@ -41,10 +43,11 @@ export default {
   components: { CompulsoryCard, FilterSection },
   data() {
     return {
+      totalNumber: Data.compulsories.length,
       compulsories: Data.compulsories,
       selectedTypes: [],
       selectedLevels: [],
-      searchWord: "split"
+      searchWord: ""
     };
   },
   computed: {
