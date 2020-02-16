@@ -351,6 +351,76 @@
       "criteria": ""
     },
     {
+      "id": "f51",
+      "type": "Flexibility",
+      "name": "Hip hold split elbow grip",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f52",
+      "type": "Flexibility",
+      "name": "Hip hold split passé",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f53",
+      "type": "Flexibility",
+      "name": "Inside leg hang back split",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f54",
+      "type": "Flexibility",
+      "name": "Inverted split",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f55",
+      "type": "Flexibility",
+      "name": "Oversplit on pole",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f56",
+      "type": "Flexibility",
+      "name": "Pegasus split facing upwards",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f57",
+      "type": "Flexibility",
+      "name": "Split grip leg through frontal split",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f58",
+      "type": "Flexibility",
+      "name": "Superman V",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f59",
+      "type": "Flexibility",
+      "name": "Underarm hold split",
+      "techValue": 0.7,
+      "criteria": ""
+    },
+    {
+      "id": "f60",
+      "type": "Flexibility",
+      "name": "Bird of paradise upright",
+      "techValue": 0.8,
+      "criteria": ""
+    },
+    {
       "id": "f99",
       "type": "Flexibility",
       "name": "Superman crecent attitude",
