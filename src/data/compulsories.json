@@ -421,6 +421,76 @@
       "criteria": ""
     },
     {
+      "id": "f61",
+      "type": "Flexibility",
+      "name": "Cobra",
+      "techValue": 0.8,
+      "criteria": ""
+    },
+    {
+      "id": "f62",
+      "type": "Flexibility",
+      "name": "Cocoon",
+      "techValue": 0.8,
+      "criteria": ""
+    },
+    {
+      "id": "f63",
+      "type": "Flexibility",
+      "name": "Dragon tail fang",
+      "techValue": 0.8,
+      "criteria": ""
+    },
+    {
+      "id": "f64",
+      "type": "Flexibility",
+      "name": "Floor K",
+      "techValue": 0.8,
+      "criteria": ""
+    },
+    {
+      "id": "f65",
+      "type": "Flexibility",
+      "name": "Floor balance split",
+      "techValue": 0.8,
+      "criteria": ""
+    },
+    {
+      "id": "f66",
+      "type": "Flexibility",
+      "name": "Iguana elbow hold split no hands",
+      "techValue": 0.8,
+      "criteria": ""
+    },
+    {
+      "id": "f67",
+      "type": "Flexibility",
+      "name": "Machine gun",
+      "techValue": 0.8,
+      "criteria": ""
+    },
+    {
+      "id": "f68",
+      "type": "Flexibility",
+      "name": "Russian split",
+      "techValue": 0.8,
+      "criteria": ""
+    },
+    {
+      "id": "f69",
+      "type": "Flexibility",
+      "name": "Russian split elbow lock",
+      "techValue": 0.8,
+      "criteria": ""
+    },
+    {
+      "id": "f70",
+      "type": "Flexibility",
+      "name": "Twisted floor K",
+      "techValue": 0.8,
+      "criteria": ""
+    },
+    {
       "id": "f99",
       "type": "Flexibility",
       "name": "Superman crecent attitude",
