@@ -6,9 +6,10 @@
       @handleSearch="filterbySearch"
     ></FilterSection>
     <!-- <p>{{ selectedTypes }}</p> -->
-    <p
+
+    <!-- <p
       class="showing"
-    >Showing {{ totalNumber > filteredList.length ? filteredList.length + " of" : ""}} {{ totalNumber}} compulsories</p>
+    >Showing {{ totalNumber > filteredList.length ? filteredList.length + " of" : ""}} {{ totalNumber}} compulsories</p>-->
 
     <div class="grid">
       <CompulsoryCard
@@ -134,40 +135,16 @@ export default {
   flex-grow: 1;
 }
 
-.test-row {
-  display: none;
-  padding: $ws-s;
-  margin: $ws-s 0;
-  display: flex;
-  background-color: white;
-  div + div {
-    margin-left: $ws-s;
-  }
-
-  display: none;
-}
-
-.temp-button {
-  background-color: black; // to do
-  border: none;
-  padding: $ws-s $ws-m;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  color: white;
-  font-size: 1.4rem;
-  border-radius: 3px;
-}
-
-.flex {
-  display: flex;
-  justify-content: space-between;
-}
-
 .overview {
   padding: $ws-xxl;
+  margin-left: 270px;
+
+  @media all and (max-width: 1150px) {
+    padding: $ws-xl $ws-l;
+  }
 
   @media all and (max-width: 850px) {
-    padding: $ws-xl $ws-l;
+    margin-left: 0;
   }
 }
 
@@ -177,8 +154,7 @@ p {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  margin-left: -$ws-m;
-  margin-right: -$ws-m;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  margin: -$ws-m;
 }
 </style>

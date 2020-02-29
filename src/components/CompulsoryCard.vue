@@ -3,16 +3,17 @@
     <div class="img-wrapper">
       <img :src="require(`../assets/${compulsory.id}.png`)" />
     </div>
+    <div class="text-wrapper">
+      <div class="info-row">
+        <div class="id">{{ compulsory.id }}</div>
 
-    <div class="info-row">
-      <div class="id">{{ compulsory.id }}</div>
-
-      <div class="right-side">
-        <Tag :label="compulsory.type" :type="compulsory.type" />
-        <Tag :label="compulsory.techValue.toFixed(1).toString()" />
+        <div class="right-side">
+          <Tag :label="compulsory.type" :type="compulsory.type" />
+          <Tag :label="compulsory.techValue.toFixed(1).toString()" />
+        </div>
       </div>
+      <h2>{{ compulsory.name }}</h2>
     </div>
-    <h2>{{ compulsory.name }}</h2>
   </div>
 </template>
 
@@ -37,7 +38,20 @@ export default {
   box-sizing: border-box;
   background-color: white;
   box-shadow: $shadow-darker;
-  border-radius: 2px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-wrapper {
+  margin: -$ws-m;
+  margin-top: 10px;
+  padding: $ws-m;
+  padding-top: 6px;
+  background-color: #f5f6fa;
+  border-radius: 0 0 4px 4px;
+  border-top: 1px solid #edeef1;
+  flex-grow: 1;
 }
 
 .info-row {
@@ -64,7 +78,7 @@ export default {
 .img-wrapper {
   width: 100%;
   height: 150px;
-  border: 1px solid $light-border;
+  // border: 1px solid $light-border;
   position: relative;
   text-align: center;
 }
@@ -76,5 +90,7 @@ img {
 
 h2 {
   text-align: left;
+  font-size: 1.6rem;
+  font-weight: 400;
 }
 </style>

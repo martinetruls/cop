@@ -24,7 +24,7 @@ export default {
   border-radius: 2px;
 
   /* default colors */
-  background-color: $dark-07;
+  background-color: $dark-15;
   color: $dark;
 }
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="bar">
+  <div>
     <div class="label">{{ label }}</div>
     <div class="buttons">
       <ToggleButton
@@ -28,36 +28,18 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
-.bar {
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  padding: $ws-s;
-  margin-bottom: $ws-m;
-
-  @media all and (max-width: 1080px) {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-}
-
 .label {
-  flex-grow: 1;
-  padding: 0 $ws-m 0 $ws-xs;
-  white-space: nowrap;
-
-  @media all and (max-width: 1080px) {
-    padding: $ws-xs 0 $ws-s;
-  }
+  color: #b6b8c8;
+  margin-bottom: $ws-s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 1.4rem;
 }
 
 .buttons {
-  display: flex;
-
   div + div {
-    margin-left: $ws-s;
+    margin-top: $ws-s;
   }
 
   @media all and (max-width: 500px) {
