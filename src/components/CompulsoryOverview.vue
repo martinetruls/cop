@@ -113,6 +113,12 @@ header {
 h1 {
   font-size: 3.8rem;
   line-height: 1;
+
+  @media all and (max-width: 850px) {
+    text-align: center;
+    width: 100%;
+    font-size: 2.6rem;
+  }
 }
 
 .overview-page {
@@ -161,6 +167,10 @@ h1 {
 
 .showing {
   font-weight: 400;
+
+  @media all and (max-width: 900px) {
+    display: none;
+  }
 }
 
 .grid {
