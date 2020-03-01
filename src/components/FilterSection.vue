@@ -3,9 +3,9 @@
     <button @click="openFilters" type="button" class="show-filters-button">
       <i class="material-icons">search</i>
     </button>
-    <div :class="`filter-section ${isOpen ? 'show' : 'hide'}`">
+    <div class="filter-section">
       <div class="filter-header">
-        <Button label="Close" @handleClick="closeFilters" class="close-btn"></Button>
+        <Button label="Close" icon="close" @handleClick="closeFilters" class="close-btn"></Button>
       </div>
       <div class="search-wrapper">
         <label for="search">
@@ -84,6 +84,14 @@ export default {
   background-color: transparent;
   color: white;
   border: 2px solid #434665;
+
+  &:focus {
+    outline: none;
+
+    &:not(.hide-focus) {
+      border-color: hsla(244, 99%, 70%, 0.5);
+    }
+  }
 }
 
 .show-filters-button {
@@ -107,6 +115,7 @@ export default {
 
     &:focus {
       outline: none;
+      box-shadow: 0 0 0 2px hsla(244, 99%, 70%, 0.5);
     }
   }
 }
