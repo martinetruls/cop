@@ -6,8 +6,8 @@
     @keydown="showFocus"
     :class="`${focusHidden && 'hide-focus'}`"
   >
-    <i class="material-icons">{{ icon }}</i>
-    {{ label }}
+    <i v-if="icon" class="material-icons">{{ icon }}</i>
+    <span v-if="label">{{ label }}</span>
   </button>
 </template>
 
@@ -44,15 +44,14 @@ button {
 
   i {
     color: inherit;
-    margin-right: 0.8rem;
-  }
-
-  i:empty {
-    display: none;
   }
 
   &.hideFocus {
     box-shadow: none;
+  }
+
+  * + * {
+    margin-left: 0.8rem;
   }
 }
 </style>

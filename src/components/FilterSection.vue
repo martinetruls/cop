@@ -1,12 +1,12 @@
 <template>
   <div :class="`${isOpen ? 'show' : 'hide'}`">
-    <button @click="openFilters" type="button" class="show-filters-button">
-      <i class="material-icons">search</i>
-    </button>
+    <Button icon="search" @handleClick="openFilters" class="filters-btn" />
+
     <div class="filter-section">
       <div class="filter-header">
-        <Button label="Close" icon="close" @handleClick="closeFilters" class="close-btn"></Button>
+        <Button label="Close" icon="close" @handleClick="closeFilters" class="close-btn" />
       </div>
+
       <div class="search-wrapper">
         <label for="search">
           <i class="material-icons">search</i>
@@ -18,6 +18,7 @@
           @input="event => $emit('handleSearch', event.target.value)"
         />
       </div>
+
       <div class="filter-bars">
         <ToggleBar
           label="Filter by types"
@@ -70,6 +71,26 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
+.filter-section {
+  z-index: 1;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #1b1c28;
+  padding: $ws-xxl $ws-l;
+  width: 270px;
+  height: 100vh;
+
+  transition: transform 0.3s ease-in-out;
+
+  @media all and (max-width: 850px) {
+    padding: $ws-l;
+    transform: translateY(100%);
+    height: auto;
+    width: 100vw;
+  }
+}
+
 .filter-header {
   display: none;
   justify-content: flex-end;
@@ -90,68 +111,30 @@ export default {
 
     &:not(.hide-focus) {
       border-color: hsla(244, 99%, 70%, 0.5);
+      box-shadow: 0 0 0 1px hsla(244, 99%, 70%, 0.5);
     }
   }
 }
 
-.show-filters-button {
+.filters-btn {
   display: none;
-  z-index: 1;
-
-  @media all and (max-width: 850px) {
-    display: block;
-    position: fixed;
-    box-shadow: $shadow-darker;
-    bottom: $ws-m;
-    right: $ws-m;
-    background-color: #2117b3;
-    color: white;
-    padding: $ws-m;
-    border-radius: 50%;
-
-    i {
-      color: white;
-    }
-
-    &:focus {
-      outline: none;
-      box-shadow: 0 0 0 2px hsla(244, 99%, 70%, 0.5);
-    }
-  }
-}
-
-.hide-filters-button {
-  padding: $ws-s;
-  display: none;
-
-  @media all and (max-width: 850px) {
-    display: block;
-  }
-}
-
-.filter-section {
   z-index: 1;
   position: fixed;
-  bottom: 0;
-  left: 0;
-  background-color: #1b1c28;
-  padding: $ws-xxl $ws-l;
-  width: 270px;
-  height: 100vh;
+  box-shadow: $shadow-darker;
+  bottom: $ws-m;
+  right: $ws-m;
+  background-color: #2117b3;
+  color: white;
+  padding: $ws-m;
+  border-radius: 50%;
 
-  transition: transform 0.3s ease-in-out;
-
-  @media all and (max-width: 850px) {
-    padding: $ws-l;
-    transform: translateY(100%);
-    height: auto;
-    width: 100vw;
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px hsla(244, 99%, 70%, 0.5);
   }
 
-  &.show {
-    @media all and (max-width: 850px) {
-      transform: translateY(0);
-    }
+  @media all and (max-width: 850px) {
+    display: block;
   }
 }
 
@@ -194,8 +177,6 @@ export default {
   &:focus {
     outline: none;
     box-shadow: 0 0 0 2px hsla(244, 99%, 70%, 0.5);
-    // border: 1px solid rgba(33, 22, 179, 1);
-    // border: 1px solid #7369fe;
   }
 }
 
