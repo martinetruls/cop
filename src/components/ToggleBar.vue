@@ -2,7 +2,7 @@
   <div>
     <div class="label">{{ label }}</div>
     <div class="buttons">
-      <ToggleButton
+      <FilterToggle
         v-for="(item, index) in list"
         v-bind:key="index"
         :label="item"
@@ -14,10 +14,10 @@
 </template>
 
 <script>
-import ToggleButton from "./FilterToggle";
+import FilterToggle from "./FilterToggle";
 export default {
   name: "ToggleBar",
-  components: { ToggleButton },
+  components: { FilterToggle },
   props: {
     label: String,
     list: Array

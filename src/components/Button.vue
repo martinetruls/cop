@@ -4,7 +4,7 @@
     @click="$emit('handleClick')"
     @mousedown="hideFocus"
     @keydown="showFocus"
-    :class="`${focusHidden && 'hide-focus'}`"
+    :class="`${focusHidden? 'hide-focus' : ''}`"
   >
     <i v-if="icon" class="material-icons">{{ icon }}</i>
     <span v-if="label">{{ label }}</span>

@@ -6,9 +6,14 @@
       :id="filterValue"
       :value="filterValue"
       :checked="isChecked"
-      v-on:input="clickedFilter($event.target)"
+      @input="clickedFilter($event.target)"
+      @keydown="showFocus"
     />
-    <label class="toggle" :for="filterValue">
+    <label
+      :class="`toggle ${focusHidden ? 'hide-focus' : ''}`"
+      @mousedown="hideFocus"
+      :for="filterValue"
+    >
       <div class="box">
         <svg width="169" height="169" viewBox="0 0 169 169">
           <g transform="translate(-587.605 -106.773) rotate(-45)">
@@ -33,13 +38,20 @@ export default {
   },
   data() {
     return {
-      isChecked: false
+      isChecked: false,
+      focusHidden: false
     };
   },
   methods: {
     clickedFilter(target) {
       this.isChecked = target.checked;
       this.$emit("handleFilterChange", target.value);
+    },
+    hideFocus() {
+      this.focusHidden = true;
+    },
+    showFocus() {
+      this.focusHidden = false;
     }
   }
 };
@@ -100,7 +112,7 @@ input:checked + label.toggle {
   }
 }
 
-input:focus + label.toggle {
+input:focus + label.toggle:not(.hide-focus) {
   box-shadow: 0 0 0 2px hsla(244, 99%, 70%, 0.5);
 }
 </style>
