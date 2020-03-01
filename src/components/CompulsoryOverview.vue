@@ -1,22 +1,23 @@
 <template>
-  <div class="overview">
+  <div class="overview-page">
     <FilterSection
       @handleTypeFilter="filterByType"
       @handleLevelFilter="filterByLevel"
       @handleSearch="filterbySearch"
     ></FilterSection>
-    <!-- <p>{{ selectedTypes }}</p> -->
 
-    <!-- <p
-      class="showing"
-    >Showing {{ totalNumber > filteredList.length ? filteredList.length + " of" : ""}} {{ totalNumber}} compulsories</p>-->
+    <div>
+      <p
+        class="showing"
+      >Showing {{ totalNumber > filteredList.length ? filteredList.length + " of" : ""}} {{ totalNumber}} compulsories</p>
 
-    <div class="grid">
-      <CompulsoryCard
-        v-for="compulsory in filteredList"
-        v-bind:key="compulsory.id"
-        v-bind:compulsory="compulsory"
-      ></CompulsoryCard>
+      <div class="grid">
+        <CompulsoryCard
+          v-for="compulsory in filteredList"
+          v-bind:key="compulsory.id"
+          v-bind:compulsory="compulsory"
+        ></CompulsoryCard>
+      </div>
     </div>
   </div>
 </template>
@@ -99,6 +100,21 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
+.overview-page {
+  padding: $ws-xxl;
+  padding-top: 0;
+  margin-left: 270px;
+
+  @media all and (max-width: 1150px) {
+    padding: $ws-xl $ws-l;
+    padding-top: 0;
+  }
+
+  @media all and (max-width: 850px) {
+    margin-left: 0;
+  }
+}
+
 .search-wrapper {
   position: relative;
 
@@ -115,7 +131,6 @@ export default {
   padding: $ws-s $ws-m $ws-s 4.8rem;
   background-color: rgba(255, 255, 255, 0.5);
   background-color: #292a3d;
-  //border: 1px solid #cddfe6;
   border: none;
   border-radius: 6px;
   font-size: 1.8rem;
@@ -131,26 +146,9 @@ export default {
 
 .showing {
   font-size: 1.4rem;
+  line-height: $ws-xxl;
   text-align: right;
   font-weight: 400;
-  flex-grow: 1;
-}
-
-.overview {
-  padding: $ws-xxl;
-  margin-left: 270px;
-
-  @media all and (max-width: 1150px) {
-    padding: $ws-xl $ws-l;
-  }
-
-  @media all and (max-width: 850px) {
-    margin-left: 0;
-  }
-}
-
-p {
-  text-align: right;
 }
 
 .grid {

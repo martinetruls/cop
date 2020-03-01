@@ -127,6 +127,7 @@ export default {
   color: white;
   padding: $ws-m;
   border-radius: 50%;
+  line-height: 0;
 
   &:focus {
     outline: none;
