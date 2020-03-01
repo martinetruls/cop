@@ -213,7 +213,7 @@ export default {
 
 .show {
   @media all and (max-width: $mobile-breakpoint) {
-    .filter-section {
+    .filter-container {
       transform: translateY(0);
     }
   }
