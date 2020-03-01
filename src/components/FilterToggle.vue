@@ -70,9 +70,10 @@ export default {
 .toggle {
   display: flex;
   align-items: center;
-  padding: 0.6rem 1rem;
-  font-weight: 500;
-  font-size: 1.4rem;
+  padding: 0.8rem 1rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-size: 1.6rem;
   border-radius: 4px;
   cursor: pointer;
   color: white;
@@ -97,5 +98,9 @@ input:checked + label.toggle {
   svg path {
     fill: #232434;
   }
+}
+
+input:focus + label.toggle {
+  box-shadow: 0 0 0 2px hsla(244, 99%, 70%, 0.5);
 }
 </style>

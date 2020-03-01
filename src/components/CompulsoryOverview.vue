@@ -114,10 +114,11 @@ export default {
 #search {
   padding: $ws-s $ws-m $ws-s 4.8rem;
   background-color: rgba(255, 255, 255, 0.5);
+  background-color: #292a3d;
   //border: 1px solid #cddfe6;
   border: none;
   border-radius: 6px;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.5;
   width: 400px;
 

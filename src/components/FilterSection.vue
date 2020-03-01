@@ -1,18 +1,12 @@
 <template>
-  <div>
-    <button
-      @click="openFilters"
-      type="button"
-      :class="`show-filters-button ${isOpen ? 'show' : 'hide'}`"
-    >
+  <div :class="`${isOpen ? 'show' : 'hide'}`">
+    <button @click="openFilters" type="button" class="show-filters-button">
       <i class="material-icons">search</i>
     </button>
     <div :class="`filter-section ${isOpen ? 'show' : 'hide'}`">
-      <button
-        @click="closeFilters"
-        type="button"
-        :class="`hide-filters-button ${isOpen ? 'show' : 'hide'}`"
-      >Close</button>
+      <div class="filter-header">
+        <Button label="Close" @handleClick="closeFilters" class="close-btn"></Button>
+      </div>
       <div class="search-wrapper">
         <label for="search">
           <i class="material-icons">search</i>
@@ -42,6 +36,7 @@
 
 <script>
 import ToggleBar from "./ToggleBar";
+import Button from "./Button";
 
 const levelOptions = ["Amature", "Professional", "Elite"];
 const typeOptions = [
@@ -53,12 +48,12 @@ const typeOptions = [
 
 export default {
   name: "FilterSection",
-  components: { ToggleBar },
+  components: { ToggleBar, Button },
   data() {
     return {
       levelOptions: levelOptions,
       typeOptions: typeOptions,
-      isOpen: true
+      isOpen: false
     };
   },
   methods: {
@@ -75,6 +70,22 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
+.filter-header {
+  display: none;
+  justify-content: flex-end;
+  margin-bottom: $ws-l;
+
+  @media all and (max-width: 850px) {
+    display: flex;
+  }
+}
+
+.close-btn {
+  background-color: transparent;
+  color: white;
+  border: 2px solid #434665;
+}
+
 .show-filters-button {
   display: none;
   z-index: 1;
@@ -85,8 +96,7 @@ export default {
     box-shadow: $shadow-darker;
     bottom: $ws-m;
     right: $ws-m;
-    background-color: #232434;
-    background-color: #7369fe;
+    background-color: #2117b3;
     color: white;
     padding: $ws-m;
     border-radius: 50%;
@@ -123,6 +133,7 @@ export default {
   transition: transform 0.3s ease-in-out;
 
   @media all and (max-width: 850px) {
+    padding: $ws-l;
     transform: translateY(100%);
     height: auto;
     width: 100vw;
@@ -156,10 +167,9 @@ export default {
 
 #search {
   padding: $ws-s $ws-m $ws-s 4.8rem;
-  background-color: rgba(255, 255, 255, 0.5);
   background-color: #232434;
   color: white;
-  border: 1px solid transparent;
+  border: none;
   border-radius: 6px;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -174,6 +184,7 @@ export default {
 
   &:focus {
     outline: none;
+    box-shadow: 0 0 0 2px hsla(244, 99%, 70%, 0.5);
     // border: 1px solid rgba(33, 22, 179, 1);
     // border: 1px solid #7369fe;
   }
@@ -193,6 +204,14 @@ export default {
 
     div + div {
       margin-left: 0;
+    }
+  }
+}
+
+.show {
+  @media all and (max-width: 850px) {
+    .filter-section {
+      transform: translateY(0);
     }
   }
 }
