@@ -89,8 +89,8 @@ img {
 }
 
 h2 {
+  font-family: "Lato";
   text-align: left;
-  font-size: 1.6rem;
   font-weight: 400;
 }
 </style>

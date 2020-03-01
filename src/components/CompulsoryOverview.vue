@@ -7,9 +7,12 @@
     ></FilterSection>
 
     <div>
-      <p
-        class="showing"
-      >Showing {{ totalNumber > filteredList.length ? filteredList.length + " of" : ""}} {{ totalNumber}} compulsories</p>
+      <header>
+        <h1>Pole Sport Compulsories</h1>
+        <p
+          class="showing"
+        >Showing {{ totalNumber > filteredList.length ? filteredList.length + " of" : ""}} {{ totalNumber}} compulsories</p>
+      </header>
 
       <div class="grid">
         <CompulsoryCard
@@ -100,6 +103,18 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: $ws-xl 0;
+}
+
+h1 {
+  font-size: 3.8rem;
+  line-height: 1;
+}
+
 .overview-page {
   padding: $ws-xxl;
   padding-top: 0;
@@ -145,9 +160,6 @@ export default {
 }
 
 .showing {
-  font-size: 1.4rem;
-  line-height: $ws-xxl;
-  text-align: right;
   font-weight: 400;
 }
 

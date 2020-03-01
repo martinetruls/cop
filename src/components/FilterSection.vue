@@ -77,7 +77,7 @@ export default {
   bottom: 0;
   left: 0;
   background-color: #1b1c28;
-  padding: $ws-xxl $ws-l;
+  padding: $ws-xl $ws-l;
   width: 270px;
   height: 100vh;
 
