@@ -41,6 +41,7 @@ button {
   border-radius: 4px;
   display: flex;
   align-items: center;
+  border: transparent;
 
   i {
     color: inherit;
