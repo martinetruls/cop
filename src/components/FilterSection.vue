@@ -31,6 +31,7 @@
           @handleFilterChange="value => $emit('handleLevelFilter', value)"
         />
       </div>
+      <a href="#" id="about">About this site</a>
     </div>
   </div>
 </template>
@@ -197,6 +198,15 @@ export default {
       margin-left: 0;
     }
   }
+}
+
+#about {
+  position: absolute;
+  left: $ws-xl;
+  bottom: $ws-xl;
+  color: #9f99f8;
+  font-weight: 400;
+  text-decoration: none;
 }
 
 .show {
