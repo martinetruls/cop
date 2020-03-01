@@ -45,12 +45,12 @@ export default {
 
 .text-wrapper {
   margin: -$ws-m;
-  margin-top: 10px;
+  margin-top: 1rem;
   padding: $ws-m;
-  padding-top: 6px;
-  background-color: #f5f6fa;
+  padding-top: $ws-s;
+  background-color: $grey-10;
   border-radius: 0 0 4px 4px;
-  border-top: 1px solid #edeef1;
+  border-top: 1px solid $grey-15;
   flex-grow: 1;
 }
 
@@ -78,7 +78,6 @@ export default {
 .img-wrapper {
   width: 100%;
   height: 150px;
-  // border: 1px solid $light-border;
   position: relative;
   text-align: center;
 }

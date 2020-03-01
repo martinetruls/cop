@@ -35,9 +35,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import "../styles/vars.scss";
+
 button {
-  padding: 1rem 1.6rem;
-  font-size: 1.6rem;
+  padding: $ws-s $ws-m;
+  font-size: $ws-m;
   border-radius: 4px;
   display: flex;
   align-items: center;
@@ -52,7 +54,7 @@ button {
   }
 
   * + * {
-    margin-left: 0.8rem;
+    margin-left: $ws-s;
   }
 }
 </style>

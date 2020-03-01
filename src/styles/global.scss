@@ -31,16 +31,12 @@ body {
   color: $text-color;
   background-image: linear-gradient(
     to right bottom,
-    rgba(22, 193, 210, 0.2) 0%,
-    rgba(33, 22, 179, 0.2) 100%
+    $ocean-20 0%,
+    $purple-20 100%
   );
 
   min-height: 100vh;
   background-attachment: fixed;
-}
-
-.material-icons {
-  color: #352bc7;
 }
 
 .visually-hidden {

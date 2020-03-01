@@ -1,16 +1,16 @@
 <template>
-  <div class="overview-page">
-    <FilterSection
+  <div class="overview">
+    <FilterContainer
       @handleTypeFilter="filterByType"
       @handleLevelFilter="filterByLevel"
       @handleSearch="filterbySearch"
-    ></FilterSection>
+    ></FilterContainer>
 
     <div>
       <header>
         <h1>Pole Sport Compulsories</h1>
         <p
-          class="showing"
+          class="show-count"
         >Showing {{ totalNumber > filteredList.length ? filteredList.length + " of" : ""}} {{ totalNumber}} compulsories</p>
       </header>
 
@@ -28,7 +28,7 @@
 <script>
 import Data from "../data/compulsories.json";
 import CompulsoryCard from "./CompulsoryCard";
-import FilterSection from "./FilterSection";
+import FilterContainer from "./FilterContainer";
 
 const verifyTrickLevel = (value, selectedLevels) => {
   return selectedLevels.some(level => {
@@ -45,7 +45,7 @@ const verifyTrickLevel = (value, selectedLevels) => {
 
 export default {
   name: "CompulsoryOverview",
-  components: { CompulsoryCard, FilterSection },
+  components: { CompulsoryCard, FilterContainer },
   data() {
     return {
       totalNumber: Data.compulsories.length,
@@ -114,14 +114,14 @@ h1 {
   font-size: 3.8rem;
   line-height: 1;
 
-  @media all and (max-width: 850px) {
+  @media all and (max-width: $mobile-breakpoint) {
     text-align: center;
     width: 100%;
     font-size: 2.6rem;
   }
 }
 
-.overview-page {
+.overview {
   padding: $ws-xxl;
   padding-top: 0;
   margin-left: 270px;
@@ -131,41 +131,12 @@ h1 {
     padding-top: 0;
   }
 
-  @media all and (max-width: 850px) {
+  @media all and (max-width: $mobile-breakpoint) {
     margin-left: 0;
   }
 }
 
-.search-wrapper {
-  position: relative;
-
-  i {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    left: $ws-m;
-    font-size: 2.4rem;
-  }
-}
-
-#search {
-  padding: $ws-s $ws-m $ws-s 4.8rem;
-  background-color: rgba(255, 255, 255, 0.5);
-  background-color: #292a3d;
-  border: none;
-  border-radius: 6px;
-  font-size: 1.8rem;
-  line-height: 1.5;
-  width: 400px;
-
-  &::placeholder {
-    font-style: italic;
-    font-weight: 300;
-    color: #89888d;
-  }
-}
-
-.showing {
+.show-count {
   font-weight: 400;
 
   @media all and (max-width: 900px) {

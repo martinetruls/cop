@@ -9,11 +9,8 @@
       @input="clickedFilter($event.target)"
       @keydown="showFocus"
     />
-    <label
-      :class="`toggle ${focusHidden ? 'hide-focus' : ''}`"
-      @mousedown="hideFocus"
-      :for="filterValue"
-    >
+
+    <label :class="`${focusHidden ? 'hide-focus' : ''}`" @mousedown="hideFocus" :for="filterValue">
       <div class="box">
         <svg width="169" height="169" viewBox="0 0 169 169">
           <g transform="translate(-587.605 -106.773) rotate(-45)">
@@ -31,7 +28,7 @@
 
 <script>
 export default {
-  name: "FilterToggle",
+  name: "Checkbox",
   props: {
     label: String,
     filterValue: String
@@ -65,7 +62,7 @@ export default {
   width: 14px;
   height: 14px;
   margin-right: 10px;
-  background-color: #434665;
+  background-color: $dark-mode-80;
   position: relative;
 
   svg {
@@ -79,10 +76,10 @@ export default {
   }
 }
 
-.toggle {
+label {
   display: flex;
   align-items: center;
-  padding: 0.8rem 1rem;
+  padding: $ws-s 1rem;
   font-weight: 400;
   letter-spacing: 0.5px;
   font-size: 1.6rem;
@@ -94,13 +91,13 @@ export default {
     color ease-in-out 0.2s, border ease-in-out 0.2s;
 
   &:hover {
-    background-color: #292a3d;
+    background-color: $dark-mode-90;
   }
 }
 
-input:checked + label.toggle {
+input:checked + label {
   .box {
-    background-color: #7369fe;
+    background-color: $purple-bright;
   }
 
   svg {
@@ -108,11 +105,11 @@ input:checked + label.toggle {
   }
 
   svg path {
-    fill: #232434;
+    fill: $dark-mode-background;
   }
 }
 
-input:focus + label.toggle:not(.hide-focus) {
-  box-shadow: 0 0 0 2px hsla(244, 99%, 70%, 0.5);
+input:focus + label:not(.hide-focus) {
+  box-shadow: $dark-mode-focus;
 }
 </style>

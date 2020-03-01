@@ -29,22 +29,22 @@ export default {
 }
 
 .tag-Flexibility {
-  background-color: #d0e8ec;
-  color: #008997;
+  background-color: $turquoise-light;
+  color: $turquoise-dark;
 }
 
 .tag-Strength {
-  background-color: #fbded5;
-  color: #ea4a1a;
+  background-color: $orange-light;
+  color: $orange-dark;
 }
 
 .tag-Spins-on-static {
-  background-color: #fedee6;
-  color: #e91e64;
+  background-color: $pink-light;
+  color: $pink-dark;
 }
 
 .tag-Spins-on-spinning {
-  background-color: #d6d7f2;
-  color: #2117b3;
+  background-color: $purple-18;
+  color: $purple-dark;
 }
 </style>
