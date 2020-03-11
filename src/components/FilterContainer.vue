@@ -1,39 +1,42 @@
 <template>
   <div :class="`${isOpen ? 'show' : 'hide'}`">
-    <Button icon="search" @handleClick="openFilters" class="filters-btn" />
-
     <div class="filter-container">
-      <div class="filter-header">
-        <Button label="Close" icon="close" @handleClick="closeFilters" class="close-btn" />
-      </div>
+      <Button
+        label="Filter & search"
+        @handleClick="toggleFilters"
+        icon="expand_more"
+        class="toggle-filters-btn"
+      />
 
-      <div class="search-wrapper">
-        <label for="search">
-          <i class="material-icons">search</i>
-        </label>
-        <input
-          id="search"
-          type="text"
-          placeholder="Search"
-          @input="event => $emit('handleSearch', event.target.value)"
-        />
-      </div>
+      <div class="filter-content">
+        <div class="search-wrapper">
+          <label for="search">
+            <i class="material-icons">search</i>
+          </label>
+          <input
+            id="search"
+            type="text"
+            placeholder="Search"
+            @input="event => $emit('handleSearch', event.target.value)"
+          />
+        </div>
 
-      <div class="filter-bars">
-        <CheckboxGroup
-          id="filter-types"
-          label="Filter by type"
-          :list="typeOptions"
-          @handleFilterChange="value => $emit('handleTypeFilter', value)"
-        />
-        <CheckboxGroup
-          id="filter-levels"
-          label="Filter by level"
-          :list="levelOptions"
-          @handleFilterChange="value => $emit('handleLevelFilter', value)"
-        />
+        <div class="filter-bars">
+          <CheckboxGroup
+            id="filter-types"
+            label="Filter by type"
+            :list="typeOptions"
+            @handleFilterChange="value => $emit('handleTypeFilter', value)"
+          />
+          <CheckboxGroup
+            id="filter-levels"
+            label="Filter by level"
+            :list="levelOptions"
+            @handleFilterChange="value => $emit('handleLevelFilter', value)"
+          />
+        </div>
+        <a href="#" id="about">About this site</a>
       </div>
-      <a href="#" id="about">About this site</a>
     </div>
   </div>
 </template>
@@ -61,11 +64,8 @@ export default {
     };
   },
   methods: {
-    openFilters() {
-      this.isOpen = true;
-    },
-    closeFilters() {
-      this.isOpen = false;
+    toggleFilters() {
+      this.isOpen = !this.isOpen;
     }
   }
 };
@@ -80,34 +80,36 @@ export default {
   bottom: 0;
   left: 0;
   background-color: $dark-mode-background;
-  padding: $ws-xl $ws-l;
   width: 270px;
   height: 100vh;
 
   transition: transform 0.3s ease-in-out;
 
   @media all and (max-width: $mobile-breakpoint) {
-    padding: $ws-l;
-    transform: translateY(100%);
+    transform: translateY(calc(100% - 60px));
     height: auto;
     width: 100vw;
   }
 }
 
-.filter-header {
-  display: none;
-  justify-content: flex-end;
-  margin-bottom: $ws-l;
-
+.filter-content {
+  padding: $ws-xl $ws-l;
   @media all and (max-width: $mobile-breakpoint) {
-    display: flex;
+    padding: $ws-l;
   }
 }
 
-.close-btn {
+.toggle-filters-btn {
   background-color: transparent;
   color: white;
-  border: 2px solid $dark-mode-80;
+  flex-direction: row-reverse;
+  width: 100%;
+  justify-content: center;
+  padding: $ws-m;
+
+  &:hover {
+    background-color: $dark-mode-90;
+  }
 
   &:focus {
     outline: none;
@@ -209,6 +211,10 @@ export default {
   color: $dark-model-link-color;
   font-weight: 400;
   text-decoration: none;
+
+  @media all and (max-width: $mobile-breakpoint) {
+    display: none;
+  }
 }
 
 .show {
@@ -217,5 +223,18 @@ export default {
       transform: translateY(0);
     }
   }
+}
+</style>
+
+<style lang="scss">
+@import "../styles/vars.scss";
+.toggle-filters-btn i {
+  margin-left: $ws-s;
+  transition: translate 0.2s ease-in-out;
+  transform: rotate(180deg);
+}
+
+.show .toggle-filters-btn i {
+  transform: rotate(0deg);
 }
 </style>
