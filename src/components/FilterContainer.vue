@@ -86,7 +86,7 @@ export default {
   transition: transform 0.3s ease-in-out;
 
   @media all and (max-width: $mobile-breakpoint) {
-    transform: translateY(calc(100% - 60px));
+    transform: translateY(calc(100% - 56px));
     height: auto;
     width: 100vw;
   }
@@ -100,6 +100,7 @@ export default {
 }
 
 .toggle-filters-btn {
+  display: none;
   background-color: transparent;
   color: white;
   flex-direction: row-reverse;
@@ -118,6 +119,10 @@ export default {
       border-color: $dark-mode-focus-color;
       box-shadow: $dark-mode-focus;
     }
+  }
+
+  @media all and (max-width: $mobile-breakpoint) {
+    display: flex;
   }
 }
 
