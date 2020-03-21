@@ -109,7 +109,9 @@ export default {
   padding: $ws-m;
 
   &:hover {
-    background-color: $dark-mode-90;
+    @media (hover: hover) and (pointer: fine) {
+      background-color: $dark-mode-90;
+    }
   }
 
   &:focus {

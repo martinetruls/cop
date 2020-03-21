@@ -91,7 +91,9 @@ label {
     color ease-in-out 0.2s, border ease-in-out 0.2s;
 
   &:hover {
-    background-color: $dark-mode-90;
+    @media (hover: hover) and (pointer: fine) {
+      background-color: $dark-mode-90;
+    }
   }
 }
 
