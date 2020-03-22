@@ -1,19 +1,12 @@
 <template>
   <div id="app">
-    <CompulsoryOverview></CompulsoryOverview>
+    <div id="nav">
+      <router-link to="/">Home</router-link> |
+      <router-link to="/about">About</router-link>
+    </div>
+    <router-view />
   </div>
 </template>
-
-<script>
-import CompulsoryOverview from "./components/CompulsoryOverview";
-
-export default {
-  name: "app",
-  components: {
-    CompulsoryOverview
-  }
-};
-</script>
 
 <style lang="scss">
 @import "./styles/global.scss";

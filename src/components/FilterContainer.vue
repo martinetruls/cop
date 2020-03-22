@@ -35,7 +35,7 @@
             @handleFilterChange="value => $emit('handleLevelFilter', value)"
           />
         </div>
-        <a href="#" id="about">About this site</a>
+        <router-link id="about" to="/about">About this site</router-link>
       </div>
     </div>
   </div>
