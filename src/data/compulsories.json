@@ -526,6 +526,132 @@
       "criteria": ""
     },
     {
+      "id": "s3",
+      "type": "Strength",
+      "name": "Elbow grip seat",
+      "techValue": 0.1,
+      "criteria": ""
+    },
+    {
+      "id": "s4",
+      "type": "Strength",
+      "name": "Stargazer",
+      "techValue": 0.1,
+      "criteria": ""
+    },
+    {
+      "id": "s5",
+      "type": "Strength",
+      "name": "Outside knee hook, passé",
+      "techValue": 0.1,
+      "criteria": ""
+    },
+    {
+      "id": "s6",
+      "type": "Strength",
+      "name": "Pole hug pencil",
+      "techValue": 0.1,
+      "criteria": ""
+    },
+    {
+      "id": "s7",
+      "type": "Strength",
+      "name": "Split grip cradle tuck",
+      "techValue": 0.1,
+      "criteria": ""
+    },
+    {
+      "id": "s8",
+      "type": "Strength",
+      "name": "Basic brass monkey",
+      "techValue": 0.2,
+      "criteria": ""
+    },
+    {
+      "id": "s9",
+      "type": "Strength",
+      "name": "Butterfly split grip",
+      "techValue": 0.2,
+      "criteria": ""
+    },
+    {
+      "id": "s10",
+      "type": "Strength",
+      "name": "Cupid",
+      "techValue": 0.2,
+      "criteria": ""
+    },
+    {
+      "id": "s11",
+      "type": "Strength",
+      "name": "Elbow hold hang",
+      "techValue": 0.2,
+      "criteria": ""
+    },
+    {
+      "id": "s12",
+      "type": "Strength",
+      "name": "Extended brass monkey",
+      "techValue": 0.1,
+      "criteria": ""
+    },
+    {
+      "id": "s13",
+      "type": "Strength",
+      "name": "Inside leg hang flatline",
+      "techValue": 0.2,
+      "criteria": ""
+    },
+    {
+      "id": "s14",
+      "type": "Strength",
+      "name": "Layback crossed knee release",
+      "techValue": 0.2,
+      "criteria": ""
+    },
+    {
+      "id": "s15",
+      "type": "Strength",
+      "name": "Outside knee hang back passé",
+      "techValue": 0.2,
+      "criteria": ""
+    },
+    {
+      "id": "s16",
+      "type": "Strength",
+      "name": "Pole straddle split grip",
+      "techValue": 0.2,
+      "criteria": ""
+    },
+    {
+      "id": "s17",
+      "type": "Strength",
+      "name": "Basic superman",
+      "techValue": 0.3,
+      "criteria": ""
+    },
+    {
+      "id": "s18",
+      "type": "Strength",
+      "name": "Butterfly extention",
+      "techValue": 0.3,
+      "criteria": ""
+    },
+    {
+      "id": "s19",
+      "type": "Strength",
+      "name": "Flag grip side attitude",
+      "techValue": 0.3,
+      "criteria": ""
+    },
+    {
+      "id": "s20",
+      "type": "Strength",
+      "name": "Knee hold",
+      "techValue": 0.3,
+      "criteria": ""
+    },
+    {
       "id": "s36",
       "type": "Strength",
       "name": "Forearm grip inverted straddle/pencil",
