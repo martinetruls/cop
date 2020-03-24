@@ -592,7 +592,7 @@
       "id": "s12",
       "type": "Strength",
       "name": "Extended brass monkey",
-      "techValue": 0.1,
+      "techValue": 0.2,
       "criteria": ""
     },
     {
@@ -649,6 +649,77 @@
       "type": "Strength",
       "name": "Knee hold",
       "techValue": 0.3,
+      "criteria": ""
+    },
+
+    {
+      "id": "s21",
+      "type": "Strength",
+      "name": "Layback crossed ankle release",
+      "techValue": 0.3,
+      "criteria": ""
+    },
+    {
+      "id": "s22",
+      "type": "Strength",
+      "name": "Remi layback",
+      "techValue": 0.3,
+      "criteria": ""
+    },
+    {
+      "id": "s23",
+      "type": "Strength",
+      "name": "Shoulder mount pencil/straddle",
+      "techValue": 0.3,
+      "criteria": ""
+    },
+    {
+      "id": "s24",
+      "type": "Strength",
+      "name": "Underarm hold hang",
+      "techValue": 0.3,
+      "criteria": ""
+    },
+    {
+      "id": "s25",
+      "type": "Strength",
+      "name": "Back support split",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "s26",
+      "type": "Strength",
+      "name": "Back support tuck",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "s27",
+      "type": "Strength",
+      "name": "Butterfly twist one hand",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "s28",
+      "type": "Strength",
+      "name": "Extended hang",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "s29",
+      "type": "Strength",
+      "name": "Flag grip side straddle",
+      "techValue": 0.4,
+      "criteria": ""
+    },
+    {
+      "id": "s30",
+      "type": "Strength",
+      "name": "Handspring straddle/pencil",
+      "techValue": 0.4,
       "criteria": ""
     },
     {
