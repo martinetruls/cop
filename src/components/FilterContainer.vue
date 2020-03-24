@@ -211,6 +211,8 @@ export default {
   }
 }
 
+$underline-gradient: linear-gradient(to right, $purple-20 0%, $ocean-20 100%);
+
 #about {
   position: absolute;
   left: $ws-xl;
@@ -218,9 +220,25 @@ export default {
   color: $dark-model-link-color;
   font-weight: 400;
   text-decoration: none;
+  padding: 6px 0.8rem;
+  margin: 0 -0.8rem;
+  background-image: $underline-gradient;
+  background-position: bottom 2px right 0.8rem;
+  background-size: calc(100% - 1.6rem) 2px;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+
+  transition: color 0.15s ease-in-out, background-size 0.15s ease-in-out,
+    background-position 0.15s ease-in-out;
 
   @media all and (max-width: $mobile-breakpoint) {
     display: none;
+  }
+
+  &:hover {
+    color: $dark-mode-90;
+    background-position: bottom right 0px;
+    background-size: 100% 100%;
   }
 }
 
