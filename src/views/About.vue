@@ -63,7 +63,6 @@
 @import "../styles/vars.scss";
 .about {
   background-color: $dark-mode-background;
-
   min-height: 100vh;
 }
 
@@ -134,13 +133,13 @@ p {
 
 .back-link {
   margin-top: 3.2rem;
-  margin-left: -10rem;
+  margin-left: -8rem;
   color: $dark-model-link-color;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: 1px;
   width: max-content;
   text-transform: uppercase;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 0.8rem;
   padding-right: 2.6rem;
   border-radius: 4px;
@@ -149,7 +148,7 @@ p {
   text-decoration: none;
 
   i {
-    font-size: 6rem;
+    font-size: 4rem;
   }
 
   &:hover {
