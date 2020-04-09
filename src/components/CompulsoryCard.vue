@@ -1,20 +1,22 @@
 <template>
-  <div class="card">
-    <div class="img-wrapper">
-      <img :src="require(`../assets/${compulsory.id}.png`)" />
-    </div>
-    <div class="text-wrapper">
-      <div class="info-row">
-        <div class="id">{{ compulsory.id }}</div>
-
-        <div class="right-side">
-          <Tag :label="compulsory.type" :type="compulsory.type" />
-          <Tag :label="compulsory.techValue.toFixed(1).toString()" />
-        </div>
+  <router-link :to="`/compulsories/${compulsory.id}`">
+    <div class="card">
+      <div class="img-wrapper">
+        <img :src="require(`../assets/${compulsory.id}.png`)" />
       </div>
-      <h2>{{ compulsory.name }}</h2>
+      <div class="text-wrapper">
+        <div class="info-row">
+          <div class="id">{{ compulsory.id }}</div>
+
+          <div class="right-side">
+            <Tag :label="compulsory.type" :type="compulsory.type" />
+            <Tag :label="compulsory.techValue.toFixed(1).toString()" />
+          </div>
+        </div>
+        <h2>{{ compulsory.name }}</h2>
+      </div>
     </div>
-  </div>
+  </router-link>
 </template>
 
 <script>
