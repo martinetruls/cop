@@ -11,10 +11,11 @@
         <h1>Pole Sport Compulsories</h1>
         <p
           class="show-count"
-        >Showing {{ totalNumber > filteredList.length ? filteredList.length + " of" : ""}} {{ totalNumber}} compulsories</p>
+        >Showing {{ compulsories.length > filteredList.length ? filteredList.length + " of" : ""}} {{ compulsories.length}} compulsories</p>
       </header>
 
-      <div class="grid">
+      <p v-if="isLoading">Loading...</p>
+      <div class="grid" v-if="!isLoading">
         <CompulsoryCard
           v-for="compulsory in filteredList"
           v-bind:key="compulsory.id"
@@ -48,8 +49,8 @@ export default {
   components: { CompulsoryCard, FilterContainer },
   data() {
     return {
-      totalNumber: Data.compulsories.length,
-      compulsories: Data.compulsories,
+      compulsories: [],
+      isLoading: false,
       selectedTypes: [],
       selectedLevels: [],
       searchWord: ""
@@ -78,7 +79,23 @@ export default {
       return filteredList;
     }
   },
+  created() {
+    this.loadCompulsories();
+  },
   methods: {
+    async getCompulsories() {
+      return new Promise(resolve => {
+        setTimeout(() => resolve(Data.compulsories), 1500);
+      });
+    },
+    async loadCompulsories() {
+      // values before load
+      this.compulsories = [];
+      this.isLoading = true;
+      // values after load
+      this.compulsories = await this.getCompulsories();
+      this.isLoading = false;
+    },
     filterByType(type) {
       if (this.selectedTypes.includes(type)) {
         this.selectedTypes = this.selectedTypes.filter(x => x !== type);
