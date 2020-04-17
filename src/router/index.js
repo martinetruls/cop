@@ -1,7 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Compulsory from "../views/Compulsory.vue";
+import PageNotFound from "../views/PageNotFound.vue";
 
 Vue.use(VueRouter);
 
@@ -12,10 +12,15 @@ const routes = [
     component: Home,
     children: [
       {
-        path: "compulsories/:id",
-        component: Compulsory
-      }
-    ]
+        path: "/compulsories/:id",
+        name: "Compulsory",
+        component: () =>
+          import(
+            /* webpackChunkName: "bundle-compulsory" */ "../views/Compulsory.vue"
+          ),
+        props: (route) => ({ id: route.params.id, data: route.params.data }),
+      },
+    ],
   },
   {
     path: "/about",
@@ -24,14 +29,18 @@ const routes = [
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ "../views/About.vue")
-  }
+      import(/* webpackChunkName: "bundle-about" */ "../views/About.vue"),
+  },
+  {
+    path: "*",
+    component: PageNotFound,
+  },
 ];
 
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  routes
+  routes,
 });
 
 export default router;
