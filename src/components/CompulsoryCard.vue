@@ -1,6 +1,6 @@
 <template>
   <!-- <router-link :to="`/compulsories/${compulsory.id}`"> -->
-  <router-link :to="{name: 'Compulsory', params:{ id: compulsory.id, data: compulsory } }">
+  <router-link :to="{name: 'Compulsory', params:{ id: compulsory.id, compulsory: compulsory } }">
     <div class="card">
       <div class="img-wrapper">
         <img :src="require(`../assets/${compulsory.id}.png`)" />
@@ -34,6 +34,11 @@ export default {
 
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
+
+a {
+  text-decoration: none;
+  color: $dark;
+}
 
 .card {
   padding: $ws-m;

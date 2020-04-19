@@ -18,7 +18,10 @@ const routes = [
           import(
             /* webpackChunkName: "bundle-compulsory" */ "../views/Compulsory.vue"
           ),
-        props: (route) => ({ id: route.params.id, data: route.params.data }),
+        props: (route) => ({
+          id: route.params.id,
+          compulsory: route.params.compulsory,
+        }),
       },
     ],
   },

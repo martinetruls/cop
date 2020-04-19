@@ -5,651 +5,1302 @@
       "type": "Flexibility",
       "name": "Inside leg hang",
       "techValue": 0.1,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f2",
       "type": "Flexibility",
       "name": "Side pole straddle base",
       "techValue": 0.1,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f3",
       "type": "Flexibility",
       "name": "Ballerina sit attitude",
       "techValue": 0.2,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f4",
       "type": "Flexibility",
       "name": "Inside leg hang",
       "techValue": 0.2,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f5",
       "type": "Flexibility",
       "name": "Side pole straddle base",
       "techValue": 0.2,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f6",
       "type": "Flexibility",
       "name": "Allegra split 1",
       "techValue": 0.3,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f7",
       "type": "Flexibility",
       "name": "Hip hold split",
       "techValue": 0.3,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f8",
       "type": "Flexibility",
       "name": "Pole straddle",
       "techValue": 0.3,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f9",
       "type": "Flexibility",
       "name": "Front splits on pole",
       "techValue": 0.3,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f10",
       "type": "Flexibility",
       "name": "Allegra split 2",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f11",
       "type": "Flexibility",
       "name": "Allegra passé 1",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f12",
       "type": "Flexibility",
       "name": "Brigde",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f13",
       "type": "Flexibility",
       "name": "Capezio passé",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f14",
       "type": "Flexibility",
       "name": "Cross bow elbow hold",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f15",
       "type": "Flexibility",
       "name": "Handstand veritcal split",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f16",
       "type": "Flexibility",
       "name": "Pole straddle",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f17",
       "type": "Flexibility",
       "name": "Split grip leg through split",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f18",
       "type": "Flexibility",
       "name": "Superman crescent",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f19",
       "type": "Flexibility",
       "name": "Underarm hold pike",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f20",
       "type": "Flexibility",
       "name": "Yogini",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f21",
       "type": "Flexibility",
       "name": "Allegra passé 2",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f22",
       "type": "Flexibility",
       "name": "Chopsticks",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f23",
       "type": "Flexibility",
       "name": "Front splits",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f24",
       "type": "Flexibility",
       "name": "Handsprinng split",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f25",
       "type": "Flexibility",
       "name": "Hip hold split",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f26",
       "type": "Flexibility",
       "name": "Inside leg hang back split",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f27",
       "type": "Flexibility",
       "name": "Inverted front split",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f28",
       "type": "Flexibility",
       "name": "Inverted split",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f29",
       "type": "Flexibility",
       "name": "Lux",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f30",
       "type": "Flexibility",
       "name": "Pegasus split facing floor 1",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f31",
       "type": "Flexibility",
       "name": "Split grip leg through split",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f32",
       "type": "Flexibility",
       "name": "Allegra",
       "techValue": 0.6,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f33",
       "type": "Flexibility",
       "name": "Capezio passé",
       "techValue": 0.6,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f34",
       "type": "Flexibility",
       "name": "Chopstick passé",
       "techValue": 0.6,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f35",
       "type": "Flexibility",
       "name": "Cocoon",
       "techValue": 0.6,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f36",
       "type": "Flexibility",
       "name": "Handstand hip hold split",
       "techValue": 0.6,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f37",
       "type": "Flexibility",
       "name": "Handstand vertical split",
       "techValue": 0.6,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f38",
       "type": "Flexibility",
       "name": "Yogini",
       "techValue": 0.6,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f39",
       "type": "Flexibility",
       "name": "Inverted front split",
       "techValue": 0.6,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f40",
       "type": "Flexibility",
       "name": "One hand flying split",
       "techValue": 0.6,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f41",
       "type": "Flexibility",
       "name": "Eagle 1",
       "techValue": 0.6,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f42",
       "type": "Flexibility",
       "name": "Brass monkey split",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f43",
       "type": "Flexibility",
       "name": "Back split to pole ring position",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f44",
       "type": "Flexibility",
       "name": "Bird of paradise inverted",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f45",
       "type": "Flexibility",
       "name": "Capezio split",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f46",
       "type": "Flexibility",
       "name": "Chopsticks",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f47",
       "type": "Flexibility",
       "name": "Dragon tail split",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f48",
       "type": "Flexibility",
       "name": "Elbow bracket split 1",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f49",
       "type": "Flexibility",
       "name": "Elbow hold frontal split",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f50",
       "type": "Flexibility",
       "name": "Forearm grip leg through split",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f51",
       "type": "Flexibility",
       "name": "Hip hold split elbow grip",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f52",
       "type": "Flexibility",
       "name": "Hip hold split passé",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f53",
       "type": "Flexibility",
       "name": "Inside leg hang back split",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f54",
       "type": "Flexibility",
       "name": "Inverted split",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f55",
       "type": "Flexibility",
       "name": "Oversplit on pole",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f56",
       "type": "Flexibility",
       "name": "Pegasus split facing upwards",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f57",
       "type": "Flexibility",
       "name": "Split grip leg through frontal split",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f58",
       "type": "Flexibility",
       "name": "Superman V",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f59",
       "type": "Flexibility",
       "name": "Underarm hold split",
       "techValue": 0.7,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f60",
       "type": "Flexibility",
       "name": "Bird of paradise upright",
       "techValue": 0.8,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f61",
       "type": "Flexibility",
       "name": "Cobra",
       "techValue": 0.8,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f62",
       "type": "Flexibility",
       "name": "Cocoon",
       "techValue": 0.8,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f63",
       "type": "Flexibility",
       "name": "Dragon tail fang",
       "techValue": 0.8,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f64",
       "type": "Flexibility",
       "name": "Floor K",
       "techValue": 0.8,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f65",
       "type": "Flexibility",
       "name": "Floor balance split",
       "techValue": 0.8,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f66",
       "type": "Flexibility",
       "name": "Iguana elbow hold split no hands",
       "techValue": 0.8,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f67",
       "type": "Flexibility",
       "name": "Machine gun",
       "techValue": 0.8,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f68",
       "type": "Flexibility",
       "name": "Russian split",
       "techValue": 0.8,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f69",
       "type": "Flexibility",
       "name": "Russian split elbow lock",
       "techValue": 0.8,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f70",
       "type": "Flexibility",
       "name": "Twisted floor K",
       "techValue": 0.8,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f99",
       "type": "Flexibility",
       "name": "Superman crecent attitude",
       "techValue": 1.0,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f100",
       "type": "Flexibility",
       "name": "Vertical Marchenko split",
       "techValue": 1.0,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "f101",
       "type": "Flexibility",
       "name": "Vertical split no hands",
       "techValue": 1.0,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s1",
       "type": "Strength",
       "name": "Basic invert no hands",
       "techValue": 0.1,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s2",
       "type": "Strength",
       "name": "Inverted straddle",
       "techValue": 0.1,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s3",
       "type": "Strength",
       "name": "Elbow grip seat",
       "techValue": 0.1,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s4",
       "type": "Strength",
       "name": "Stargazer",
       "techValue": 0.1,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s5",
       "type": "Strength",
       "name": "Outside knee hook, passé",
       "techValue": 0.1,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s6",
       "type": "Strength",
       "name": "Pole hug pencil",
       "techValue": 0.1,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s7",
       "type": "Strength",
       "name": "Split grip cradle tuck",
       "techValue": 0.1,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s8",
       "type": "Strength",
       "name": "Basic brass monkey",
       "techValue": 0.2,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s9",
       "type": "Strength",
       "name": "Butterfly split grip",
       "techValue": 0.2,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s10",
       "type": "Strength",
       "name": "Cupid",
       "techValue": 0.2,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s11",
       "type": "Strength",
       "name": "Elbow hold hang",
       "techValue": 0.2,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s12",
       "type": "Strength",
       "name": "Extended brass monkey",
       "techValue": 0.2,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s13",
       "type": "Strength",
       "name": "Inside leg hang flatline",
       "techValue": 0.2,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s14",
       "type": "Strength",
       "name": "Layback crossed knee release",
       "techValue": 0.2,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s15",
       "type": "Strength",
       "name": "Outside knee hang back passé",
       "techValue": 0.2,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s16",
       "type": "Strength",
       "name": "Pole straddle split grip",
       "techValue": 0.2,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s17",
       "type": "Strength",
       "name": "Basic superman",
       "techValue": 0.3,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s18",
       "type": "Strength",
       "name": "Butterfly extention",
       "techValue": 0.3,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s19",
       "type": "Strength",
       "name": "Flag grip side attitude",
       "techValue": 0.3,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s20",
       "type": "Strength",
       "name": "Knee hold",
       "techValue": 0.3,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
 
     {
@@ -657,196 +1308,392 @@
       "type": "Strength",
       "name": "Layback crossed ankle release",
       "techValue": 0.3,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s22",
       "type": "Strength",
       "name": "Remi layback",
       "techValue": 0.3,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s23",
       "type": "Strength",
       "name": "Shoulder mount pencil/straddle",
       "techValue": 0.3,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s24",
       "type": "Strength",
       "name": "Underarm hold hang",
       "techValue": 0.3,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s25",
       "type": "Strength",
       "name": "Back support split",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s26",
       "type": "Strength",
       "name": "Back support tuck",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s27",
       "type": "Strength",
       "name": "Butterfly twist one hand",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s28",
       "type": "Strength",
       "name": "Extended hang",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s29",
       "type": "Strength",
       "name": "Flag grip side straddle",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s30",
       "type": "Strength",
       "name": "Handspring straddle/pencil",
       "techValue": 0.4,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s36",
       "type": "Strength",
       "name": "Forearm grip inverted straddle/pencil",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s37",
       "type": "Strength",
       "name": "Hiphold half split",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s38",
       "type": "Strength",
       "name": "Superpassé",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s83",
       "type": "Strength",
       "name": "Split grip reverse plank",
       "techValue": 1.0,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s84",
       "type": "Strength",
       "name": "Split grip side plank",
       "techValue": 1.0,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "s85",
       "type": "Strength",
       "name": "720 degrees air walk",
       "techValue": 1.0,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "st1",
       "type": "Spins on static",
       "name": "Back hook spin",
       "techValue": 0.1,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "st2",
       "type": "Spins on static",
       "name": "Fireman spin crossed ancle",
       "techValue": 0.1,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "st19",
       "type": "Spins on static",
       "name": "Cup grip pencil",
       "techValue": 0.6,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "st20",
       "type": "Spins on static",
       "name": "Cradle spin into extended butterfly",
       "techValue": 0.6,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "st26",
       "type": "Spins on static",
       "name": "Chinese grip phoenix",
       "techValue": 1.0,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "st27",
       "type": "Spins on static",
       "name": "Double reverse grab into phoenix",
       "techValue": 1.0,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "sp1",
       "type": "Spins on spinning",
       "name": "Fireman spin chair",
       "techValue": 0.1,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "sp2",
       "type": "Spins on spinning",
       "name": "Helix spin",
       "techValue": 0.2,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "sp18",
       "type": "Spins on spinning",
       "name": "Cradle spin pike no hands legs fully stretched",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "sp19",
       "type": "Spins on spinning",
       "name": "Cradle spin one handed pike",
       "techValue": 0.5,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "",
+        "pointsOfContact": "",
+        "grip": "",
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": ""
+      }
     },
     {
       "id": "sp45",
       "type": "Spins on spinning",
       "name": "Split grip contortion spin",
       "techValue": 1.0,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "Minimum 720°",
+        "pointsOfContact": "Both hands, shin of top leg, crook of the knee of the bottom leg",
+        "grip": "Split grip",
+        "armPosition": "Upper hand holds pole above shin of upper leg, Lower hand holds pole below the lower thigh",
+        "legPosition": "Lower leg must be extended, with shin of the top leg is in contact with the pole",
+        "bodyPosition": "Upright, facing away from the pole"
+      }
     },
     {
       "id": "sp46",
       "type": "Spins on spinning",
       "name": "Supported sailor back bend",
       "techValue": 1.0,
-      "criteria": ""
+      "criteria": {
+        "holdPosition": "Minimum 720°",
+        "pointsOfContact": "One hand, fott and shin of same leg",
+        "grip": null,
+        "armPosition": "Both arms are fully extended. Inside hand is holding the pole above the head, the outside hand is holding the same ankle/shin level",
+        "legPosition": "Both legs are fully extended. Foot and shin of inside leg have contact with the pole, outside leg is extended to the back",
+        "bodyPosition": "Inverted and suspended away from the pole, back is in a back arch"
+      }
     }
   ]
 }
