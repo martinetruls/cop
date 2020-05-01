@@ -2,15 +2,31 @@
   <div class="compulsory-page">
     <router-link to="/" class="backdrop"></router-link>
     <div class="modal">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="7.675"
+        height="7.675"
+        viewBox="0 0 7.675 7.675"
+        class="close-x"
+      >
+        <path
+          d="M4.98,3.837,7.43,1.388a.789.789,0,0,0,0-1.143.789.789,0,0,0-1.143,0L3.837,2.694,1.388.245a.789.789,0,0,0-1.143,0,.789.789,0,0,0,0,1.143L2.694,3.837.245,6.287a.789.789,0,0,0,0,1.143.789.789,0,0,0,1.143,0L3.837,4.98,6.287,7.43A.808.808,0,0,0,7.43,6.287Z"
+          transform="translate(7.675 7.675) rotate(180)"
+          fill="black"
+        />
+      </svg>
+
       <WaveBg :type="compulsory.type" />
       <div class="content-wrapper">
-        <img :src="require(`../assets/${compulsory.id}.png`)" />
-        <div class="modal-header">
+        <div class="img-wrapper">
+          <img :src="require(`../assets/${compulsory.id}.png`)" />
           <div class="id">{{ compulsory.techValue.toFixed(1).toString() }}</div>
-          <div>{{ compulsory.type}}</div>
         </div>
 
-        <h2>{{ compulsory.name }}</h2>
+        <div class="modal-header">
+          <h2>{{ compulsory.name }}</h2>
+          <!-- <div>{{ compulsory.type}}</div> -->
+        </div>
       </div>
     </div>
   </div>
@@ -50,14 +66,34 @@ export default {
   height: 500px;
 }
 
+.close-x {
+  position: absolute;
+  top: 22px;
+  right: 22px;
+  width: 16px;
+  height: 16px;
+
+  path {
+    fill: $darker;
+  }
+}
+
 .content-wrapper {
   margin-top: -160px;
   padding: $ws-xl;
   display: flex;
 }
 
+.img-wrapper {
+  position: relative;
+  flex: 0 0 180px;
+}
+
 .modal-header {
+  padding-left: 6rem;
+  height: 6rem;
   display: flex;
+  align-items: flex-end;
 }
 
 img {
@@ -65,26 +101,24 @@ img {
   height: 180px;
   width: 180px;
   box-shadow: $shadow-darker;
-  margin-right: $ws-m;
 }
 
 .id {
+  position: absolute;
+  top: 26px;
+  right: -44px;
   border-radius: 50%;
-  background-image: linear-gradient(
-    to right bottom,
-    $ocean-20 0%,
-    $purple-20 100%
-  );
+  background-image: linear-gradient(to right bottom, $dark 0%, $dark-90 100%);
+  color: white;
   text-transform: uppercase;
   text-align: center;
   font-size: 1.8rem;
   letter-spacing: 0.8px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 3em;
   height: 3em;
   width: 3em;
-  margin-left: -$ws-l;
-  margin-top: $ws-l;
+  flex: 0 0 3em;
 }
 
 h2 {
@@ -92,7 +126,7 @@ h2 {
   text-align: left;
   font-weight: 400;
   font-size: 2.4rem;
-  margin-top: 1rem;
+  color: $darker;
 }
 
 .backdrop {
