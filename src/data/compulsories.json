@@ -1547,6 +1547,81 @@
       }
     },
     {
+      "id": "s31",
+      "type": "Strength",
+      "name": "Russian layback",
+      "techValue": 0.4,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": "Hands, crook of knee and back of thigh",
+        "grip": "Basic grip",
+        "armPosition": "Both arms fully expended and holding the pole above the head",
+        "legPosition": "One leg grips the pole in the crook of the knee and along the back of the thigh. The other leg is crossed over the first leg",
+        "bodyPosition": "Inverted, facing away from the pole",
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "s32",
+      "type": "Strength",
+      "name": "Superman one side",
+      "techValue": 0.4,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": "One hand, one knee, both upper thighs, glutes (optional)",
+        "grip": null,
+        "armPosition": "One hand is holding the pole, the other arm is fully expended",
+        "legPosition": "Inside leg is in passé, outside leg is fully extended and parallel to the floor. Both legs are on same side of the pole.",
+        "bodyPosition": "Hips are parallel to the floor",
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "s33",
+      "type": "Strength",
+      "name": "Thinker",
+      "techValue": 0.4,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": "Hands and feet, glutes (optional)",
+        "grip": "Cup grip",
+        "armPosition": "Arms can be bent and hold the pole behind the body",
+        "legPosition": "Both legs are bent and thighs are in contact with the torso",
+        "bodyPosition": "Head is lower than hips",
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "s34",
+      "type": "Strength",
+      "name": "Butterfly reverse extension",
+      "techValue": 0.5,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": "Both hands and one heel",
+        "grip": "Top hand is in cup grip",
+        "armPosition": "Both arms are fully extended",
+        "legPosition": "Both legs are fully extended in split position",
+        "bodyPosition": "Inverted. Heel of oposite to the top hand is on the pole, creating a twist in the hip",
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "s35",
+      "type": "Strength",
+      "name": "Flag grip side passé",
+      "techValue": 0.5,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": "Both arms, both hands, chest",
+        "grip": null,
+        "armPosition": "Flag grip",
+        "legPosition": "Upper leg is fully exptended, lower leg is in passé",
+        "bodyPosition": "Upper body and leg are parallel to the floor",
+        "splitAngle": ""
+      }
+    },
+    {
       "id": "s36",
       "type": "Strength",
       "name": "Forearm grip inverted straddle/pencil",
