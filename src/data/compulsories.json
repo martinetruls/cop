@@ -7,7 +7,7 @@
       "techValue": 0.1,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": "Inside leg, side of torso, back to the arm",
+        "pointsOfContact": ["Inside leg", "Side of torso", "Back to the arm"],
         "grip": null,
         "armPosition": "Arm in fixed position of choice, no hands have contact to the pole",
         "legPosition": "Inside leg is wrapped, outside leg is bent backwards",
@@ -54,7 +54,7 @@
         "holdPosition": "Minimum 2 seconds",
         "pointsOfContact": "Inside leg, side of torso, back of the arm",
         "grip": null,
-        "armPosition": "Arms in fixed position of choice, no hands have contat to the pole",
+        "armPosition": "Arms in fixed position of choice, no hands have contact to the pole",
         "legPosition": "Inside leg is wrapped, outside leg is bent backwards",
         "bodyPosition": "Inverted",
         "splitAngle": "Minimum 180°"

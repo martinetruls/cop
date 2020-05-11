@@ -23,11 +23,57 @@
         <div class="modal-header">
           <div class="id-and-type">
             <div class="id">{{compulsory.id}}</div>
-            <div class="type">{{ compulsory.type}}</div>
+            <!-- <div class="type">{{ compulsory.type}}</div> -->
+            <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
           </div>
 
           <h2>{{ compulsory.name }}</h2>
           <div class="value">Technical value: {{ compulsory.techValue.toFixed(1).toString() }}</div>
+        </div>
+      </div>
+      <div class="spec-list">
+        <div>
+          <section v-if="compulsory.criteria.grip">
+            <h3>Grip:</h3>
+            <p>{{compulsory.criteria.grip}}</p>
+          </section>
+
+          <section>
+            <h3>{{`Arm${compulsory.criteria.grip ? '' : '/grip'} position:`}}</h3>
+            <p>{{compulsory.criteria.armPosition}}</p>
+          </section>
+
+          <section>
+            <h3>Leg position:</h3>
+            <p>{{compulsory.criteria.legPosition}}</p>
+          </section>
+
+          <section>
+            <h3>Body position:</h3>
+            <p>{{compulsory.criteria.bodyPosition}}</p>
+          </section>
+        </div>
+
+        <div>
+          <section>
+            <h3>Hold the position:</h3>
+            <p>{{compulsory.criteria.holdPosition}}</p>
+          </section>
+
+          <section v-if="compulsory.criteria.splitAngle">
+            <h3>Split angle:</h3>
+            <p>{{compulsory.criteria.splitAngle}}</p>
+          </section>
+
+          <section>
+            <h3>Points of contact:</h3>
+            <ul>
+              <li
+                v-for="(contactPoint, key) in compulsory.criteria.pointsOfContact"
+                :key="key"
+              >{{ contactPoint }}</li>
+            </ul>
+          </section>
         </div>
       </div>
     </div>
@@ -35,8 +81,10 @@
 </template>
 
 <script>
+import Tag from "../components/Tag";
 export default {
   name: "Compulsory",
+  components: { Tag },
   props: {
     id: String,
     compulsory: Object
@@ -63,7 +111,7 @@ export default {
   transform: translateX(-50%);
   width: 100vw;
   max-width: 600px;
-  height: 500px;
+  min-height: 500px;
   padding: $ws-xl;
 
   &:before {
@@ -166,33 +214,64 @@ img {
 
 .id {
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 2.4rem;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 2.2rem;
   margin-right: $ws-m;
+  color: $darker;
 }
 
 .type {
   padding: 0 1rem;
-  font-weight: 600;
   font-size: 1.4rem;
   line-height: 2.8rem;
-  box-shadow: $shadow-std;
-  border-radius: 2px;
-  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
 }
 
 h2 {
   font-family: "Lato";
   text-align: left;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 2.4rem;
-  color: $darker;
+
   margin-bottom: $ws-s;
 }
 
 .value {
   color: $dark-70;
   font-weight: 400;
+}
+
+.spec-list {
+  padding-top: $ws-xl;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: $ws-xl;
+
+  section {
+    padding-bottom: $ws-l;
+
+    p {
+      font-family: "Work sans";
+      font-weight: 300;
+      line-height: 2.2rem;
+    }
+  }
+}
+
+ul {
+  font-family: "Work sans";
+  font-weight: 300;
+  line-height: 2.2rem;
+  list-style-position: inside;
+  padding-left: 4px;
+}
+
+h3 {
+  font-family: "Work sans";
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 4px;
 }
 
 .backdrop {
