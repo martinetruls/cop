@@ -85,7 +85,7 @@ export default {
   methods: {
     async getCompulsories() {
       return new Promise(resolve => {
-        setTimeout(() => resolve(Data.compulsories), 1500);
+        setTimeout(() => resolve(Data.compulsories), 0);
       });
     },
     async loadCompulsories() {

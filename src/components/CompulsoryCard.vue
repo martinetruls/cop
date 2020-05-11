@@ -6,14 +6,11 @@
         <img :src="require(`../assets/${compulsory.id}.png`)" />
       </div>
       <div class="text-wrapper">
-        <div class="info-row">
-          <div class="id">{{ compulsory.id }}</div>
+        <div class="id">{{ compulsory.id }}</div>
 
-          <div class="right-side">
-            <Tag :label="compulsory.type" :type="compulsory.type" />
-            <Tag :label="compulsory.techValue.toFixed(1).toString()" />
-          </div>
-        </div>
+        <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
+        <Tag class="value" :label="compulsory.techValue.toFixed(1).toString()" />
+
         <h2>{{ compulsory.name }}</h2>
       </div>
     </div>
@@ -35,6 +32,8 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
+$card-border-radius: 4px;
+
 a {
   text-decoration: none;
   color: $dark;
@@ -45,7 +44,7 @@ a {
   box-sizing: border-box;
   background-color: white;
   box-shadow: $shadow-darker;
-  border-radius: 4px;
+  border-radius: $card-border-radius;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -57,30 +56,28 @@ a {
   padding: $ws-m;
   padding-top: $ws-s;
   background-color: $grey-10;
-  border-radius: 0 0 4px 4px;
+  border-radius: 0 0 $card-border-radius $card-border-radius;
   border-top: 1px solid $grey-15;
   flex-grow: 1;
-}
-
-.info-row {
-  display: flex;
-  justify-content: space-between;
-  padding: $ws-s 0;
-  align-items: center;
-}
-
-.right-side {
-  display: flex;
-}
-
-.right-side div + div {
-  margin-left: $ws-s;
+  display: grid;
+  grid-template-columns: min-content auto min-content;
+  grid-template-rows: min-content auto;
+  gap: $ws-s;
 }
 
 .id {
   text-transform: uppercase;
-  font-weight: 700;
-  margin-right: $ws-s;
+  letter-spacing: 1px;
+  align-self: center;
+}
+
+.type {
+  justify-self: end;
+}
+
+.value {
+  align-self: center;
+  justify-self: end;
 }
 
 .img-wrapper {
@@ -93,30 +90,55 @@ a {
 img {
   object-fit: contain;
   max-height: 100%;
+  max-width: 100%;
 }
 
 h2 {
+  grid-area: 2 / 1 / 3 / 4; // Full bottom row
   font-family: "Lato";
   text-align: left;
-  font-weight: 400;
+  font-weight: 600;
+  font-size: 1.6rem;
 }
 
 @media all and (max-width: $mobile-breakpoint) {
-  h2 {
-    font-size: 1.4rem;
+  .card {
+    padding: $ws-s;
+    position: relative;
   }
 
   .img-wrapper {
-    height: 100px;
-  }
-
-  .card {
-    padding: $ws-s;
+    height: 130px;
+    padding: $ws-s 0 $ws-m;
   }
 
   .text-wrapper {
     margin: -$ws-s;
+    padding: 12px;
     margin-top: 0;
+
+    grid-template-columns: auto min-content;
+    grid-template-rows: min-content auto;
+    grid-gap: $ws-s;
+  }
+
+  .id {
+    font-size: 1.4rem;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 4px 4px rgba(255, 255, 255, 0.9);
+  }
+
+  .type {
+    justify-self: start;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    grid-area: 2 / 1 / 3 /3; // Full bottom row
+    font-weight: 600;
   }
 }
 </style>

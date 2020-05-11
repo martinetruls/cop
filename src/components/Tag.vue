@@ -23,6 +23,10 @@ export default {
   box-shadow: $shadow-std;
   border-radius: 2px;
 
+  @media all and (max-width: $mobile-breakpoint) {
+    font-size: 1rem;
+  }
+
   /* default colors */
   background-color: $dark-15;
   color: $dark;
