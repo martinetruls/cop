@@ -164,6 +164,6 @@ h1 {
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  margin: -$ws-m;
+  grid-gap: $ws-xl;
 }
 </style>

@@ -42,13 +42,13 @@ a {
 
 .card {
   padding: $ws-m;
-  margin: $ws-m;
   box-sizing: border-box;
   background-color: white;
   box-shadow: $shadow-darker;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .text-wrapper {
