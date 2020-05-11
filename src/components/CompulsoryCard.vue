@@ -100,4 +100,23 @@ h2 {
   text-align: left;
   font-weight: 400;
 }
+
+@media all and (max-width: $mobile-breakpoint) {
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  .img-wrapper {
+    height: 100px;
+  }
+
+  .card {
+    padding: $ws-s;
+  }
+
+  .text-wrapper {
+    margin: -$ws-s;
+    margin-top: 0;
+  }
+}
 </style>

@@ -131,7 +131,7 @@ h1 {
   font-size: 3.8rem;
   line-height: 1;
 
-  @media all and (max-width: $mobile-breakpoint) {
+  @media all and (max-width: $desktop-breakpoint) {
     text-align: center;
     width: 100%;
     font-size: 2.6rem;
@@ -148,8 +148,14 @@ h1 {
     padding-top: 0;
   }
 
-  @media all and (max-width: $mobile-breakpoint) {
+  @media all and (max-width: $desktop-breakpoint) {
     margin-left: 0;
+    margin-bottom: $mobile-filter-height;
+  }
+
+  @media all and (max-width: $mobile-breakpoint) {
+    padding: $ws-l $ws-m;
+    padding-top: 0;
   }
 }
 
@@ -163,7 +169,12 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
   grid-gap: $ws-xl;
+
+  @media all and (max-width: $mobile-breakpoint) {
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: $ws-m;
+  }
 }
 </style>

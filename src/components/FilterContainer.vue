@@ -85,8 +85,8 @@ export default {
 
   transition: transform 0.3s ease-in-out;
 
-  @media all and (max-width: $mobile-breakpoint) {
-    transform: translateY(calc(100% - 56px));
+  @media all and (max-width: $desktop-breakpoint) {
+    transform: translateY(calc(100% - #{$mobile-filter-height}));
     height: auto;
     width: 100vw;
   }
@@ -94,7 +94,7 @@ export default {
 
 .filter-content {
   padding: $ws-xl $ws-l;
-  @media all and (max-width: $mobile-breakpoint) {
+  @media all and (max-width: $desktop-breakpoint) {
     padding: $ws-l;
   }
 }
@@ -123,7 +123,7 @@ export default {
     }
   }
 
-  @media all and (max-width: $mobile-breakpoint) {
+  @media all and (max-width: $desktop-breakpoint) {
     display: flex;
   }
 }
@@ -146,7 +146,7 @@ export default {
     box-shadow: $dark-mode-focus;
   }
 
-  @media all and (max-width: $mobile-breakpoint) {
+  @media all and (max-width: $desktop-breakpoint) {
     display: block;
   }
 }
@@ -231,7 +231,7 @@ $underline-gradient: linear-gradient(to right, $purple-20 0%, $ocean-20 100%);
   transition: color 0.15s ease-in-out, background-size 0.15s ease-in-out,
     background-position 0.15s ease-in-out;
 
-  @media all and (max-width: $mobile-breakpoint) {
+  @media all and (max-width: $desktop-breakpoint) {
     display: none;
   }
 
@@ -243,7 +243,7 @@ $underline-gradient: linear-gradient(to right, $purple-20 0%, $ocean-20 100%);
 }
 
 .show {
-  @media all and (max-width: $mobile-breakpoint) {
+  @media all and (max-width: $desktop-breakpoint) {
     .filter-container {
       transform: translateY(0);
     }

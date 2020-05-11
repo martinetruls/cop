@@ -76,6 +76,16 @@ export default {
     height: 100px;
     border-radius: 20px 20px 0 0;
   }
+
+  @media all and (max-width: 600px) {
+    border-radius: 0;
+    top: 0;
+    min-height: 100vh;
+
+    &:before {
+      border-radius: 0;
+    }
+  }
 }
 
 .type-Flexibility:before {
@@ -119,7 +129,7 @@ export default {
   border-radius: 50%;
   padding: $ws-m;
 
-  transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 
   path {
     fill: $darker;
