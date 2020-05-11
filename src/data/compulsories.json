@@ -1618,7 +1618,7 @@
         "armPosition": "Flag grip",
         "legPosition": "Upper leg is fully exptended, lower leg is in passé",
         "bodyPosition": "Upper body and leg are parallel to the floor",
-        "splitAngle": ""
+        "splitAngle": null
       }
     },
     {
@@ -1627,13 +1627,13 @@
       "name": "Forearm grip inverted straddle/pencil",
       "techValue": 0.5,
       "criteria": {
-        "holdPosition": "",
-        "pointsOfContact": "",
-        "grip": "",
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": ""
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": "Torso, inside forearm, outside hand",
+        "grip": null,
+        "armPosition": "Forearm grip",
+        "legPosition": "Both legs are fully extended in either straddle or pencil position",
+        "bodyPosition": "Inverted",
+        "splitAngle": null
       }
     },
     {
@@ -1642,12 +1642,12 @@
       "name": "Hiphold half split",
       "techValue": 0.5,
       "criteria": {
-        "holdPosition": "",
-        "pointsOfContact": "",
-        "grip": "",
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "holdPosition": "Minimum 3 seconds",
+        "pointsOfContact": "Inside waist, hip, inside leg, no foot or ankle contact",
+        "grip": null,
+        "armPosition": "Armns in fixed position of choice with no contact with the pole or the body",
+        "legPosition": "Outside leg is fully extended, inside leg is bent, position is held through pressure of the inside leg against the pole, and is not hooked at the knee",
+        "bodyPosition": "Angled, head downwards towards the floor",
         "splitAngle": ""
       }
     },
@@ -1657,13 +1657,58 @@
       "name": "Superpassé",
       "techValue": 0.5,
       "criteria": {
-        "holdPosition": "",
-        "pointsOfContact": "",
-        "grip": "",
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": ""
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": "Thigh of one leg, inside thigh and calf of other leg",
+        "grip": null,
+        "armPosition": "One arm is extended with the hand holding the opposite leg (which is wrapped around the pole), other arm si in fixed position of choice",
+        "legPosition": "One leg fully extended, other leg is bent around the pole",
+        "bodyPosition": "Horizontal",
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "s39",
+      "type": "Strength",
+      "name": "Elbow grip straddle",
+      "techValue": 0.6,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": "One hand and one elbow",
+        "grip": null,
+        "armPosition": "One arm is extended and holding the pole above the head, other arm is inn elbow grip",
+        "legPosition": "Both legs are fully extended in straddle position",
+        "bodyPosition": "Inverted",
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "s40",
+      "type": "Strength",
+      "name": "Elbow hold passé",
+      "techValue": 0.6,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": "Upper elbow, lower hand, back of neck, lower shoulder (optional)",
+        "grip": "Elbow grip (in upper arm)",
+        "armPosition": "Top arm in elbow grip, bottom arm is bent annd holding the pole",
+        "legPosition": "Upper leg is fully extended and parallel to the floor",
+        "bodyPosition": "Entire body is parallel to the floor",
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "s41",
+      "type": "Strength",
+      "name": "Flag grip pencil",
+      "techValue": 0.6,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": "Both arms, both hands, chest",
+        "grip": null,
+        "armPosition": "Flag grip",
+        "legPosition": "Both legs are fully extended and closed",
+        "bodyPosition": "Body is at 90° angle",
+        "splitAngle": null
       }
     },
     {
@@ -1699,7 +1744,7 @@
     {
       "id": "s85",
       "type": "Strength",
-      "name": "720 degrees air walk",
+      "name": "720° air walk",
       "techValue": 1.0,
       "criteria": {
         "holdPosition": "",
