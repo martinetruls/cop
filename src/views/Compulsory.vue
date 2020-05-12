@@ -18,7 +18,9 @@
         </svg>
       </router-link>
       <div class="modal-header">
-        <img :src="require(`../assets/${compulsory.id}.png`)" />
+        <div class="img-wrapper">
+          <img :src="require(`../assets/${compulsory.id}.png`)" />
+        </div>
 
         <div class="id-and-type">
           <div class="id">{{compulsory.id}}</div>
@@ -183,14 +185,19 @@ export default {
   column-gap: 3.2rem;
 }
 
-img {
+.img-wrapper {
   grid-area: 1 / 1 / 4 / 2;
   border-radius: 10px;
-  width: 18rem;
-  height: 18rem;
-  object-fit: cover;
-  flex-shrink: 0;
+  padding: $ws-s;
   box-shadow: $shadow-darker;
+  background-color: white;
+  text-align: center;
+}
+
+img {
+  object-fit: cover;
+  width: 18rem;
+  height: 16rem;
 }
 
 .id-and-type {
@@ -252,7 +259,7 @@ ul {
 }
 
 h3 {
-  font-weight: 600;
+  font-weight: 700;
   font-size: 1.6rem;
   margin-bottom: 4px;
 }
@@ -272,7 +279,42 @@ h3 {
 
     &:before {
       border-radius: 0;
+      height: 140px;
     }
+  }
+
+  .close-x {
+    top: 21px;
+    right: $ws-m;
+  }
+
+  .modal-header {
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content min-content min-content min-content;
+  }
+
+  .id-and-type {
+    grid-area: 1/1/2/2;
+    padding-bottom: $ws-l;
+  }
+
+  .img-wrapper {
+    grid-area: 2/1/3/2;
+    width: 32rem;
+    max-width: calc(100vw - #{$ws-xxl});
+    margin: auto;
+  }
+
+  h2 {
+    grid-area: 3/1/4/2;
+  }
+
+  .value {
+    grid-area: 4/1/5/2;
+  }
+
+  .spec-list {
+    grid-template-columns: 1fr;
   }
 }
 </style>
