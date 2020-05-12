@@ -17,19 +17,17 @@
           />
         </svg>
       </router-link>
-      <div class="top-row">
+      <div class="modal-header">
         <img :src="require(`../assets/${compulsory.id}.png`)" />
 
-        <div class="modal-header">
-          <div class="id-and-type">
-            <div class="id">{{compulsory.id}}</div>
-            <!-- <div class="type">{{ compulsory.type}}</div> -->
-            <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
-          </div>
-
-          <h2>{{ compulsory.name }}</h2>
-          <div class="value">Technical value: {{ compulsory.techValue.toFixed(1).toString() }}</div>
+        <div class="id-and-type">
+          <div class="id">{{compulsory.id}}</div>
+          <!-- <div class="type">{{ compulsory.type}}</div> -->
+          <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
         </div>
+
+        <h2>{{ compulsory.name }}</h2>
+        <div class="value">Technical value: {{ compulsory.techValue.toFixed(1).toString() }}</div>
       </div>
       <div class="spec-list">
         <div>
@@ -124,16 +122,6 @@ export default {
     height: 100px;
     border-radius: 20px 20px 0 0;
   }
-
-  @media all and (max-width: 600px) {
-    border-radius: 0;
-    top: 0;
-    min-height: 100vh;
-
-    &:before {
-      border-radius: 0;
-    }
-  }
 }
 
 .type-Flexibility:before {
@@ -188,11 +176,15 @@ export default {
   }
 }
 
-.top-row {
-  display: flex;
+.modal-header {
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-template-rows: calc(100px - #{$ws-xl}) min-content 1fr;
+  column-gap: 3.2rem;
 }
 
 img {
+  grid-area: 1 / 1 / 4 / 2;
   border-radius: 10px;
   width: 18rem;
   height: 18rem;
@@ -201,15 +193,10 @@ img {
   box-shadow: $shadow-darker;
 }
 
-.modal-header {
-  padding-left: $ws-l;
-}
-
 .id-and-type {
-  padding-top: $ws-l;
+  grid-area: 1/2/2/3;
   display: flex;
   align-items: center;
-  margin-bottom: $ws-xl;
 }
 
 .id {
@@ -229,14 +216,14 @@ img {
 }
 
 h2 {
-  text-align: left;
+  grid-area: 2/2/3/3;
   font-weight: 700;
   font-size: 2.4rem;
-
-  margin-bottom: $ws-s;
+  margin: $ws-m 0 $ws-s;
 }
 
 .value {
+  grid-area: 3/2/4/3;
   color: $dark-70;
   font-weight: 400;
 }
@@ -275,5 +262,17 @@ h3 {
   position: absolute;
   width: 100%;
   height: 100%;
+}
+
+@media all and (max-width: 600px) {
+  .modal {
+    border-radius: 0;
+    top: 0;
+    min-height: 100vh;
+
+    &:before {
+      border-radius: 0;
+    }
+  }
 }
 </style>
