@@ -10,14 +10,8 @@ html {
   font-size: 62.5%; // 1rem = 10px
 }
 
-h1,
-h2,
-h3 {
-  font-family: "Dosis";
-}
-
 h1 {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 h2 {
@@ -27,7 +21,7 @@ h2 {
 
 body {
   font-size: 1.6rem;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-family: "Muli", Helvetica, Arial, sans-serif;
   color: $text-color;
   background-image: linear-gradient(
     to right bottom,

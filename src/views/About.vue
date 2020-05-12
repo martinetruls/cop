@@ -106,7 +106,6 @@ aside {
 h1,
 h2 {
   text-transform: uppercase;
-  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 300;
   letter-spacing: 1px;
 }

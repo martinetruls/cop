@@ -30,7 +30,6 @@ export default {
 
 h3 {
   color: $dark-mode-10;
-  font-family: "Lato";
   margin-bottom: $ws-s;
   text-transform: uppercase;
   letter-spacing: 1px;

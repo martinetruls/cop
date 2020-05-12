@@ -229,9 +229,8 @@ img {
 }
 
 h2 {
-  font-family: "Lato";
   text-align: left;
-  font-weight: 600;
+  font-weight: 700;
   font-size: 2.4rem;
 
   margin-bottom: $ws-s;
@@ -252,7 +251,6 @@ h2 {
     padding-bottom: $ws-l;
 
     p {
-      font-family: "Work sans";
       font-weight: 300;
       line-height: 2.2rem;
     }
@@ -260,7 +258,6 @@ h2 {
 }
 
 ul {
-  font-family: "Work sans";
   font-weight: 300;
   line-height: 2.2rem;
   list-style-position: inside;
@@ -268,7 +265,6 @@ ul {
 }
 
 h3 {
-  font-family: "Work sans";
   font-weight: 600;
   font-size: 1.6rem;
   margin-bottom: 4px;

@@ -95,7 +95,6 @@ img {
 
 h2 {
   grid-area: 2 / 1 / 3 / 4; // Full bottom row
-  font-family: "Lato";
   text-align: left;
   font-weight: 600;
   font-size: 1.6rem;
