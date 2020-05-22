@@ -55,7 +55,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/vars.scss";
+@import "../../styles/vars.scss";
 
 .box {
   border-radius: 2px;

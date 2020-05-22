@@ -1,6 +1,7 @@
 <template>
-  <!-- <router-link :to="`/compulsories/${compulsory.id}`"> -->
-  <router-link :to="{name: 'Compulsory', params:{ id: compulsory.id, compulsory: compulsory } }">
+  <router-link
+    :to="{name: 'CompulsoryPage', params:{ id: compulsory.id, compulsory: compulsory } }"
+  >
     <div class="card">
       <div class="img-wrapper">
         <img :src="require(`../assets/${compulsory.id}.png`)" />
@@ -18,7 +19,7 @@
 </template>
 
 <script>
-import Tag from "./Tag";
+import Tag from "./_shared/Tag";
 
 export default {
   name: "CompulsoryCard",

@@ -42,8 +42,8 @@
 </template>
 
 <script>
-import CheckboxGroup from "./CheckboxGroup";
-import Button from "./Button";
+import CheckboxGroup from "./_shared/CheckboxGroup";
+import Button from "./_shared/Button";
 
 const levelOptions = ["Amature", "Professional", "Elite"];
 const typeOptions = [

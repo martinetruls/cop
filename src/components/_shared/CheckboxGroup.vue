@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/vars.scss";
+@import "../../styles/vars.scss";
 
 h3 {
   color: $dark-mode-10;
