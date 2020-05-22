@@ -13,10 +13,10 @@ const routes = [
     children: [
       {
         path: "/compulsories/:id",
-        name: "Compulsory",
+        name: "CompulsoryPage",
         component: () =>
           import(
-            /* webpackChunkName: "bundle-compulsory" */ "../views/Compulsory.vue"
+            /* webpackChunkName: "bundle-compulsory" */ "../views/CompulsoryPage.vue"
           ),
         props: (route) => ({
           id: route.params.id,

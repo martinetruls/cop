@@ -24,7 +24,6 @@
 
         <div class="id-and-type">
           <div class="id">{{compulsory.id}}</div>
-          <!-- <div class="type">{{ compulsory.type}}</div> -->
           <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
         </div>
 
@@ -81,7 +80,7 @@
 </template>
 
 <script>
-import Tag from "../components/Tag";
+import Tag from "../components/_shared/Tag";
 export default {
   name: "Compulsory",
   components: { Tag },
@@ -100,6 +99,8 @@ export default {
   position: fixed;
   width: 100vw;
   height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .modal {
@@ -266,7 +267,7 @@ h3 {
 
 .backdrop {
   background-color: rgba(27, 28, 40, 0.8);
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100%;
 }

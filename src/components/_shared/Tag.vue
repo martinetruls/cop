@@ -14,7 +14,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import "../styles/vars.scss";
+@import "../../styles/vars.scss";
 
 .tag {
   padding: $ws-xs $ws-s;
