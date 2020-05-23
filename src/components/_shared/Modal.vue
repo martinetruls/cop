@@ -1,6 +1,7 @@
 <template>
   <div class="modal-wrapper">
-    <div @click="goBack" class="backdrop"></div>
+    <BackDrop @handleClick="goBack" />
+
     <div class="modal" role="dialog">
       <CloseButton @handleClose="goBack" class="modal-close" />
       <slot />
@@ -10,10 +11,11 @@
 
 <script>
 import CloseButton from "./CloseButton";
+import BackDrop from "./Backdrop";
 
 export default {
   name: "Modal",
-  components: { CloseButton },
+  components: { CloseButton, BackDrop },
   methods: {
     goBack() {
       this.$router.back();
@@ -35,6 +37,7 @@ export default {
 }
 
 .modal {
+  z-index: 1;
   background-color: $grey-10;
   border-radius: 20px;
   position: absolute;

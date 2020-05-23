@@ -43,3 +43,9 @@ body {
   position: absolute;
   width: 1px;
 }
+
+.mobile-only {
+  @media all and (min-width: $desktop-breakpoint) {
+    display: none;
+  }
+}

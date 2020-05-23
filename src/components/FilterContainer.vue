@@ -1,5 +1,7 @@
 <template>
   <div :class="`${isOpen ? 'show' : 'hide'}`">
+    <Backdrop v-if="isOpen" @handleClick="closeFilters" class="mobile-only" />
+
     <div class="filter-container">
       <Button
         label="Filter &amp; search"
@@ -11,7 +13,7 @@
       <div class="filter-content">
         <!-- Mobile only -->
         <div class="done-wrapper">
-          <Button label="Done" @handleClick="toggleFilters"></Button>
+          <Button label="Done" @handleClick="closeFilters"></Button>
         </div>
 
         <!-- Search -->
@@ -53,6 +55,7 @@
 <script>
 import CheckboxGroup from "./_shared/CheckboxGroup";
 import Button from "./_shared/Button";
+import Backdrop from "./_shared/Backdrop";
 
 const levelOptions = ["Amature", "Professional", "Elite"];
 const typeOptions = [
@@ -64,7 +67,7 @@ const typeOptions = [
 
 export default {
   name: "FilterContainer",
-  components: { CheckboxGroup, Button },
+  components: { CheckboxGroup, Button, Backdrop },
   data() {
     return {
       levelOptions: levelOptions,
@@ -75,6 +78,9 @@ export default {
   methods: {
     toggleFilters() {
       this.isOpen = !this.isOpen;
+    },
+    closeFilters() {
+      this.isOpen = false;
     }
   }
 };
@@ -82,6 +88,20 @@ export default {
 
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
+
+.backdrop {
+  background-color: rgba(27, 28, 40, 0.8);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  @media all and (min-width: $desktop-breakpoint) {
+    display: none;
+  }
+}
 
 .done-wrapper {
   display: flex;
