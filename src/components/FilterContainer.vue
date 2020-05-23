@@ -2,13 +2,19 @@
   <div :class="`${isOpen ? 'show' : 'hide'}`">
     <div class="filter-container">
       <Button
-        label="Filter & search"
+        label="Filter &amp; search"
         @handleClick="toggleFilters"
         icon="expand_more"
         class="toggle-filters-btn"
       />
 
       <div class="filter-content">
+        <!-- Mobile only -->
+        <div class="done-wrapper">
+          <Button label="Done" @handleClick="toggleFilters"></Button>
+        </div>
+
+        <!-- Search -->
         <div class="search-wrapper">
           <label for="search">
             <i class="material-icons">search</i>
@@ -21,6 +27,7 @@
           />
         </div>
 
+        <!-- Filtering -->
         <div class="filter-bars">
           <CheckboxGroup
             id="filter-types"
@@ -35,6 +42,8 @@
             @handleFilterChange="value => $emit('handleLevelFilter', value)"
           />
         </div>
+
+        <!-- Desktop only -->
         <router-link id="about" to="/about">About this site</router-link>
       </div>
     </div>
@@ -74,6 +83,27 @@ export default {
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
 
+.done-wrapper {
+  display: flex;
+  justify-content: flex-end;
+
+  button {
+    background-color: $dark-mode-90;
+    color: white;
+    border: 1px solid $dark-mode-20;
+
+    &:hover {
+      @media (hover: hover) and (pointer: fine) {
+        background-color: $dark-mode-80;
+      }
+    }
+  }
+
+  @media all and (min-width: $desktop-breakpoint) {
+    display: none;
+  }
+}
+
 .filter-container {
   z-index: 1;
   position: fixed;
@@ -94,8 +124,11 @@ export default {
 
 .filter-content {
   padding: $ws-xl $ws-l;
+
   @media all and (max-width: $desktop-breakpoint) {
     padding: $ws-l;
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
@@ -164,9 +197,8 @@ export default {
     color: $purple-bright;
   }
 
-  @media all and (max-width: 650px) {
-    max-width: none;
-    margin-right: 0;
+  @media all and (max-width: $desktop-breakpoint) {
+    margin-top: $ws-xl;
   }
 }
 
@@ -214,6 +246,8 @@ export default {
 $underline-gradient: linear-gradient(to right, $purple-20 0%, $ocean-20 100%);
 
 #about {
+  display: none;
+
   position: absolute;
   left: $ws-xl;
   bottom: $ws-xl;
@@ -231,8 +265,8 @@ $underline-gradient: linear-gradient(to right, $purple-20 0%, $ocean-20 100%);
   transition: color 0.15s ease-in-out, background-size 0.15s ease-in-out,
     background-position 0.15s ease-in-out;
 
-  @media all and (max-width: $desktop-breakpoint) {
-    display: none;
+  @media all and (min-width: $desktop-breakpoint) and (min-height: 550px) {
+    display: block;
   }
 
   &:hover {
@@ -249,10 +283,7 @@ $underline-gradient: linear-gradient(to right, $purple-20 0%, $ocean-20 100%);
     }
   }
 }
-</style>
 
-<style lang="scss">
-@import "../styles/vars.scss";
 .toggle-filters-btn i {
   margin-left: $ws-s;
   transition: translate 0.2s ease-in-out;

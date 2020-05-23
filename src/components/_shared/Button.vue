@@ -45,6 +45,8 @@ button {
   align-items: center;
   border: transparent;
 
+  transition: background-color 0.2s ease-in-out;
+
   i {
     color: inherit;
   }
