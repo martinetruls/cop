@@ -183,12 +183,17 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [
+          "Inside arm hand",
+          "Thigh of inside leg",
+          "Outside arm",
+          "Side/lower back"
+        ],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "armPosition": "Inside hand grips pole, above inside leg, outside arm is extended and hand is holding the ankle/shin of the outside leg",
+        "legPosition": "Split position with inside leg fully extended, outside leg bent backwards",
+        "bodyPosition": "Back arch",
+        "splitAngle": "Minimum 160°"
       }
     },
     {
@@ -198,12 +203,12 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": ["Both hands", "Innter thighs"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "armPosition": "Grip of choice, arms are fully extended",
+        "legPosition": "Both legs are fully extended",
+        "bodyPosition": "Inverted. Back arched with hips and both legs parallel to the floor",
+        "splitAngle": null
       }
     },
     {
@@ -213,12 +218,16 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [
+          "Underarm of back arm",
+          "Back",
+          "Thigh of inside leg"
+        ],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "armPosition": "No hands have contact with the pole. The same arm holds the ankle/shin of back leg and is fully extended. The opposite arm holds front leg",
+        "legPosition": "Splut position with front leg fully extended, back leg bent",
+        "bodyPosition": "Upright",
+        "splitAngle": "Minimum 160°"
       }
     },
     {
@@ -228,12 +237,16 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [
+          "Ankles (not the arch of the foot)",
+          "Elbows",
+          "Torso (optional)"
+        ],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "armPosition": "Elbow grip",
+        "legPosition": "Both legs fully extended in straddle position",
+        "bodyPosition": "Upper body must be at 90° angle to the pole",
+        "splitAngle": null
       }
     },
     {
@@ -243,12 +256,17 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [
+          "Back",
+          "One leg",
+          "One shoulder (optional)",
+          "Glutes"
+        ],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "armPosition": "Only one hand has contact with the floor, the other is holding the ankle of the front leg. Floor based arm is fully extended",
+        "legPosition": "Both legs are fully extended in a vertical split position",
+        "bodyPosition": "Handstand position (hips above the head and above the shoulders in a straight line)",
+        "splitAngle": "Minimum 160°"
       }
     },
     {
@@ -258,11 +276,15 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [
+          "Ankles (not the arch of the foot)",
+          "Legs",
+          "Hands"
+        ],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Basic or cup grip",
+        "legPosition": "Both legs are fully extended in straddle position",
+        "bodyPosition": "Upper body must be at 90° angle to the pole",
         "splitAngle": "Minimum 180°"
       }
     },
@@ -273,12 +295,12 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": ["Both hands", "One calf/ankle"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "armPosition": "Grip of choice, bottom arm is fully extended",
+        "legPosition": "Both legs are fully extended in split position",
+        "bodyPosition": "Inverted",
+        "splitAngle": "Minimum 160°"
       }
     },
     {
@@ -288,12 +310,12 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": ["Both hands", "Inner thighs"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "armPosition": "Basic or cup grip",
+        "legPosition": "Both legs are fully extended and closed",
+        "bodyPosition": "Back arch with hips and both legs parallel to the floor",
+        "splitAngle": null
       }
     },
     {
@@ -303,12 +325,12 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": ["Underarm and/or hand", "Torso"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "armPosition": "Underarm and/or hand",
+        "legPosition": "Both legs are fully extended and parallel to the pole with feet above the head",
+        "bodyPosition": "Upper body is upright",
+        "splitAngle": null
       }
     },
     {
@@ -318,12 +340,12 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": ["Underarm", "Side of torso"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "armPosition": "Arms are fully extended, inside arm is in underarm grip, hands holding legs at the ankle/shin level",
+        "legPosition": "Both legs are bent annd thighs are parallel to the floor or higher than hips",
+        "bodyPosition": "Upper body is upright, hips facing the floor",
+        "splitAngle": null
       }
     },
     {
