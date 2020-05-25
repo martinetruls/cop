@@ -21,13 +21,21 @@
 import Modal from "../components/_shared/Modal";
 import CriteriaList from "../components/CriteriaList";
 import Tag from "../components/_shared/Tag";
+import Data from "../data/compulsories.json";
+
+// eslint-disable-next-line no-console
+// console.log(Compulsories);
 
 export default {
   name: "Compulsory",
   components: { Modal, CriteriaList, Tag },
   props: {
-    id: String,
-    compulsory: Object
+    id: String
+  },
+  data() {
+    return {
+      compulsory: Data.compulsories.find(comp => comp.id === this.id)
+    };
   }
 };
 </script>

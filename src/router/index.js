@@ -20,7 +20,6 @@ const routes = [
           ),
         props: (route) => ({
           id: route.params.id,
-          compulsory: route.params.compulsory,
         }),
       },
     ],

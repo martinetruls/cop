@@ -1,7 +1,5 @@
 <template>
-  <router-link
-    :to="{name: 'CompulsoryPage', params:{ id: compulsory.id, compulsory: compulsory } }"
-  >
+  <router-link :to="{name: 'CompulsoryPage', params:{ id: compulsory.id } }">
     <div class="card">
       <div class="img-wrapper">
         <img :src="require(`../assets/${compulsory.id}.png`)" />
