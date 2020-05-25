@@ -10,6 +10,10 @@ Vue.filter("capitalize", function(value) {
   return value.charAt(0).toUpperCase() + value.slice(1);
 });
 
+Vue.filter("dashedType", function(value) {
+  return value ? `type-${value.toLowerCase().replace(/\s+/g, "-")}` : "type";
+});
+
 new Vue({
   router,
   render: (h) => h(App),

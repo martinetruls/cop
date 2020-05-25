@@ -1,5 +1,5 @@
 <template>
-  <div :class="`${isOpen ? 'show' : 'hide'}`">
+  <div :class="{ show: isOpen }">
     <Backdrop v-if="isOpen" @handleClick="closeFilters" class="mobile-only" />
 
     <div class="filter-container">

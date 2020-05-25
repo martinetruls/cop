@@ -10,7 +10,7 @@
       @keydown="showFocus"
     />
 
-    <label :class="`${focusHidden ? 'hide-focus' : ''}`" @mousedown="hideFocus" :for="filterValue">
+    <label :class="{ 'hide-focus': focusHidden }" @mousedown="hideFocus" :for="filterValue">
       <div class="box">
         <svg width="169" height="169" viewBox="0 0 169 169">
           <g transform="translate(-587.605 -106.773) rotate(-45)">

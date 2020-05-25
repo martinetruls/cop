@@ -1,22 +1,20 @@
 <template>
-  <div :class="`compulsory-page ${typeClass}`">
-    <Modal>
-      <div class="modal-header">
-        <div class="img-wrapper">
-          <img :src="require(`../assets/${compulsory.id}.png`)" />
-        </div>
-
-        <div class="id-and-type">
-          <div class="id">{{compulsory.id}}</div>
-          <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
-        </div>
-
-        <h2>{{ compulsory.name }}</h2>
-        <div class="value">Technical value: {{ compulsory.techValue.toFixed(1).toString() }}</div>
+  <Modal>
+    <div class="modal-header" :class="compulsory.type | dashedType">
+      <div class="img-wrapper">
+        <img :src="require(`../assets/${compulsory.id}.png`)" />
       </div>
-      <CriteriaList :criteria="compulsory.criteria" />
-    </Modal>
-  </div>
+
+      <div class="id-and-type">
+        <div class="id">{{compulsory.id}}</div>
+        <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
+      </div>
+
+      <h2>{{ compulsory.name }}</h2>
+      <div class="value">Technical value: {{ compulsory.techValue }}</div>
+    </div>
+    <CriteriaList :criteria="compulsory.criteria" />
+  </Modal>
 </template>
 
 <script>
@@ -30,17 +28,19 @@ export default {
   props: {
     id: String,
     compulsory: Object
-  },
-  computed: {
-    typeClass() {
-      return `type-${this.compulsory.type.replace(/\s+/g, "-")}`;
-    }
   }
 };
 </script>
 
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
+
+.modal-header {
+  display: grid;
+  grid-template-columns: min-content auto;
+  grid-template-rows: calc(100px - #{$ws-xl}) min-content 1fr;
+  column-gap: 3.2rem;
+}
 
 .modal-header:before {
   content: "";
@@ -58,7 +58,7 @@ export default {
   }
 }
 
-.type-Flexibility .modal-header:before {
+.type-flexibility:before {
   background-image: linear-gradient(
     to right bottom,
     rgba(0, 137, 151, 0.2) 0%,
@@ -66,7 +66,7 @@ export default {
   );
 }
 
-.type-Strength .modal-header:before {
+.type-strength:before {
   background-image: linear-gradient(
     to right bottom,
     $orange-o2 0%,
@@ -74,7 +74,7 @@ export default {
   );
 }
 
-.type-Spins-on-static .modal-header:before {
+.type-spins-on-static:before {
   background-image: linear-gradient(
     to right bottom,
     rgba(233, 30, 100, 0.2) 0%,
@@ -82,19 +82,12 @@ export default {
   );
 }
 
-.type-Spins-on-spinning .modal-header:before {
+.type-spins-on-spinning:before {
   background-image: linear-gradient(
     to right bottom,
     $purple-o2 0%,
     $purple-o6 100%
   );
-}
-
-.modal-header {
-  display: grid;
-  grid-template-columns: min-content auto;
-  grid-template-rows: calc(100px - #{$ws-xl}) min-content 1fr;
-  column-gap: 3.2rem;
 }
 
 .img-wrapper {

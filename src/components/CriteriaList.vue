@@ -7,7 +7,7 @@
       </section>
 
       <section>
-        <h3>{{`Arm${criteria.grip ? '' : '/grip'} position:`}}</h3>
+        <h3>{{`Arm${!criteria.grip && '/grip'} position:`}}</h3>
         <p>{{criteria.armPosition}}</p>
       </section>
 
