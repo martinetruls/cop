@@ -10,9 +10,9 @@
         <div class="id">{{ compulsory.id }}</div>
 
         <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
-        <Tag class="value" :label="compulsory.techValue.toFixed(1).toString()" />
+        <Tag class="value" :label="compulsory.techValue" />
 
-        <h2>{{ compulsory.name }}</h2>
+        <h2>{{ compulsory.name | capitalize }}</h2>
       </div>
     </div>
   </router-link>
