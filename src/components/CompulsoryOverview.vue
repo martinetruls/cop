@@ -139,7 +139,7 @@ h1 {
 }
 
 .overview {
-  padding: $ws-xxl;
+  padding: $ws-xxxl;
   padding-top: 0;
   margin-left: 270px;
 

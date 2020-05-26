@@ -38,7 +38,7 @@ export default {
 
 .modal {
   z-index: 1;
-  background-color: $grey-10;
+  background-color: white;
   border-radius: 20px;
   position: absolute;
   top: 50px;
@@ -46,9 +46,9 @@ export default {
   margin-bottom: 50px;
   transform: translateX(-50%);
   width: 100vw;
-  max-width: 600px;
+  max-width: 620px;
   min-height: 500px;
-  padding: $ws-xl;
+  padding: $ws-xxl;
 
   @media all and (max-width: 600px) {
     border-radius: 0;
@@ -59,8 +59,8 @@ export default {
 
 .modal-close {
   position: absolute;
-  top: $ws-s;
-  right: $ws-s;
+  top: $ws-m;
+  right: $ws-m;
 
   @media all and (max-width: 600px) {
     top: 21px;

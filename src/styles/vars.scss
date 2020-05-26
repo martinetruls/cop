@@ -61,6 +61,10 @@ $shadow-color-std: rgba(0, 0, 0, 0.07);
 $shadow-std: 0 1px 2px $shadow-color-std;
 $shadow-color-darker: rgba(0, 0, 0, 0.2);
 $shadow-darker: 0 1px 2px $shadow-color-darker;
+$shadow-color-darkest: rgba(0, 0, 0, 0.3);
+$text-shadow: 0 0 10px $shadow-color-darkest;
+
+$image-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
 
 $light-border: $dark-15;
 $text-color: $dark;
@@ -71,7 +75,8 @@ $ws-s: 0.8rem;
 $ws-m: 1.6rem;
 $ws-l: 2.4rem;
 $ws-xl: 3.2rem;
-$ws-xxl: 6.4rem;
+$ws-xxl: 4.8rem;
+$ws-xxxl: 6.4rem;
 
 // breakpoints
 $desktop-breakpoint: 850px;

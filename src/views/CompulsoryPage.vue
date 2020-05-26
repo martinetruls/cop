@@ -1,17 +1,20 @@
 <template>
   <Modal>
-    <div class="modal-header" :class="compulsory.type | dashedType">
+    <div class="decorations" :class="compulsory.type | dashedType" />
+    <div class="modal-header">
       <div class="img-wrapper">
         <img :src="require(`../assets/compulsory-illustrations/${compulsory.id}.png`)" />
       </div>
 
-      <div class="id-and-type">
+      <div class="id-and-name">
         <div class="id">{{compulsory.id}}</div>
-        <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
+        <h2>{{ compulsory.name }}</h2>
       </div>
 
-      <h2>{{ compulsory.name }}</h2>
-      <div class="value">Technical value: {{ compulsory.techValue }}</div>
+      <div class="type-and-value">
+        <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
+        <div class="value">Technical value: {{ compulsory.techValue }}</div>
+      </div>
     </div>
     <CriteriaList :criteria="compulsory.criteria" />
   </Modal>
@@ -43,19 +46,17 @@ export default {
 .modal-header {
   display: grid;
   grid-template-columns: min-content auto;
-  grid-template-rows: calc(100px - #{$ws-xl}) min-content 1fr;
-  column-gap: 3.2rem;
+  grid-template-rows: calc(200px - 30px - #{$ws-xxl}) min-content 1fr;
+  column-gap: $ws-m;
 }
 
-.modal-header:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  width: 100%;
-  height: 100px;
+.decorations {
+  margin: -$ws-xxl;
+  margin-bottom: calc(-200px + 48px);
+  height: 200px;
   border-radius: 20px 20px 0 0;
+  position: relative;
+  z-index: -1;
 
   @media all and (max-width: 600px) {
     border-radius: 0;
@@ -63,7 +64,28 @@ export default {
   }
 }
 
-.type-flexibility:before {
+.decorations:after {
+  content: "";
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+  background-image: url("../assets/visual-elements/white-corner.svg");
+  width: 30px;
+  height: 30px;
+}
+
+.decorations:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  border-radius: 30px 0 0 0;
+  background-color: white;
+}
+
+.decorations.type-flexibility {
   background-image: linear-gradient(
     to right bottom,
     $turquoise-60 0%,
@@ -71,7 +93,7 @@ export default {
   );
 }
 
-.type-strength:before {
+.decorations.type-strength {
   background-image: linear-gradient(
     to right bottom,
     $orange-60 0%,
@@ -79,11 +101,11 @@ export default {
   );
 }
 
-.type-spins-on-static:before {
+.decorations.type-spins-on-static {
   background-image: linear-gradient(to right bottom, $pink-60 0%, $yellow 140%);
 }
 
-.type-spins-on-spinning:before {
+.decorations.type-spins-on-spinning {
   background-image: linear-gradient(
     to right bottom,
     $purple-60 0%,
@@ -92,33 +114,43 @@ export default {
 }
 
 .img-wrapper {
-  grid-area: 1 / 1 / 4 / 2;
+  grid-area: 1 / 1 / 3 / 2;
   border-radius: 10px;
-  padding: $ws-s;
-  box-shadow: $shadow-darker;
+  padding: $ws-m;
+  box-shadow: $image-shadow;
   background-color: white;
   text-align: center;
 }
 
 img {
-  object-fit: cover;
-  width: 18rem;
+  object-fit: contain;
+  width: 16rem;
   height: 16rem;
 }
 
-.id-and-type {
+.id-and-name {
   grid-area: 1/2/2/3;
+  align-self: end;
+}
+
+.type-and-value {
+  grid-area: 2/2/3/3;
   display: flex;
   align-items: center;
+
+  div + div {
+    margin-left: $ws-m;
+  }
 }
 
 .id {
   text-transform: uppercase;
   letter-spacing: 1px;
-  font-weight: 400;
-  font-size: 2.2rem;
+  font-weight: 500;
+  font-size: 1.8rem;
   margin-right: $ws-m;
-  color: $darker;
+  color: white;
+  text-shadow: $text-shadow;
 }
 
 .type {
@@ -129,14 +161,15 @@ img {
 }
 
 h2 {
-  grid-area: 2/2/3/3;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 2.4rem;
-  margin: $ws-m 0 $ws-s;
+  margin: $ws-s 0 $ws-m;
+  color: white;
+  letter-spacing: 0.5px;
+  text-shadow: $text-shadow;
 }
 
 .value {
-  grid-area: 3/2/4/3;
   color: $dark-70;
   font-weight: 400;
 }
