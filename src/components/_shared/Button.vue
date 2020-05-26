@@ -1,11 +1,5 @@
 <template>
-  <button
-    type="button"
-    @click="$emit('handleClick')"
-    @mousedown="hideFocus"
-    @keydown="showFocus"
-    :class="{ 'hide-focus': focusHidden }"
-  >
+  <button type="button" @click="$emit('handleClick')">
     <i v-if="icon" class="material-icons">{{ icon }}</i>
     <span v-if="label">{{ label }}</span>
   </button>
@@ -17,19 +11,6 @@ export default {
   props: {
     label: String,
     icon: String
-  },
-  data() {
-    return {
-      focusHidden: false
-    };
-  },
-  methods: {
-    hideFocus() {
-      this.focusHidden = true;
-    },
-    showFocus() {
-      this.focusHidden = false;
-    }
   }
 };
 </script>
@@ -51,12 +32,13 @@ button {
     color: inherit;
   }
 
-  &.hideFocus {
-    box-shadow: none;
-  }
-
   * + * {
     margin-left: $ws-s;
   }
+}
+
+// Hiding focus style for mouse users
+.hide-focus button {
+  box-shadow: none;
 }
 </style>

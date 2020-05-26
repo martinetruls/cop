@@ -7,10 +7,9 @@
       :value="filterValue"
       :checked="isChecked"
       @input="clickedFilter($event.target)"
-      @keydown="showFocus"
     />
 
-    <label :class="{ 'hide-focus': focusHidden }" @mousedown="hideFocus" :for="filterValue">
+    <label :for="filterValue">
       <div class="box">
         <svg width="169" height="169" viewBox="0 0 169 169">
           <g transform="translate(-587.605 -106.773) rotate(-45)">
@@ -35,20 +34,13 @@ export default {
   },
   data() {
     return {
-      isChecked: false,
-      focusHidden: false
+      isChecked: false
     };
   },
   methods: {
     clickedFilter(target) {
       this.isChecked = target.checked;
       this.$emit("handleFilterChange", target.value);
-    },
-    hideFocus() {
-      this.focusHidden = true;
-    },
-    showFocus() {
-      this.focusHidden = false;
     }
   }
 };
@@ -111,7 +103,12 @@ input:checked + label {
   }
 }
 
-input:focus + label:not(.hide-focus) {
+input:focus + label {
   box-shadow: $dark-mode-focus;
+}
+
+// Hiding focus style for mouse users
+.hide-focus input:focus + label {
+  box-shadow: none;
 }
 </style>

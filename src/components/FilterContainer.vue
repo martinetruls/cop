@@ -169,16 +169,18 @@ export default {
 
   &:focus {
     outline: none;
-
-    &:not(.hide-focus) {
-      border-color: $dark-mode-focus-color;
-      box-shadow: $dark-mode-focus;
-    }
+    border-color: $dark-mode-focus-color;
+    box-shadow: $dark-mode-focus;
   }
 
   @media all and (max-width: $desktop-breakpoint) {
     display: flex;
   }
+}
+
+.hide-focus .toggle-filters-btn {
+  border-color: transparent;
+  box-shadow: none;
 }
 
 .filters-btn {
