@@ -2,7 +2,7 @@
   <Modal>
     <div class="modal-header" :class="compulsory.type | dashedType">
       <div class="img-wrapper">
-        <img :src="require(`../assets/${compulsory.id}.png`)" />
+        <img :src="require(`../assets/compulsory-illustrations/${compulsory.id}.png`)" />
       </div>
 
       <div class="id-and-type">
@@ -22,9 +22,6 @@ import Modal from "../components/_shared/Modal";
 import CriteriaList from "../components/CriteriaList";
 import Tag from "../components/_shared/Tag";
 import Data from "../data/compulsories.json";
-
-// eslint-disable-next-line no-console
-// console.log(Compulsories);
 
 export default {
   name: "Compulsory",

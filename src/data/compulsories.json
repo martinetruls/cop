@@ -355,11 +355,16 @@
       "techValue": 0.5,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [
+          "Inside arm hand",
+          "Thigh of inside leg",
+          "Outside arm",
+          "Side/lower back"
+        ],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Inside hand grips pole above the inside leg. Outside arm is extended and holding the ankle/shin of outside leg",
+        "legPosition": "Inside leg is fully extended. Outside leg is bent backwards",
+        "bodyPosition": "Back arch",
         "splitAngle": "Minimum 180°"
       }
     },
