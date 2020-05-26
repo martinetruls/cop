@@ -66,32 +66,28 @@ export default {
 .type-flexibility:before {
   background-image: linear-gradient(
     to right bottom,
-    rgba(0, 137, 151, 0.2) 0%,
-    rgba(0, 137, 151, 0.6) 100%
+    $turquoise-60 0%,
+    $purple-20 120%
   );
 }
 
 .type-strength:before {
   background-image: linear-gradient(
     to right bottom,
-    $orange-o2 0%,
-    $orange-o6 100%
+    $orange-60 0%,
+    $pink-40 120%
   );
 }
 
 .type-spins-on-static:before {
-  background-image: linear-gradient(
-    to right bottom,
-    rgba(233, 30, 100, 0.2) 0%,
-    rgba(0233, 30, 100, 0.6) 100%
-  );
+  background-image: linear-gradient(to right bottom, $pink-60 0%, $yellow 140%);
 }
 
 .type-spins-on-spinning:before {
   background-image: linear-gradient(
     to right bottom,
-    $purple-o2 0%,
-    $purple-o6 100%
+    $purple-60 0%,
+    $turquoise-light 120%
   );
 }
 
