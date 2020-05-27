@@ -16,6 +16,12 @@ import BackDrop from "./Backdrop";
 export default {
   name: "Modal",
   components: { CloseButton, BackDrop },
+  created() {
+    document.body.classList.add("no-scroll");
+  },
+  destroyed() {
+    document.body.classList.remove("no-scroll");
+  },
   methods: {
     goBack() {
       this.$router.back();
