@@ -77,10 +77,15 @@ export default {
   },
   methods: {
     toggleFilters() {
-      this.isOpen = !this.isOpen;
+      this.isOpen ? this.closeFilters() : this.openFilters();
+    },
+    openFilters() {
+      this.isOpen = true;
+      document.body.classList.add("no-scroll-mobile");
     },
     closeFilters() {
       this.isOpen = false;
+      document.body.classList.remove("no-scroll-mobile");
     }
   }
 };

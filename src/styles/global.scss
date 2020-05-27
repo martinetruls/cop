@@ -53,3 +53,9 @@ body {
 .no-scroll {
   overflow-y: hidden;
 }
+
+@media all and (max-width: $desktop-breakpoint) {
+  .no-scroll-mobile {
+    overflow-y: hidden;
+  }
+}
