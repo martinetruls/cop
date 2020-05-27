@@ -14,6 +14,10 @@ Vue.filter("dashedType", function(value) {
   return value ? `type-${value.toLowerCase().replace(/\s+/g, "-")}` : "type";
 });
 
+Vue.filter("techValueFormat", function(value) {
+  return value.toFixed(1).toString();
+});
+
 new Vue({
   router,
   render: (h) => h(App),

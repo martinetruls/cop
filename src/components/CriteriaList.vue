@@ -71,7 +71,7 @@ export default {
     }
   }
 
-  @media all and (max-width: 600px) {
+  @media all and (max-width: 640px) {
     grid-template-columns: 1fr;
     grid-gap: 0;
   }

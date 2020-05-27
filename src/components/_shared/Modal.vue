@@ -50,10 +50,13 @@ export default {
   min-height: 500px;
   padding: $ws-xxl;
 
-  @media all and (max-width: 600px) {
+  @media all and (max-width: 640px) {
+    max-width: 100%;
     border-radius: 0;
     top: 0;
     min-height: 100vh;
+    margin-bottom: 0;
+    padding: $ws-xl;
   }
 }
 
@@ -62,9 +65,9 @@ export default {
   top: $ws-m;
   right: $ws-m;
 
-  @media all and (max-width: 600px) {
-    top: 21px;
-    right: $ws-m;
+  @media all and (max-width: 640px) {
+    top: 24px;
+    right: $ws-l;
   }
 }
 

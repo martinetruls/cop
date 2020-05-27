@@ -13,7 +13,7 @@
 
       <div class="type-and-value">
         <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
-        <div class="value">Technical value: {{ compulsory.techValue }}</div>
+        <div class="value">Technical value: {{ compulsory.techValue | techValueFormat }}</div>
       </div>
     </div>
     <CriteriaList :criteria="compulsory.criteria" />
@@ -52,7 +52,7 @@ export default {
 
 .decorations {
   margin: -$ws-xxl;
-  margin-bottom: calc(-200px + 48px);
+  margin-bottom: calc(-200px + #{$ws-xxl});
   height: 200px;
   border-radius: 20px 20px 0 0;
   position: relative;
@@ -86,28 +86,20 @@ export default {
 }
 
 .decorations.type-flexibility {
-  background-image: linear-gradient(
-    to right bottom,
-    $turquoise-60 0%,
-    $purple-20 120%
-  );
+  background-image: linear-gradient(145deg, $turquoise-60 0%, $purple-20 120%);
 }
 
 .decorations.type-strength {
-  background-image: linear-gradient(
-    to right bottom,
-    $orange-60 0%,
-    $pink-40 120%
-  );
+  background-image: linear-gradient(145deg, $orange-60 0%, $pink-40 120%);
 }
 
 .decorations.type-spins-on-static {
-  background-image: linear-gradient(to right bottom, $pink-60 0%, $yellow 140%);
+  background-image: linear-gradient(145deg, $pink-60 0%, $yellow 140%);
 }
 
 .decorations.type-spins-on-spinning {
   background-image: linear-gradient(
-    to right bottom,
+    145deg,
     $purple-60 0%,
     $turquoise-light 120%
   );
@@ -116,7 +108,7 @@ export default {
 .img-wrapper {
   grid-area: 1 / 1 / 3 / 2;
   border-radius: 10px;
-  padding: $ws-m;
+  padding: $ws-s;
   box-shadow: $image-shadow;
   background-color: white;
   text-align: center;
@@ -124,8 +116,8 @@ export default {
 
 img {
   object-fit: contain;
-  width: 16rem;
-  height: 16rem;
+  width: 15.5rem;
+  height: 15.5rem;
 }
 
 .id-and-name {
@@ -155,8 +147,8 @@ img {
 
 .type {
   padding: 0 1rem;
-  font-size: 1.4rem;
-  line-height: 2.8rem;
+  font-size: 1.2rem;
+  line-height: 2.6rem;
   border-radius: 3px;
 }
 
@@ -172,32 +164,53 @@ h2 {
 .value {
   color: $dark-70;
   font-weight: 400;
+  font-size: 1.6rem;
 }
 
-@media all and (max-width: 600px) {
-  .modal-header {
-    grid-template-columns: 1fr;
-    grid-template-rows: min-content min-content min-content min-content;
+@media all and (max-width: 640px) {
+  .decorations {
+    height: 240px;
+    margin: -$ws-xl;
+    margin-bottom: calc(-220px + #{$ws-xxl});
+    border-radius: 0;
   }
 
-  .id-and-type {
-    grid-area: 1/1/2/2;
-    padding-bottom: $ws-l;
+  .modal-header {
+    display: block;
+  }
+
+  .id {
+    position: absolute;
+    top: $ws-xl;
+    left: $ws-xl;
+    color: $darker;
+    text-shadow: none;
+    font-weight: 600;
+    font-size: 2.2rem;
   }
 
   .img-wrapper {
-    grid-area: 2/1/3/2;
-    width: 32rem;
-    max-width: calc(100vw - #{$ws-xxl});
     margin: auto;
+    width: min-content;
   }
 
   h2 {
-    grid-area: 3/1/4/2;
+    color: $dark;
+    text-shadow: none;
+    text-align: center;
+    margin: $ws-l $ws-s $ws-m;
   }
 
-  .value {
-    grid-area: 4/1/5/2;
+  .type-and-value {
+    flex-direction: column-reverse;
+
+    div + div {
+      margin-left: 0;
+    }
+  }
+
+  .type {
+    margin-top: $ws-m;
   }
 }
 </style>

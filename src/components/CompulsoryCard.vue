@@ -8,7 +8,7 @@
         <div class="id">{{ compulsory.id }}</div>
 
         <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
-        <Tag class="value" :label="compulsory.techValue" />
+        <Tag class="value" :label="compulsory.techValue | techValueFormat" />
 
         <h2>{{ compulsory.name | capitalize }}</h2>
       </div>
