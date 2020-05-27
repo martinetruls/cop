@@ -25,6 +25,7 @@ export default {
 
   @media all and (max-width: $mobile-breakpoint) {
     font-size: 1rem;
+    padding: $ws-xs 6px;
   }
 
   /* default colors */
