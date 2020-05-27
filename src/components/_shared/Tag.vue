@@ -17,7 +17,7 @@ export default {
 @import "../../styles/vars.scss";
 
 *[class*="type"] {
-  padding: $ws-xs $ws-s;
+  padding: $ws-xs 6px;
   font-weight: 600;
   font-size: 1.2rem;
   box-shadow: $shadow-std;
@@ -25,6 +25,7 @@ export default {
 
   @media all and (max-width: $mobile-breakpoint) {
     font-size: 1rem;
+    padding: $ws-xs 6px;
   }
 
   /* default colors */
