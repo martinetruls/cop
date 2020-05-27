@@ -46,7 +46,6 @@ a {
   border-radius: $card-border-radius;
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 
 .text-wrapper {

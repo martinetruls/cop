@@ -170,6 +170,7 @@ h1 {
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
+  grid-template-rows: auto;
   grid-gap: $ws-xl;
 
   @media all and (max-width: $mobile-breakpoint) {
