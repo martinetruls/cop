@@ -59,22 +59,32 @@ export default {
   computed: {
     filteredList() {
       let filteredList = Data.compulsories;
+
+      // filter by type
       if (this.selectedTypes.length > 0) {
         filteredList = this.compulsories.filter(trick =>
           this.selectedTypes.includes(trick.type.replace(/\s+/g, "-"))
         );
       }
 
+      // Filter by level
       if (this.selectedLevels.length > 0) {
         filteredList = filteredList.filter(trick => {
           return verifyTrickLevel(trick.techValue, this.selectedLevels);
         });
       }
 
+      // filter by search word
       if (this.searchWord.length > 0) {
-        filteredList = filteredList.filter(trick =>
-          trick.name.toLowerCase().includes(this.searchWord.toLowerCase())
-        );
+        filteredList = filteredList.filter(trick => {
+          // check for name match
+          const matchesName = trick.name
+            .toLowerCase()
+            .includes(this.searchWord);
+          // check for id match
+          const matchesId = trick.id.toLowerCase().includes(this.searchWord);
+          return matchesName | matchesId;
+        });
       }
       return filteredList;
     }
@@ -85,33 +95,38 @@ export default {
   methods: {
     async getCompulsories() {
       return new Promise(resolve => {
+        // Fake fetching
         setTimeout(() => resolve(Data.compulsories), 0);
       });
     },
     async loadCompulsories() {
-      // values before load
+      // Values before load
       this.compulsories = [];
       this.isLoading = true;
-      // values after load
+      // Values after load
       this.compulsories = await this.getCompulsories();
       this.isLoading = false;
     },
     filterByType(type) {
       if (this.selectedTypes.includes(type)) {
+        // Removeing type from filter
         this.selectedTypes = this.selectedTypes.filter(x => x !== type);
       } else {
+        // Adding type to filter
         this.selectedTypes.push(type);
       }
     },
     filterByLevel(level) {
       if (this.selectedLevels.includes(level)) {
+        // Removing level from filter
         this.selectedLevels = this.selectedLevels.filter(x => x !== level);
       } else {
+        // Adding level to filter
         this.selectedLevels.push(level);
       }
     },
     filterbySearch(word) {
-      this.searchWord = word;
+      this.searchWord = word.toLowerCase();
     }
   }
 };
