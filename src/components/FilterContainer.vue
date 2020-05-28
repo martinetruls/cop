@@ -135,7 +135,7 @@ export default {
   bottom: 0;
   left: 0;
   background-color: $dark-mode-background;
-  width: 270px;
+  width: $filter-desktop-width;
   height: 100vh;
 
   transition: transform 0.3s ease-in-out;
