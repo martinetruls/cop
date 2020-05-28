@@ -70,10 +70,15 @@
   width: 90vw;
   max-width: 1000px;
   margin: auto;
-  padding: 64px 0;
+  padding: $ws-xxxl;
 
   display: flex;
   justify-content: space-between;
+
+  @media all and (max-width: 900px) {
+    flex-direction: column;
+    padding: $ws-m 0;
+  }
 }
 
 main {
@@ -84,6 +89,10 @@ main {
   color: $grey-15;
   font-weight: 300;
   font-size: 1.8rem;
+
+  @media all and (max-width: 900px) {
+    flex-direction: column;
+  }
 }
 
 aside {
@@ -100,6 +109,10 @@ aside {
   a {
     color: $purple-bright-darker;
     font-weight: 600;
+  }
+
+  @media all and (max-width: 900px) {
+    margin-top: $ws-l;
   }
 }
 
@@ -152,6 +165,17 @@ p {
 
   &:hover {
     background-color: $dark-mode-90;
+  }
+
+  @media all and (max-width: 900px) {
+    margin-left: 0;
+    padding: 0;
+    padding-right: 0.8rem;
+    padding-bottom: $ws-m;
+
+    i {
+      margin-left: -4px;
+    }
   }
 }
 </style>
