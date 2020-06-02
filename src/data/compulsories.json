@@ -12,6 +12,7 @@
         "armPosition": "Arm in fixed position of choice, no hands have contact to the pole",
         "legPosition": "Inside leg is wrapped, outside leg is bent backwards",
         "bodyPosition": "Inverted",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -27,6 +28,7 @@
         "armPosition": "Basic or cup grip",
         "legPosition": "Both legs are fully extended in straddle position with lower foot floor based and the arch of the upper foot is in contact with the pole",
         "bodyPosition": "Torso is extended away from the pole",
+        "spinDirection": null,
         "splitAngle": "Minimum 160°"
       }
     },
@@ -42,6 +44,7 @@
         "armPosition": "Inside arm holds outside foot, outside arm is in fixed position of choice with no contact with the pole",
         "legPosition": "Inside leg is wrapped, outside leg is betn backwards",
         "bodyPosition": "Upright",
+        "spinDirection": null,
         "splitAngle": "Minimum 160°"
       }
     },
@@ -57,6 +60,7 @@
         "armPosition": "Arms in fixed position of choice, no hands have contact to the pole",
         "legPosition": "Inside leg is wrapped, outside leg is bent backwards",
         "bodyPosition": "Inverted",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -76,6 +80,7 @@
         "armPosition": "Basic or cup grip",
         "legPosition": "Both legs are fully extended in straddle position with lower foot floor based. The arch of the upper foot is in contact with the pole",
         "bodyPosition": "Torso is extended away form the pole",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -95,6 +100,7 @@
         "armPosition": "Inside arm grips the pole above the inside leg. Outside arm is extended in a fixed position of choice",
         "legPosition": "Frontal split position with both legs fully extended",
         "bodyPosition": "Back arch, facing away from the pole",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -114,6 +120,7 @@
         "armPosition": "Inside arm has contact with the pole. No hands have contact with the pole",
         "legPosition": "Both legs are fully extended in straddle position",
         "bodyPosition": "Horizontal, facing upwards",
+        "spinDirection": null,
         "splitAngle": "Minimum 160°"
       }
     },
@@ -133,6 +140,7 @@
         "armPosition": "Basic or cup grip",
         "legPosition": "Both legs are fully extended in straddle position",
         "bodyPosition": "Upper body must be at 90° angle to the pole",
+        "spinDirection": null,
         "splitAngle": "Minimum 160°"
       }
     },
@@ -154,6 +162,7 @@
         "armPosition": "Basic grip",
         "legPosition": "Both legs are fully extended in split position",
         "bodyPosition": "Upright",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -173,6 +182,7 @@
         "armPosition": "Inside arm grips the pole, above the inside leg. Outside arm is extended in a fixed position of choice",
         "legPosition": "Frontal split position with both legs fully extended",
         "bodyPosition": "Back arch",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -193,6 +203,7 @@
         "armPosition": "Inside hand grips pole, above inside leg, outside arm is extended and hand is holding the ankle/shin of the outside leg",
         "legPosition": "Split position with inside leg fully extended, outside leg bent backwards",
         "bodyPosition": "Back arch",
+        "spinDirection": null,
         "splitAngle": "Minimum 160°"
       }
     },
@@ -208,6 +219,7 @@
         "armPosition": "Grip of choice, arms are fully extended",
         "legPosition": "Both legs are fully extended",
         "bodyPosition": "Inverted. Back arched with hips and both legs parallel to the floor",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -227,6 +239,7 @@
         "armPosition": "No hands have contact with the pole. The same arm holds the ankle/shin of back leg and is fully extended. The opposite arm holds front leg",
         "legPosition": "Splut position with front leg fully extended, back leg bent",
         "bodyPosition": "Upright",
+        "spinDirection": null,
         "splitAngle": "Minimum 160°"
       }
     },
@@ -246,6 +259,7 @@
         "armPosition": "Elbow grip",
         "legPosition": "Both legs fully extended in straddle position",
         "bodyPosition": "Upper body must be at 90° angle to the pole",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -266,6 +280,7 @@
         "armPosition": "Only one hand has contact with the floor, the other is holding the ankle of the front leg. Floor based arm is fully extended",
         "legPosition": "Both legs are fully extended in a vertical split position",
         "bodyPosition": "Handstand position (hips above the head and above the shoulders in a straight line)",
+        "spinDirection": null,
         "splitAngle": "Minimum 160°"
       }
     },
@@ -285,6 +300,7 @@
         "armPosition": "Basic or cup grip",
         "legPosition": "Both legs are fully extended in straddle position",
         "bodyPosition": "Upper body must be at 90° angle to the pole",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -300,6 +316,7 @@
         "armPosition": "Grip of choice, bottom arm is fully extended",
         "legPosition": "Both legs are fully extended in split position",
         "bodyPosition": "Inverted",
+        "spinDirection": null,
         "splitAngle": "Minimum 160°"
       }
     },
@@ -315,6 +332,7 @@
         "armPosition": "Basic or cup grip",
         "legPosition": "Both legs are fully extended and closed",
         "bodyPosition": "Back arch with hips and both legs parallel to the floor",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -330,6 +348,7 @@
         "armPosition": "Underarm and/or hand",
         "legPosition": "Both legs are fully extended and parallel to the pole with feet above the head",
         "bodyPosition": "Upper body is upright",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -345,6 +364,7 @@
         "armPosition": "Arms are fully extended, inside arm is in underarm grip, hands holding legs at the ankle/shin level",
         "legPosition": "Both legs are bent annd thighs are parallel to the floor or higher than hips",
         "bodyPosition": "Upper body is upright, hips facing the floor",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -365,6 +385,7 @@
         "armPosition": "Inside hand grips pole above the inside leg. Outside arm is extended and holding the ankle/shin of outside leg",
         "legPosition": "Inside leg is fully extended. Outside leg is bent backwards",
         "bodyPosition": "Back arch",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -375,11 +396,12 @@
       "techValue": 0.5,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -390,11 +412,12 @@
       "techValue": 0.5,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -405,11 +428,12 @@
       "techValue": 0.5,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -420,11 +444,12 @@
       "techValue": 0.5,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -435,11 +460,12 @@
       "techValue": 0.5,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -450,11 +476,12 @@
       "techValue": 0.5,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -465,11 +492,12 @@
       "techValue": 0.5,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -480,11 +508,12 @@
       "techValue": 0.5,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -495,11 +524,12 @@
       "techValue": 0.5,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -510,11 +540,12 @@
       "techValue": 0.5,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -525,11 +556,12 @@
       "techValue": 0.6,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -540,11 +572,12 @@
       "techValue": 0.6,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -555,11 +588,12 @@
       "techValue": 0.6,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -570,11 +604,12 @@
       "techValue": 0.6,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -585,11 +620,12 @@
       "techValue": 0.6,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -600,11 +636,12 @@
       "techValue": 0.6,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -615,11 +652,12 @@
       "techValue": 0.6,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -630,11 +668,12 @@
       "techValue": 0.6,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -645,11 +684,12 @@
       "techValue": 0.6,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -660,11 +700,12 @@
       "techValue": 0.6,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -675,11 +716,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -690,11 +732,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -705,11 +748,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -720,11 +764,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -735,11 +780,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -750,11 +796,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -765,11 +812,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -780,11 +828,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -795,11 +844,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -810,11 +860,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -825,11 +876,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -840,11 +892,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -855,11 +908,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -870,11 +924,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -885,11 +940,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -900,11 +956,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -915,11 +972,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -930,11 +988,12 @@
       "techValue": 0.7,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -945,11 +1004,12 @@
       "techValue": 0.8,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -960,11 +1020,12 @@
       "techValue": 0.8,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -975,11 +1036,12 @@
       "techValue": 0.8,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -990,11 +1052,12 @@
       "techValue": 0.8,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1005,11 +1068,12 @@
       "techValue": 0.8,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1020,11 +1084,12 @@
       "techValue": 0.8,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1035,11 +1100,12 @@
       "techValue": 0.8,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1050,11 +1116,12 @@
       "techValue": 0.8,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1065,11 +1132,12 @@
       "techValue": 0.8,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1080,11 +1148,12 @@
       "techValue": 0.8,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1095,11 +1164,12 @@
       "techValue": 0.8,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1110,11 +1180,12 @@
       "techValue": 1.0,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1125,11 +1196,12 @@
       "techValue": 1.0,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1140,11 +1212,12 @@
       "techValue": 1.0,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1155,11 +1228,12 @@
       "techValue": 0.1,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1170,11 +1244,12 @@
       "techValue": 0.1,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1185,11 +1260,12 @@
       "techValue": 0.1,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1200,11 +1276,12 @@
       "techValue": 0.1,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1215,11 +1292,12 @@
       "techValue": 0.1,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1230,11 +1308,12 @@
       "techValue": 0.1,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1245,11 +1324,12 @@
       "techValue": 0.1,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1260,11 +1340,12 @@
       "techValue": 0.2,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1275,11 +1356,12 @@
       "techValue": 0.2,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1290,11 +1372,12 @@
       "techValue": 0.2,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1305,11 +1388,12 @@
       "techValue": 0.2,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1320,11 +1404,12 @@
       "techValue": 0.2,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1335,11 +1420,12 @@
       "techValue": 0.2,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1350,11 +1436,12 @@
       "techValue": 0.2,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1365,11 +1452,12 @@
       "techValue": 0.2,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1380,11 +1468,12 @@
       "techValue": 0.2,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1395,11 +1484,12 @@
       "techValue": 0.3,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1410,11 +1500,12 @@
       "techValue": 0.3,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1425,11 +1516,12 @@
       "techValue": 0.3,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1440,11 +1532,12 @@
       "techValue": 0.3,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1456,11 +1549,12 @@
       "techValue": 0.3,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1471,11 +1565,12 @@
       "techValue": 0.3,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1486,11 +1581,12 @@
       "techValue": 0.3,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1501,11 +1597,12 @@
       "techValue": 0.3,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1516,11 +1613,12 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1531,11 +1629,12 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1546,11 +1645,12 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1561,11 +1661,12 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1576,11 +1677,12 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1591,11 +1693,12 @@
       "techValue": 0.4,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1611,6 +1714,7 @@
         "armPosition": "Both arms fully expended and holding the pole above the head",
         "legPosition": "One leg grips the pole in the crook of the knee and along the back of the thigh. The other leg is crossed over the first leg",
         "bodyPosition": "Inverted, facing away from the pole",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -1631,6 +1735,7 @@
         "armPosition": "One hand is holding the pole, the other arm is fully expended",
         "legPosition": "Inside leg is in passé, outside leg is fully extended and parallel to the floor. Both legs are on same side of the pole.",
         "bodyPosition": "Hips are parallel to the floor",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -1646,6 +1751,7 @@
         "armPosition": "Arms can be bent and hold the pole behind the body",
         "legPosition": "Both legs are bent and thighs are in contact with the torso",
         "bodyPosition": "Head is lower than hips",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -1661,6 +1767,7 @@
         "armPosition": "Both arms are fully extended",
         "legPosition": "Both legs are fully extended in split position",
         "bodyPosition": "Inverted. Heel of oposite to the top hand is on the pole, creating a twist in the hip",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -1676,6 +1783,7 @@
         "armPosition": "Flag grip",
         "legPosition": "Upper leg is fully exptended, lower leg is in passé",
         "bodyPosition": "Upper body and leg are parallel to the floor",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -1691,6 +1799,7 @@
         "armPosition": "Forearm grip",
         "legPosition": "Both legs are fully extended in either straddle or pencil position",
         "bodyPosition": "Inverted",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -1710,6 +1819,7 @@
         "armPosition": "Armns in fixed position of choice with no contact with the pole or the body",
         "legPosition": "Outside leg is fully extended, inside leg is bent, position is held through pressure of the inside leg against the pole, and is not hooked at the knee",
         "bodyPosition": "Angled, head downwards towards the floor",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1729,6 +1839,7 @@
         "armPosition": "One arm is extended with the hand holding the opposite leg (which is wrapped around the pole), other arm si in fixed position of choice",
         "legPosition": "One leg fully extended, other leg is bent around the pole",
         "bodyPosition": "Horizontal",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -1744,6 +1855,7 @@
         "armPosition": "One arm is extended and holding the pole above the head, other arm is inn elbow grip",
         "legPosition": "Both legs are fully extended in straddle position",
         "bodyPosition": "Inverted",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -1764,6 +1876,7 @@
         "armPosition": "Top arm in elbow grip, bottom arm is bent annd holding the pole",
         "legPosition": "Upper leg is fully extended and parallel to the floor",
         "bodyPosition": "Entire body is parallel to the floor",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -1779,6 +1892,7 @@
         "armPosition": "Flag grip",
         "legPosition": "Both legs are fully extended and closed",
         "bodyPosition": "Body is at 90° angle",
+        "spinDirection": null,
         "splitAngle": null
       }
     },
@@ -1789,12 +1903,13 @@
       "techValue": 1.0,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "pointsOfContact": ["Both hands", "Inside lower torso"],
+        "grip": "Split grip",
+        "armPosition": "Both arms are fully extended. Inside arm is at the bottom, outside arm is at the top",
+        "legPosition": "Both legs are fully extended, parallel to the floor. Hips and legs are closed",
+        "bodyPosition": "Entire body is facing downwards, at 90° angle to the pole",
+        "spinDirection": null,
+        "splitAngle": null
       }
     },
     {
@@ -1804,12 +1919,13 @@
       "techValue": 1.0,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "pointsOfContact": ["Both hands", "Inside lower torso"],
+        "grip": "Split grip",
+        "armPosition": "Both arms are fully extended. Inside arm is at the top, outside arm is at the bottom",
+        "legPosition": "Both legs are fully extended, parallel to the floor. Hips and legs are closed",
+        "bodyPosition": "Entire body is facing downwards, at 90° angle to the pole",
+        "spinDirection": null,
+        "splitAngle": null
       }
     },
     {
@@ -1818,13 +1934,14 @@
       "name": "720° air walk",
       "techValue": 1.0,
       "criteria": {
-        "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "holdPosition": "Walk a minimum if 2 rotations",
+        "pointsOfContact": ["Both hands", "Waist (optional)"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "armPosition": "Split grip",
+        "legPosition": "Starting in an upright position of choice, extend away from the pole. Perform a complete 360° rotation of the entire body (legs, hips and torso) above the head, to return to the starting position, and repeat.",
+        "bodyPosition": "Upright moving through to inverted",
+        "spinDirection": null,
+        "splitAngle": null
       }
     },
     {
@@ -1833,13 +1950,18 @@
       "name": "Back hook spin",
       "techValue": 0.1,
       "criteria": {
-        "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": [
+          "Both hands",
+          "Crook of knee",
+          "Thigh of inside leg"
+        ],
+        "grip": "Wide basic grip",
+        "armPosition": null,
+        "legPosition": "Diamond",
+        "bodyPosition": "Upright",
+        "spinDirection": "Backwards",
+        "splitAngle": null
       }
     },
     {
@@ -1848,13 +1970,14 @@
       "name": "Fireman spin crossed ancle",
       "techValue": 0.1,
       "criteria": {
-        "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands", "Both ancles"],
+        "grip": "Wide basic grip",
+        "armPosition": null,
+        "legPosition": "Both legs are fully bent and are in contact with the pole at the ankles",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null
       }
     },
     {
@@ -1863,13 +1986,18 @@
       "name": "Cup grip pencil",
       "techValue": 0.6,
       "criteria": {
-        "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": [
+          "Both hands",
+          "One wrist (optional)",
+          "No forearm contact"
+        ],
+        "grip": "Both hands in cup grip",
+        "armPosition": "Top arm fully extended, bottom arm may be slightly bent",
+        "legPosition": "Both legs fully extended and closed",
+        "bodyPosition": "Extended in a pencil position at an angle away from the pole",
+        "spinDirection": null,
+        "splitAngle": null
       }
     },
     {
@@ -1878,13 +2006,20 @@
       "name": "Cradle spin into extended butterfly",
       "techValue": 0.6,
       "criteria": {
-        "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "holdPosition": "Minimum 360° rotation, where the rotation must be maintained until the butterfly extension is fully extended",
+        "pointsOfContact": [
+          "Both hands",
+          "Hips",
+          "top fo thighs",
+          "Transitioning to both hands",
+          "One ankle"
+        ],
+        "grip": "Split grip",
+        "armPosition": null,
+        "legPosition": "Tuck position followed by split position",
+        "bodyPosition": "Criteria of Cradle spin (ST12) and Butterfly extension (S18) apply",
+        "spinDirection": null,
+        "splitAngle": null
       }
     },
     {
@@ -1893,13 +2028,18 @@
       "name": "Chinese grip phoenix",
       "techValue": 1.0,
       "criteria": {
-        "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "holdPosition": "Minimum 720° rotation, where the handspring should still spin",
+        "pointsOfContact": [
+          "Both hands",
+          "One wrist (optional)",
+          "No forearm contact"
+        ],
+        "grip": "Cup grip - in pencil with both hands, only with top hand in inverted position",
+        "armPosition": "Starts with both hands in cup grip, lower hand re-grips the pole while continuing to spin in cup grip. Lift without making contact with the floor",
+        "legPosition": "Spin begins in pencil (see ST19 for minimum criteria) and finishes in a fixed leg position of choice",
+        "bodyPosition": "Pencil position for spin, inverted for final position",
+        "spinDirection": null,
+        "splitAngle": null
       }
     },
     {
@@ -1908,13 +2048,14 @@
       "name": "Double reverse grab into phoenix",
       "techValue": 1.0,
       "criteria": {
-        "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
-        "splitAngle": "Minimum 180°"
+        "holdPosition": "Minimum 720° rotation, where the handspring should still spin",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Twisted grip - in final position",
+        "armPosition": "Criteria of Double reverse grab body spiral 2 applies (ST23), finishing in a twisted grip lift handspring without making contact with the floor",
+        "legPosition": "Fixed leg position of choice",
+        "bodyPosition": "Upright transitioning to inverted",
+        "spinDirection": null,
+        "splitAngle": null
       }
     },
     {
@@ -1924,11 +2065,12 @@
       "techValue": 0.1,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1939,11 +2081,12 @@
       "techValue": 0.2,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1954,11 +2097,12 @@
       "techValue": 0.5,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1969,11 +2113,12 @@
       "techValue": 0.5,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [""],
+        "pointsOfContact": [],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
         "bodyPosition": "",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -1993,6 +2138,7 @@
         "armPosition": "Upper hand holds pole above shin of upper leg, Lower hand holds pole below the lower thigh",
         "legPosition": "Lower leg must be extended, with shin of the top leg is in contact with the pole",
         "bodyPosition": "Upright, facing away from the pole",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     },
@@ -2008,6 +2154,7 @@
         "armPosition": "Both arms are fully extended. Inside hand is holding the pole above the head, the outside hand is holding the same ankle/shin level",
         "legPosition": "Both legs are fully extended. Foot and shin of inside leg have contact with the pole, outside leg is extended to the back",
         "bodyPosition": "Inverted and suspended away from the pole, back is in a back arch",
+        "spinDirection": null,
         "splitAngle": "Minimum 180°"
       }
     }
