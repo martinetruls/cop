@@ -50,6 +50,7 @@
         </section>
       </div>
     </div>
+
     <!-- Empty state - until all data is added  -->
     <div
       v-if="!criteria.pointsOfContact.length"
