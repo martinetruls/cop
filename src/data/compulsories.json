@@ -1820,7 +1820,7 @@
         "legPosition": "Outside leg is fully extended, inside leg is bent, position is held through pressure of the inside leg against the pole, and is not hooked at the knee",
         "bodyPosition": "Angled, head downwards towards the floor",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": null
       }
     },
     {
@@ -2064,14 +2064,14 @@
       "name": "Fireman spin chair",
       "techValue": 0.1,
       "criteria": {
-        "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both hands", "Both knees"],
+        "grip": "Wide basic grip",
+        "armPosition": null,
+        "legPosition": "Thighs are parallels to the florr and legs closed",
+        "bodyPosition": "Upright",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": null
       }
     },
     {
@@ -2080,14 +2080,22 @@
       "name": "Helix spin",
       "techValue": 0.2,
       "criteria": {
-        "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": [
+          "Full length of one knee",
+          "Calf",
+          "Thigh and crook of knee of other leg",
+          "Hips",
+          "Side of torso",
+          "Back",
+          "Neck (optional)"
+        ],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Arms are in fixed position of choice, no hands contact with the pole",
+        "legPosition": "One leg is fully extended alongside the pole, other leg is bent around the pole",
+        "bodyPosition": "Upright, head is on same side of the pole as the foot of bent leg",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": null
       }
     },
     {
@@ -2096,14 +2104,14 @@
       "name": "Cradle spin pike no hands legs fully stretched",
       "techValue": 0.5,
       "criteria": {
-        "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Hips", "Torso", "Thighs"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Both arms are wrapped around the legs with no contact with the pole",
+        "legPosition": "Both legs are fully extended and closed in pike position",
+        "bodyPosition": "Wrpped around the pole and parallel to the pole",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": null
       }
     },
     {
@@ -2112,14 +2120,20 @@
       "name": "Cradle spin one handed pike",
       "techValue": 0.5,
       "criteria": {
-        "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": [
+          "One hand and arm",
+          "Shoulder (optional)",
+          "Thighs",
+          "Hips",
+          "Torso"
+        ],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Inside arm is fully extended and holding pole. Outside arm si in a fixed position of choice with no contact with the pole",
+        "legPosition": "Both legs are fully extended and closed in a pike position",
+        "bodyPosition": "Wrapped around the pole",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": null
       }
     },
     {
@@ -2139,7 +2153,7 @@
         "legPosition": "Lower leg must be extended, with shin of the top leg is in contact with the pole",
         "bodyPosition": "Upright, facing away from the pole",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": null
       }
     },
     {
@@ -2155,7 +2169,7 @@
         "legPosition": "Both legs are fully extended. Foot and shin of inside leg have contact with the pole, outside leg is extended to the back",
         "bodyPosition": "Inverted and suspended away from the pole, back is in a back arch",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": null
       }
     }
   ]
