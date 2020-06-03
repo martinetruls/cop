@@ -1981,6 +1981,179 @@
       }
     },
     {
+      "id": "st3",
+      "type": "Spins on static",
+      "name": "Front hook spin",
+      "techValue": 0.1,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": [
+          "Both hands",
+          "Crook of knee",
+          "thigh of inside leg"
+        ],
+        "grip": "Wide basic grip",
+        "armPosition": null,
+        "legPosition": "Dimond",
+        "bodyPosition": "Upright",
+        "spinDirection": "Forwards",
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st4",
+      "type": "Spins on static",
+      "name": "Attitude spin outside heel onn pole",
+      "techValue": 0.2,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands", "One heel of foot"],
+        "grip": "Split grip",
+        "armPosition": null,
+        "legPosition": "Legs are in attitude position, parallel to the floor",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st5",
+      "type": "Spins on static",
+      "name": "Chair spin",
+      "techValue": 0.2,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Wide basic grip",
+        "armPosition": null,
+        "legPosition": "Chair position at 90° angle",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st6",
+      "type": "Spins on static",
+      "name": "Forwards attitude spin",
+      "techValue": 0.2,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Wide basic grip",
+        "armPosition": null,
+        "legPosition": "Legs are in attitude position, parallel to the floor",
+        "bodyPosition": "Upright",
+        "spinDirection": "Forwards",
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st7",
+      "type": "Spins on static",
+      "name": "Knee hook spin passé",
+      "techValue": 0.2,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": [
+          "Both hands",
+          "Back of one knee",
+          "Thighs",
+          "Crook of knee",
+          "Calf of upper leg (optional)"
+        ],
+        "grip": "Wide basic grip",
+        "armPosition": null,
+        "legPosition": "Inside leg is bent in fronnt of the pole, outside leg is fully extended behind pole",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st8",
+      "type": "Spins on static",
+      "name": "Back spin attitude",
+      "techValue": 0.3,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": [
+          "Outside hand",
+          "Inside forearm (optional) and hand"
+        ],
+        "grip": "Forearm grip",
+        "armPosition": null,
+        "legPosition": "Legs are in attitude position, parallel to the floor",
+        "bodyPosition": "Upright",
+        "spinDirection": "Backwards",
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st9",
+      "type": "Spins on static",
+      "name": "Body spiral reverse grab attitude",
+      "techValue": 0.3,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation in the final position",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Split grip",
+        "armPosition": "Reverse spin starting with one arm on the pole into a split grip",
+        "legPosition": "Legs are in attitude in the final position",
+        "bodyPosition": "Upright at an angle away from the pole",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st10",
+      "type": "Spins on static",
+      "name": "Carousel fang",
+      "techValue": 0.3,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Grip of choice",
+        "armPosition": "Both arms are fully extended",
+        "legPosition": "Diamond",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st11",
+      "type": "Spins on static",
+      "name": "Chairspin pike both legs stretched",
+      "techValue": 0.3,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Grip of choice",
+        "armPosition": "Both arms extended",
+        "legPosition": "Both legs fully extended and closed in pike position, parallel to the floor",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st12",
+      "type": "Spins on static",
+      "name": "Cradle spin split grip tuck",
+      "techValue": 0.3,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands", "Hips", "Top of thighs"],
+        "grip": "Split grip",
+        "armPosition": null,
+        "legPosition": "Tucked around the pole",
+        "bodyPosition": "90° to the pole",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
       "id": "st19",
       "type": "Spins on static",
       "name": "Cup grip pencil",
