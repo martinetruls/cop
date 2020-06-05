@@ -3,7 +3,7 @@
     <div class="decorations" :class="compulsory.type | dashedType" />
     <div class="modal-header">
       <div class="img-wrapper">
-        <img :src="require(`../assets/compulsory-illustrations/${compulsory.id}.png`)" />
+        <img :src="require(`../assets/compulsory-illustrations/${compulsory.id}.png`)" alt />
       </div>
 
       <div class="id-and-name">

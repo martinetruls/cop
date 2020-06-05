@@ -2,7 +2,7 @@
   <router-link :to="{name: 'CompulsoryPage', params:{ id: compulsory.id } }">
     <div class="card">
       <div class="img-wrapper">
-        <img :src="require(`../assets/compulsory-illustrations/${compulsory.id}.png`)" />
+        <img :src="require(`../assets/compulsory-illustrations/${compulsory.id}.png`)" alt />
       </div>
       <div class="text-wrapper">
         <div class="id">{{ compulsory.id }}</div>
