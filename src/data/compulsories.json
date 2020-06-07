@@ -2154,6 +2154,102 @@
       }
     },
     {
+      "id": "st13",
+      "type": "Spins on static",
+      "name": "Body spiral attitude one hand",
+      "techValue": 0.4,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Inside arm", "Inside hand", "Back"],
+        "grip": "Underarm grip",
+        "armPosition": "Inside hand ahs contact with the pole",
+        "legPosition": "Both legs are in attitude",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st14",
+      "type": "Spins on static",
+      "name": "Cradle spin split grip straddle",
+      "techValue": 0.4,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands", "Hips"],
+        "grip": "split grip",
+        "armPosition": null,
+        "legPosition": "Both legs are fully extended in straddle position",
+        "bodyPosition": "Upper body is parallel to the floor",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st15",
+      "type": "Spins on static",
+      "name": "Reverse grab pencil",
+      "techValue": 0.4,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands", "both arms", "Back of shoulder"],
+        "grip": "Twisted grip",
+        "armPosition": "Reverse spin starting with one arm on the pole into a twisted grip hand position",
+        "legPosition": "Both legs finish in a fully extended pencil position",
+        "bodyPosition": "Extended in a pencil position at an angle away from the pole",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st16",
+      "type": "Spins on static",
+      "name": "Split grip straddle",
+      "techValue": 0.4,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Split grip",
+        "armPosition": null,
+        "legPosition": "Both legs are fully extended in straddle position above the hips",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st17",
+      "type": "Spins on static",
+      "name": "Reverse grab straddle into pencil",
+      "techValue": 0.5,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Split grip",
+        "armPosition": "Reverse spin starting with one arm on the pole into a split grip",
+        "legPosition": "Both legs are fully extended in straddle position, then pencil",
+        "bodyPosition": "Upright, angle away from the pole",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st18",
+      "type": "Spins on static",
+      "name": "Spinning into shoulder mount straddle",
+      "techValue": 0.5,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands, one shoulder"],
+        "grip": "Grip of choice",
+        "armPosition": "Arm are bent",
+        "legPosition": "Both legs are fully extended in straddle position, parallel to the floor",
+        "bodyPosition": "Parallel to the floor",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
       "id": "st19",
       "type": "Spins on static",
       "name": "Cup grip pencil",
@@ -2191,6 +2287,86 @@
         "armPosition": null,
         "legPosition": "Tuck position followed by split position",
         "bodyPosition": "Criteria of Cradle spin (ST12) and Butterfly extension (S18) apply",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st21",
+      "type": "Spins on static",
+      "name": "Double reverse grab body spiral 1",
+      "techValue": 0.7,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Split grip (second time only)",
+        "armPosition": "Reverse spin starting with one hand on the pole, hand re-grips the pole and reverse spin is repeated without making contact with the pole",
+        "legPosition": "Legs in fixed position of choice",
+        "bodyPosition": "Upright at an angle away from the pole",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st22",
+      "type": "Spins on static",
+      "name": "Phoenix spin 1",
+      "techValue": 0.7,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Twisted grip",
+        "armPosition": "Reverse spin starting with one arm on the pole into a twisted grip handspring without making contact with the floor",
+        "legPosition": "Legs finish in a fixed position of choice",
+        "bodyPosition": "Body moves into inverted position after handspring",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st23",
+      "type": "Spins on static",
+      "name": "Double reverse grab body sprial 2",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Split grip (both times)",
+        "armPosition": "Reverse spin starting with one hand one the pole. Hand re-grips the pole and reverse spin is repeated without making contact with the floor",
+        "legPosition": "Legs in fixed position of choice",
+        "bodyPosition": "Upright at an angle away from the pole",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st24",
+      "type": "Spins on static",
+      "name": "Double reverse grab into phonenix",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Twisted grip",
+        "armPosition": "Criteria for double reverse grab body sprial 1 applies (ST21). Finishing in a twisted grip dead lift handspring without making contact with the floor",
+        "legPosition": "Fixed leg position of choice",
+        "bodyPosition": "Upright transition to inverted",
+        "spinDirection": null,
+        "splitAngle": null
+      }
+    },
+    {
+      "id": "st25",
+      "type": "Spins on static",
+      "name": "Phoenix spin 2",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 360° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Twisted grip",
+        "armPosition": "Reverse spin starting with one hand on the pole into a twisted grip dead lift handspring without making contact with the floor",
+        "legPosition": "Legs finish in a fixed position of choice",
+        "bodyPosition": "Back is to the pole for the reverse spin. Body moves into inverted position after handsprong without changing direction (i.e. turning back). Hips must face upwards",
         "spinDirection": null,
         "splitAngle": null
       }
