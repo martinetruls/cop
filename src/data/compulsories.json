@@ -13,7 +13,8 @@
         "legPosition": "Inside leg is wrapped, outside leg is bent backwards",
         "bodyPosition": "Inverted",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -29,7 +30,8 @@
         "legPosition": "Both legs are fully extended in straddle position with lower foot floor based and the arch of the upper foot is in contact with the pole",
         "bodyPosition": "Torso is extended away from the pole",
         "spinDirection": null,
-        "splitAngle": "Minimum 160°"
+        "splitAngle": "Minimum 160°",
+        "startingPosition": null
       }
     },
     {
@@ -45,7 +47,8 @@
         "legPosition": "Inside leg is wrapped, outside leg is betn backwards",
         "bodyPosition": "Upright",
         "spinDirection": null,
-        "splitAngle": "Minimum 160°"
+        "splitAngle": "Minimum 160°",
+        "startingPosition": null
       }
     },
     {
@@ -61,7 +64,8 @@
         "legPosition": "Inside leg is wrapped, outside leg is bent backwards",
         "bodyPosition": "Inverted",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -81,7 +85,8 @@
         "legPosition": "Both legs are fully extended in straddle position with lower foot floor based. The arch of the upper foot is in contact with the pole",
         "bodyPosition": "Torso is extended away form the pole",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -101,7 +106,8 @@
         "legPosition": "Frontal split position with both legs fully extended",
         "bodyPosition": "Back arch, facing away from the pole",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -121,7 +127,8 @@
         "legPosition": "Both legs are fully extended in straddle position",
         "bodyPosition": "Horizontal, facing upwards",
         "spinDirection": null,
-        "splitAngle": "Minimum 160°"
+        "splitAngle": "Minimum 160°",
+        "startingPosition": null
       }
     },
     {
@@ -141,7 +148,8 @@
         "legPosition": "Both legs are fully extended in straddle position",
         "bodyPosition": "Upper body must be at 90° angle to the pole",
         "spinDirection": null,
-        "splitAngle": "Minimum 160°"
+        "splitAngle": "Minimum 160°",
+        "startingPosition": null
       }
     },
     {
@@ -163,7 +171,8 @@
         "legPosition": "Both legs are fully extended in split position",
         "bodyPosition": "Upright",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -183,7 +192,8 @@
         "legPosition": "Frontal split position with both legs fully extended",
         "bodyPosition": "Back arch",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -204,7 +214,8 @@
         "legPosition": "Split position with inside leg fully extended, outside leg bent backwards",
         "bodyPosition": "Back arch",
         "spinDirection": null,
-        "splitAngle": "Minimum 160°"
+        "splitAngle": "Minimum 160°",
+        "startingPosition": null
       }
     },
     {
@@ -220,7 +231,8 @@
         "legPosition": "Both legs are fully extended",
         "bodyPosition": "Inverted. Back arched with hips and both legs parallel to the floor",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -240,7 +252,8 @@
         "legPosition": "Splut position with front leg fully extended, back leg bent",
         "bodyPosition": "Upright",
         "spinDirection": null,
-        "splitAngle": "Minimum 160°"
+        "splitAngle": "Minimum 160°",
+        "startingPosition": null
       }
     },
     {
@@ -260,7 +273,8 @@
         "legPosition": "Both legs fully extended in straddle position",
         "bodyPosition": "Upper body must be at 90° angle to the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -281,7 +295,8 @@
         "legPosition": "Both legs are fully extended in a vertical split position",
         "bodyPosition": "Handstand position (hips above the head and above the shoulders in a straight line)",
         "spinDirection": null,
-        "splitAngle": "Minimum 160°"
+        "splitAngle": "Minimum 160°",
+        "startingPosition": null
       }
     },
     {
@@ -301,7 +316,8 @@
         "legPosition": "Both legs are fully extended in straddle position",
         "bodyPosition": "Upper body must be at 90° angle to the pole",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -317,7 +333,8 @@
         "legPosition": "Both legs are fully extended in split position",
         "bodyPosition": "Inverted",
         "spinDirection": null,
-        "splitAngle": "Minimum 160°"
+        "splitAngle": "Minimum 160°",
+        "startingPosition": null
       }
     },
     {
@@ -333,7 +350,8 @@
         "legPosition": "Both legs are fully extended and closed",
         "bodyPosition": "Back arch with hips and both legs parallel to the floor",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -349,7 +367,8 @@
         "legPosition": "Both legs are fully extended and parallel to the pole with feet above the head",
         "bodyPosition": "Upper body is upright",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -365,7 +384,8 @@
         "legPosition": "Both legs are bent annd thighs are parallel to the floor or higher than hips",
         "bodyPosition": "Upper body is upright, hips facing the floor",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -386,7 +406,8 @@
         "legPosition": "Inside leg is fully extended. Outside leg is bent backwards",
         "bodyPosition": "Back arch",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -402,7 +423,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -418,7 +440,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -434,7 +457,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -450,7 +474,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -466,7 +491,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -482,7 +508,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -498,7 +525,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -514,7 +542,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -530,7 +559,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -546,7 +576,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -562,7 +593,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -578,7 +610,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -594,7 +627,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -610,7 +644,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -626,7 +661,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -642,7 +678,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -658,7 +695,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -674,7 +712,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -690,7 +729,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -706,7 +746,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -722,7 +763,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -738,7 +780,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -754,7 +797,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -770,7 +814,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -786,7 +831,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -802,7 +848,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -818,7 +865,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -834,7 +882,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -850,7 +899,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -866,7 +916,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -882,7 +933,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -898,7 +950,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -914,7 +967,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -930,7 +984,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -946,7 +1001,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -962,7 +1018,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -978,7 +1035,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -994,7 +1052,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1010,7 +1069,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1026,7 +1086,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1042,7 +1103,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1058,7 +1120,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1074,7 +1137,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1090,7 +1154,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1106,7 +1171,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1122,7 +1188,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1138,7 +1205,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1154,7 +1222,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1170,7 +1239,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1186,7 +1256,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1202,7 +1273,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1218,7 +1290,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1234,7 +1307,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1250,7 +1324,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1266,7 +1341,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1282,7 +1358,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1298,7 +1375,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1314,7 +1392,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1330,7 +1409,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1346,7 +1426,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1362,7 +1443,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1378,7 +1460,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1394,7 +1477,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1410,7 +1494,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1426,7 +1511,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1442,7 +1528,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1458,7 +1545,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1474,7 +1562,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1490,7 +1579,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1506,7 +1596,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1522,7 +1613,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1538,7 +1630,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
 
@@ -1555,7 +1648,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1571,7 +1665,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1587,7 +1682,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1603,7 +1699,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1619,7 +1716,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1635,7 +1733,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1651,7 +1750,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1667,7 +1767,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1683,7 +1784,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1699,7 +1801,8 @@
         "legPosition": "",
         "bodyPosition": "",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°"
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
       }
     },
     {
@@ -1715,7 +1818,8 @@
         "legPosition": "One leg grips the pole in the crook of the knee and along the back of the thigh. The other leg is crossed over the first leg",
         "bodyPosition": "Inverted, facing away from the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1736,7 +1840,8 @@
         "legPosition": "Inside leg is in passé, outside leg is fully extended and parallel to the floor. Both legs are on same side of the pole.",
         "bodyPosition": "Hips are parallel to the floor",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1752,7 +1857,8 @@
         "legPosition": "Both legs are bent and thighs are in contact with the torso",
         "bodyPosition": "Head is lower than hips",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1768,7 +1874,8 @@
         "legPosition": "Both legs are fully extended in split position",
         "bodyPosition": "Inverted. Heel of oposite to the top hand is on the pole, creating a twist in the hip",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1784,7 +1891,8 @@
         "legPosition": "Upper leg is fully exptended, lower leg is in passé",
         "bodyPosition": "Upper body and leg are parallel to the floor",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1800,7 +1908,8 @@
         "legPosition": "Both legs are fully extended in either straddle or pencil position",
         "bodyPosition": "Inverted",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1820,7 +1929,8 @@
         "legPosition": "Outside leg is fully extended, inside leg is bent, position is held through pressure of the inside leg against the pole, and is not hooked at the knee",
         "bodyPosition": "Angled, head downwards towards the floor",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1840,7 +1950,8 @@
         "legPosition": "One leg fully extended, other leg is bent around the pole",
         "bodyPosition": "Horizontal",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1856,7 +1967,8 @@
         "legPosition": "Both legs are fully extended in straddle position",
         "bodyPosition": "Inverted",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1877,7 +1989,8 @@
         "legPosition": "Upper leg is fully extended and parallel to the floor",
         "bodyPosition": "Entire body is parallel to the floor",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1893,7 +2006,8 @@
         "legPosition": "Both legs are fully extended and closed",
         "bodyPosition": "Body is at 90° angle",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1909,7 +2023,8 @@
         "legPosition": "Both legs are fully extended, parallel to the floor. Hips and legs are closed",
         "bodyPosition": "Entire body is facing downwards, at 90° angle to the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1925,7 +2040,8 @@
         "legPosition": "Both legs are fully extended, parallel to the floor. Hips and legs are closed",
         "bodyPosition": "Entire body is facing downwards, at 90° angle to the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1941,7 +2057,8 @@
         "legPosition": "Starting in an upright position of choice, extend away from the pole. Perform a complete 360° rotation of the entire body (legs, hips and torso) above the head, to return to the starting position, and repeat.",
         "bodyPosition": "Upright moving through to inverted",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1961,7 +2078,8 @@
         "legPosition": "Diamond",
         "bodyPosition": "Upright",
         "spinDirection": "Backwards",
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1977,7 +2095,8 @@
         "legPosition": "Both legs are fully bent and are in contact with the pole at the ankles",
         "bodyPosition": "Upright",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -1997,7 +2116,8 @@
         "legPosition": "Dimond",
         "bodyPosition": "Upright",
         "spinDirection": "Forwards",
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2013,7 +2133,8 @@
         "legPosition": "Legs are in attitude position, parallel to the floor",
         "bodyPosition": "Upright",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2029,7 +2150,8 @@
         "legPosition": "Chair position at 90° angle",
         "bodyPosition": "Upright",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2045,7 +2167,8 @@
         "legPosition": "Legs are in attitude position, parallel to the floor",
         "bodyPosition": "Upright",
         "spinDirection": "Forwards",
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2067,7 +2190,8 @@
         "legPosition": "Inside leg is bent in fronnt of the pole, outside leg is fully extended behind pole",
         "bodyPosition": "Upright",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2086,7 +2210,8 @@
         "legPosition": "Legs are in attitude position, parallel to the floor",
         "bodyPosition": "Upright",
         "spinDirection": "Backwards",
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2102,7 +2227,8 @@
         "legPosition": "Legs are in attitude in the final position",
         "bodyPosition": "Upright at an angle away from the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2118,7 +2244,8 @@
         "legPosition": "Diamond",
         "bodyPosition": "Upright",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2134,7 +2261,8 @@
         "legPosition": "Both legs fully extended and closed in pike position, parallel to the floor",
         "bodyPosition": "Upright",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2150,7 +2278,8 @@
         "legPosition": "Tucked around the pole",
         "bodyPosition": "90° to the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2166,7 +2295,8 @@
         "legPosition": "Both legs are in attitude",
         "bodyPosition": "Upright",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2182,7 +2312,8 @@
         "legPosition": "Both legs are fully extended in straddle position",
         "bodyPosition": "Upper body is parallel to the floor",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2198,7 +2329,8 @@
         "legPosition": "Both legs finish in a fully extended pencil position",
         "bodyPosition": "Extended in a pencil position at an angle away from the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2214,7 +2346,8 @@
         "legPosition": "Both legs are fully extended in straddle position above the hips",
         "bodyPosition": "Upright",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2230,7 +2363,8 @@
         "legPosition": "Both legs are fully extended in straddle position, then pencil",
         "bodyPosition": "Upright, angle away from the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2246,7 +2380,8 @@
         "legPosition": "Both legs are fully extended in straddle position, parallel to the floor",
         "bodyPosition": "Parallel to the floor",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2266,7 +2401,8 @@
         "legPosition": "Both legs fully extended and closed",
         "bodyPosition": "Extended in a pencil position at an angle away from the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2288,7 +2424,8 @@
         "legPosition": "Tuck position followed by split position",
         "bodyPosition": "Criteria of Cradle spin (ST12) and Butterfly extension (S18) apply",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2304,7 +2441,8 @@
         "legPosition": "Legs in fixed position of choice",
         "bodyPosition": "Upright at an angle away from the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2320,7 +2458,8 @@
         "legPosition": "Legs finish in a fixed position of choice",
         "bodyPosition": "Body moves into inverted position after handspring",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2336,7 +2475,8 @@
         "legPosition": "Legs in fixed position of choice",
         "bodyPosition": "Upright at an angle away from the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2352,7 +2492,8 @@
         "legPosition": "Fixed leg position of choice",
         "bodyPosition": "Upright transition to inverted",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2368,7 +2509,8 @@
         "legPosition": "Legs finish in a fixed position of choice",
         "bodyPosition": "Back is to the pole for the reverse spin. Body moves into inverted position after handsprong without changing direction (i.e. turning back). Hips must face upwards",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2388,7 +2530,8 @@
         "legPosition": "Spin begins in pencil (see ST19 for minimum criteria) and finishes in a fixed leg position of choice",
         "bodyPosition": "Pencil position for spin, inverted for final position",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2404,7 +2547,8 @@
         "legPosition": "Fixed leg position of choice",
         "bodyPosition": "Upright transitioning to inverted",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2420,7 +2564,8 @@
         "legPosition": "Thighs are parallels to the florr and legs closed",
         "bodyPosition": "Upright",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2444,7 +2589,293 @@
         "legPosition": "One leg is fully extended alongside the pole, other leg is bent around the pole",
         "bodyPosition": "Upright, head is on same side of the pole as the foot of bent leg",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp3",
+      "type": "Spins on spinning",
+      "name": "Twisted spin",
+      "techValue": 0.2,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": [
+          "Full length of one leg",
+          "Calf",
+          "Thigh and crook of knee of other leg",
+          "Hips",
+          "Side og torso",
+          "Back",
+          "Neck (optional)"
+        ],
+        "grip": null,
+        "armPosition": "Arms are in fixed position of choice, no hans contact with the pole",
+        "legPosition": "One leg is fully extended alongside the pole, othe rleg is bent around the pole",
+        "bodyPosition": "Upright, head is on same side og the pole as the foot of bent leg",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp4",
+      "type": "Spins on spinning",
+      "name": "Outside knee hang closed fang",
+      "techValue": 0.2,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Crook of one knee", "One thigh"],
+        "grip": null,
+        "armPosition": "Both hands hold the legs at ankle/shin",
+        "legPosition": "Fang position",
+        "bodyPosition": "Inverted",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": "With a minimum of one foot on the floor"
+      }
+    },
+    {
+      "id": "sp5",
+      "type": "Spins on spinning",
+      "name": "Pencil forearm grip",
+      "techValue": 0.2,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both hands", "One forearm"],
+        "grip": "Forearm grip",
+        "armPosition": "One arm in forearm grip, other arm fully extended and in contact with the pole above the other hand",
+        "legPosition": "Both legs are fully extended and closed in pencil position",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp6",
+      "type": "Spins on spinning",
+      "name": "Ballerina passé",
+      "techValue": 0.3,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": [
+          "Inner thighs",
+          "One Hand",
+          "Inner arm",
+          "Side of torso",
+          "Back"
+        ],
+        "grip": null,
+        "armPosition": "Inner arm is wrapped around the pole behind the body, outer arm is bent holding the pole at the level of the head or higher",
+        "legPosition": "Seated position with legs bent and tucked to one side of the pole",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp7",
+      "type": "Spins on spinning",
+      "name": "Carousel spin elbow grip",
+      "techValue": 0.3,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["One elbow", "One hand"],
+        "grip": "Elbow grip",
+        "armPosition": "Upper elbow holds the pole, lower arm is fully extended and in contact with the pole",
+        "legPosition": "Diamond",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp8",
+      "type": "Spins on spinning",
+      "name": "Inverted straddle",
+      "techValue": 0.3,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both hands", "Side of torso"],
+        "grip": null,
+        "armPosition": "Basic grip",
+        "legPosition": "Both legs are fully extended in straddle position, parallel to floor",
+        "bodyPosition": "Inverted",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp9",
+      "type": "Spins on spinning",
+      "name": "Seated side tuck",
+      "techValue": 0.3,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Inner thighs"],
+        "grip": null,
+        "armPosition": "Arms wrap tucked legs",
+        "legPosition": "Tuck, with pole between inner thighs in a seated position",
+        "bodyPosition": "Body is at a 90° angle to the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp10",
+      "type": "Spins on spinning",
+      "name": "Underarm hold",
+      "techValue": 0.3,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": [
+          "Inside underarm",
+          "Inner upper thigh",
+          "Inside knee",
+          "Outside foot",
+          "Shin/calf of outside leg (optional)"
+        ],
+        "grip": "Underarm grip",
+        "armPosition": "Arms in fixed position of choice with no hand contact with the pole. Only inside arm has contact with the pole",
+        "legPosition": "One leg is fully extended along the pole, the other knee is bent",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp11",
+      "type": "Spins on spinning",
+      "name": "Vortex spin",
+      "techValue": 0.3,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": [
+          "Crook of elbow of inside arm",
+          "inner thigh of inside leg",
+          "Calf of outside leg"
+        ],
+        "grip": "Elbow grip",
+        "armPosition": "Hands are clasped aboce and behind the head. Crook of insdie elbow is in contact with the pole",
+        "legPosition": "Both legs are fully extended",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp12",
+      "type": "Spins on spinning",
+      "name": "Wrap grip spin",
+      "techValue": 0.3,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Back of one shoulder", "Same arm"],
+        "grip": "Wrap grip",
+        "armPosition": "One arm is in wrap grip, other arm is in fixed position of choice with no contact with the pole",
+        "legPosition": "In fixed position of choice with no contact with the pole",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp13",
+      "type": "Spins on spinning",
+      "name": "Body sprial no hands",
+      "techValue": 0.4,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Inside underarm", "Inside knee", "Back of thigh"],
+        "grip": "Underarm grip",
+        "armPosition": "Arms in fixed position of choice with no hand contact with the pole. Only inside arm has contact with the pole",
+        "legPosition": "Outside leg is fully extended, inside leg wraps the pole at knee",
+        "bodyPosition": "Upright with back lean",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp14",
+      "type": "Spins on spinning",
+      "name": "Cradle spin tuck no hands",
+      "techValue": 0.4,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Hips", "Torso", "Top of thighs"],
+        "grip": null,
+        "armPosition": "Arms are wrapped around legs",
+        "legPosition": "Tucked",
+        "bodyPosition": "Body is at a 90° angle to the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp15",
+      "type": "Spins on spinning",
+      "name": "Inverted bodyspiral outside leg stretched behind pole",
+      "techValue": 0.4,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": [
+          "Inside arm and hand",
+          "Outside elbow",
+          "Back of shoulder and upper arm of outside arm",
+          "Side of torso",
+          "Back"
+        ],
+        "grip": null,
+        "armPosition": "Inside arm is holding pole, elbow of outside arm is in contact with the pole",
+        "legPosition": "Inside leg is in passé in front of the pole, outside leg is fully extended behind the pole",
+        "bodyPosition": "Inverted",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp16",
+      "type": "Spins on spinning",
+      "name": "Inverted thigh hold tuck",
+      "techValue": 0.4,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Inner thighs", "torso"],
+        "grip": null,
+        "armPosition": "Arms wrap around the legs with no contact with the pole",
+        "legPosition": "Inverted tuck",
+        "bodyPosition": "Inverted with the back facing downwards",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp17",
+      "type": "Spins on spinning",
+      "name": "Outside knee hang closed fang",
+      "techValue": 0.4,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["One knee", "One thigh"],
+        "grip": null,
+        "armPosition": "Both hands hold th elegs at ankle/shin level",
+        "legPosition": "Fang position",
+        "bodyPosition": "Inverted",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": "Aerial position on the pole"
       }
     },
     {
@@ -2460,7 +2891,8 @@
         "legPosition": "Both legs are fully extended and closed in pike position",
         "bodyPosition": "Wrpped around the pole and parallel to the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2482,7 +2914,8 @@
         "legPosition": "Both legs are fully extended and closed in a pike position",
         "bodyPosition": "Wrapped around the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2502,7 +2935,8 @@
         "legPosition": "Lower leg must be extended, with shin of the top leg is in contact with the pole",
         "bodyPosition": "Upright, facing away from the pole",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     },
     {
@@ -2518,7 +2952,8 @@
         "legPosition": "Both legs are fully extended. Foot and shin of inside leg have contact with the pole, outside leg is extended to the back",
         "bodyPosition": "Inverted and suspended away from the pole, back is in a back arch",
         "spinDirection": null,
-        "splitAngle": null
+        "splitAngle": null,
+        "startingPosition": null
       }
     }
   ]
