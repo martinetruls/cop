@@ -2919,6 +2919,116 @@
       }
     },
     {
+      "id": "sp20",
+      "type": "Spins on spinning",
+      "name": "Elbow spin attitude",
+      "techValue": 0.5,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Crook of both elbows", "Shoulder blades"],
+        "grip": "Elbow grip",
+        "armPosition": "Both elbows hold the pole, with no hand contact with the pole",
+        "legPosition": "Both legs in attitude, parallel to the floor",
+        "bodyPosition": "Back is to the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp21",
+      "type": "Spins on spinning",
+      "name": "Hip hold straddle",
+      "techValue": 0.5,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Underarm of inside arm", "Torso", "Thighs"],
+        "grip": null,
+        "armPosition": "Both arms ar fully exteded. Outside arm is in a fixed position of choice, inside arm is in underarm grip",
+        "legPosition": "Both legs are fully extended in a straddle position",
+        "bodyPosition": "Inverted",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp22",
+      "type": "Spins on spinning",
+      "name": "Iguana fang",
+      "techValue": 0.5,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": [
+          "Both hands",
+          "One shoulder",
+          "Thighs/glutes (optional)"
+        ],
+        "grip": "Basic grip",
+        "armPosition": "Iguana arm position",
+        "legPosition": "Both legs are bent in fang position",
+        "bodyPosition": "Inverted, back arch",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp23",
+      "type": "Spins on spinning",
+      "name": "Pencil spin basic grip",
+      "techValue": 0.5,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Basic grip",
+        "armPosition": null,
+        "legPosition": "Both legs are fully extended and closed in pencil position",
+        "bodyPosition": "Upright and parallel to the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp24",
+      "type": "Spins on spinning",
+      "name": "Straddle spin 2 hands up",
+      "techValue": 0.5,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Basic grip",
+        "armPosition": null,
+        "legPosition": "Both legs are fully extended in straddle position, parallel to the floor or higher than hips",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp25",
+      "type": "Spins on spinning",
+      "name": "Butterfly extended twist no hands",
+      "techValue": 0.6,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": [
+          "One foot and ankle/shin",
+          "Opposite shoulder and nech",
+          "Back (optional)"
+        ],
+        "grip": null,
+        "armPosition": "Same arm as shoulder which is on pole is extended. The other arm is in fixed position of choice with no contact with the pole",
+        "legPosition": "Both legs are fully extended. One foot has contact with the pole, opposite leg is extended away from the pole",
+        "bodyPosition": "Inverted",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
       "id": "sp45",
       "type": "Spins on spinning",
       "name": "Split grip contortion spin",
