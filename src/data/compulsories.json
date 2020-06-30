@@ -3029,6 +3029,95 @@
       }
     },
     {
+      "id": "sp26",
+      "type": "Spins on spinning",
+      "name": "Icarus spin",
+      "techValue": 0.6,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": [
+          "Crook of the knee of th einside leg",
+          "Back of shoulder of inside arm",
+          "Back of neck"
+        ],
+        "grip": null,
+        "armPosition": "Back of the shoulder of inside arm on the pole. Outside arm in position of choice with no contact with the pole",
+        "legPosition": "Inside leg grips pole in the crook of the knee. Outside leg in position of choice",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp27",
+      "type": "Spins on spinning",
+      "name": "Elbow attitude",
+      "techValue": 0.7,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Inside elbow"],
+        "grip": "Elbow grip",
+        "armPosition": "One arm in elbow grip, other arm is in fixed position of choice with no contact with the pole",
+        "legPosition": "Front leg is bent, back leg is fully extended",
+        "bodyPosition": "Upright at an angle away from the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp28",
+      "type": "Spins on spinning",
+      "name": "Hans based split spin",
+      "techValue": 0.7,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both arms and hands", "One foot", "Upper back"],
+        "grip": null,
+        "armPosition": "Upper arm is fully extended and holds the pole, lower arm wraps around the pole",
+        "legPosition": "Lower foot steps on lower hand, legs are in a split position of choice",
+        "bodyPosition": "Torso facing away frm the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp29",
+      "type": "Spins on spinning",
+      "name": "Parallel split spin",
+      "techValue": 0.7,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Wide basic grip",
+        "armPosition": "Both arms are fully extended",
+        "legPosition": "Both legs are fully extended in split position, parallel to the pole",
+        "bodyPosition": "Upright",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp30",
+      "type": "Spins on spinning",
+      "name": "Tuck through spin pike",
+      "techValue": 0.7,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both hands", "Back of both legs"],
+        "grip": "Split grip",
+        "armPosition": "Arms hanve no contact with the legs",
+        "legPosition": "Both legs are fully extended in a closed pike position or crossed",
+        "bodyPosition": "Body and legs are in from of the pole at 90° angle to the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
       "id": "sp45",
       "type": "Spins on spinning",
       "name": "Split grip contortion spin",
