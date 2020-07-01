@@ -3109,9 +3109,262 @@
         "holdPosition": "Minimum 720° rotation",
         "pointsOfContact": ["Both hands", "Back of both legs"],
         "grip": "Split grip",
-        "armPosition": "Arms hanve no contact with the legs",
+        "armPosition": "Arms have no contact with the legs",
         "legPosition": "Both legs are fully extended in a closed pike position or crossed",
         "bodyPosition": "Body and legs are in from of the pole at 90° angle to the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp31",
+      "type": "Spins on spinning",
+      "name": "Cradle spin no hands",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Hips and top of thighs"],
+        "grip": null,
+        "armPosition": "Arms have no contact with the body or the pole",
+        "legPosition": "Tucked (legs closed)",
+        "bodyPosition": "Body is at a 90° angle to the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp32",
+      "type": "Spins on spinning",
+      "name": "Cupgrip pencil",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": "Both hands are in cupgrip position",
+        "armPosition": "Top arm fully extended, bottom arm slightly bent",
+        "legPosition": "Both legs are fully extended in pencil position",
+        "bodyPosition": "Upright at an angle away from the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp33",
+      "type": "Spins on spinning",
+      "name": "Reverse butterfly extension",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Inside arm", "Shoulder", "Foot", "Inside ankle"],
+        "grip": null,
+        "armPosition": "both arms are fully extended, with inside arm holding the pole, and the outside arm holding the outside leg",
+        "legPosition": "Both legs are fully extended in split position",
+        "bodyPosition": "Inverted",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp34",
+      "type": "Spins on spinning",
+      "name": "Titanic support",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": [
+          "One leg",
+          "One shoulder/side of nech (optional)",
+          "Glutes"
+        ],
+        "grip": null,
+        "armPosition": "Both arms are fully extended back, and have no contact with the pole",
+        "legPosition": "Both legs are fully extended",
+        "bodyPosition": "Upright, upper body in back arch",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp35",
+      "type": "Spins on spinning",
+      "name": "Cross bow 2 hands on pole",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": null,
+        "armPosition": "Split grip",
+        "legPosition": "Both legs are fully extended in straddle position with no contact witht he pole",
+        "bodyPosition": "90° angle to the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp36",
+      "type": "Spins on spinning",
+      "name": "Elbow grip vertical split",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": [
+          "Both calves (knees and thighs optional)",
+          "Top ankle",
+          "Foot of the lower leg",
+          "Elbow",
+          "Inside arm"
+        ],
+        "grip": "Elbow grip",
+        "armPosition": "Inside arm wraps around pole at elbow, outside arm in position of choice with no contact with the pole",
+        "legPosition": "Both legs are fully extended in split position",
+        "bodyPosition": "Inverted",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp37",
+      "type": "Spins on spinning",
+      "name": "Inverted split spin",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": [
+          "Underarm of inside arm",
+          "Outside leg",
+          "Foot of outside leg",
+          "Lower back"
+        ],
+        "grip": "Inside underarm grip",
+        "armPosition": "Both arms are holding the ankle of the inside leg",
+        "legPosition": "Both legs are fully extended in split position",
+        "bodyPosition": "Inverted",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp38",
+      "type": "Spins on spinning",
+      "name": "One handed spin",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["One hand"],
+        "grip": null,
+        "armPosition": "Inside arm is extended and in contact with the pole. Outside arm is in a fixed position of choice with no contact with the pole",
+        "legPosition": "Both legs are fully extended and closed in pencil position",
+        "bodyPosition": "Upright, away from the pole, parallel to the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp39",
+      "type": "Spins on spinning",
+      "name": "Supported sailor",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both ankles", "One shin", "One calf", "One hand"],
+        "grip": null,
+        "armPosition": "Inside arm fully extended and in contact with the pole. Outside arm in a fixed position of choice with no contact with the pole",
+        "legPosition": "Fully extended and closed",
+        "bodyPosition": "Inverted and extended",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp40",
+      "type": "Spins on spinning",
+      "name": "Crossed hands plank",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Hip flexors", "Both hands"],
+        "grip": null,
+        "armPosition": "Cross grip",
+        "legPosition": "Both legs are fully extended and closed, parallel to the floor",
+        "bodyPosition": "90° angle to the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp41",
+      "type": "Spins on spinning",
+      "name": "No hands plank spin",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Torso", "Both forearms/elbows"],
+        "grip": null,
+        "armPosition": "No hand contact, both arms are fully extended",
+        "legPosition": "Both legs are fully extended, parallel to the floor, hips are legs are closed",
+        "bodyPosition": "Entire body (head to feet) is straight at a 90° to the pole, with a tolerance of not more than 20°",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp42",
+      "type": "Spins on spinning",
+      "name": "One handed parallel split spin",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Only one hand"],
+        "grip": "Basic grip",
+        "armPosition": "Inside arm is fully extended and in contact with the pole. Outside arm is bent, holding the opposite leg above the head",
+        "legPosition": "Both legs are fully extended in split position, parallel to the pole",
+        "bodyPosition": "Upright, away from the pole, parallel to the pole",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp43",
+      "type": "Spins on spinning",
+      "name": "Pole based clock",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Both hands"],
+        "grip": null,
+        "armPosition": "Split grip",
+        "legPosition": "Starting in an upright position, legs and hips make a circular rotation (fan kick/flair), passing through an inverted position with the hips above the head, ending in pike position (jack knife) over the head for 2 times",
+        "bodyPosition": "Upright/inverted",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "sp44",
+      "type": "Spins on spinning",
+      "name": "Sailor",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 720° rotation",
+        "pointsOfContact": ["Triceps", "Both ankles", "One shin", "One calf"],
+        "grip": null,
+        "armPosition": "Inside arm is fully extended, and the triceps has contact with the pole. Outside arm is in fixed position of choice with no contact with the pole",
+        "legPosition": "Fully extended and closed",
+        "bodyPosition": "Inverted and extended",
         "spinDirection": null,
         "splitAngle": null,
         "startingPosition": null
