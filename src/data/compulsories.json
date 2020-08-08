@@ -1295,6 +1295,482 @@
       }
     },
     {
+      "id": "f71",
+      "type": "Flexibility",
+      "name": "Vertical jade",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f72",
+      "type": "Flexibility",
+      "name": "Eagle 2",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f73",
+      "type": "Flexibility",
+      "name": "Back elbow vertical split",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f74",
+      "type": "Flexibility",
+      "name": "Back split",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f75",
+      "type": "Flexibility",
+      "name": "Back split overhead hold on pole",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f76",
+      "type": "Flexibility",
+      "name": "Dragon tail back bend 1",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f77",
+      "type": "Flexibility",
+      "name": "Elbow grip horizontal back bend",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f78",
+      "type": "Flexibility",
+      "name": "Elbow hold split",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f79",
+      "type": "Flexibility",
+      "name": "Floor K",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f80",
+      "type": "Flexibility",
+      "name": "Flying K",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f81",
+      "type": "Flexibility",
+      "name": "Half back split on pole",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f82",
+      "type": "Flexibility",
+      "name": "Handspring split on pole",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f83",
+      "type": "Flexibility",
+      "name": "Pegasus split facing floor 2",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f84",
+      "type": "Flexibility",
+      "name": "Rainbow Marchenko back bend scissor",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f85",
+      "type": "Flexibility",
+      "name": "Unnderarm grip chopsticks",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f86",
+      "type": "Flexibility",
+      "name": "Russian split horizontal",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f87",
+      "type": "Flexibility",
+      "name": "Vertical split",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f88",
+      "type": "Flexibility",
+      "name": "Vertical split passé",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f89",
+      "type": "Flexibility",
+      "name": "Wenson split",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f90",
+      "type": "Flexibility",
+      "name": "Bui bend",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f91",
+      "type": "Flexibility",
+      "name": "Dragon tail back bend 2",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f90",
+      "type": "Flexibility",
+      "name": "Elbow bracket split 2",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f93",
+      "type": "Flexibility",
+      "name": "Floor based Marchenko",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f94",
+      "type": "Flexibility",
+      "name": "Crossbow",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f95",
+      "type": "Flexibility",
+      "name": "Low back crossbow",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f96",
+      "type": "Flexibility",
+      "name": "Rainbow Marchenko back bent pencil",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f97",
+      "type": "Flexibility",
+      "name": "Rainbow Marchennko split",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "f98",
+      "type": "Flexibility",
+      "name": "Russian split horizontal",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": "Minimum 180°",
+        "startingPosition": null
+      }
+    },
+    {
       "id": "f99",
       "type": "Flexibility",
       "name": "Superman crecent attitude",
