@@ -2538,6 +2538,703 @@
       }
     },
     {
+      "id": "s42",
+      "type": "Strength",
+      "name": "Forearm grip butterfly",
+      "techValue": 0.6,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s43",
+      "type": "Strength",
+      "name": "Janeiro",
+      "techValue": 0.6,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s44",
+      "type": "Strength",
+      "name": "No hands superman",
+      "techValue": 0.6,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s45",
+      "type": "Strength",
+      "name": "Shouldermount plank",
+      "techValue": 0.6,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s46",
+      "type": "Strength",
+      "name": "Back support plank thigh hold",
+      "techValue": 0.7,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s47",
+      "type": "Strength",
+      "name": "Butterfly extended twist one hand",
+      "techValue": 0.7,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s48",
+      "type": "Strength",
+      "name": "Flag grip handstand",
+      "techValue": 0.7,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s49",
+      "type": "Strength",
+      "name": "Iron-x",
+      "techValue": 0.7,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s50",
+      "type": "Strength",
+      "name": "Janeior plank",
+      "techValue": 0.7,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s51",
+      "type": "Strength",
+      "name": "Shoulder stand floor based straddle",
+      "techValue": 0.7,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s52",
+      "type": "Strength",
+      "name": "Back grip plank straddle",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s53",
+      "type": "Strength",
+      "name": "Back support plank outside leg passé",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s54",
+      "type": "Strength",
+      "name": "Cross grip tulip",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s55",
+      "type": "Strength",
+      "name": "Elbow/neck hold straddle",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s56",
+      "type": "Strength",
+      "name": "Handstand plank jack knife",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s57",
+      "type": "Strength",
+      "name": "Iguana elbow hand straddle no hands",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s58",
+      "type": "Strength",
+      "name": "Iron flag bottom leg passé",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s59",
+      "type": "Strength",
+      "name": "Underarm flag plank open legs",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s60",
+      "type": "Strength",
+      "name": "X pose",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s61",
+      "type": "Strength",
+      "name": "Wenson straddle",
+      "techValue": 0.8,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s62",
+      "type": "Strength",
+      "name": "Cupgrip X",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s63",
+      "type": "Strength",
+      "name": "Handstand plank side split",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s64",
+      "type": "Strength",
+      "name": "Iguana airwalk",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s65",
+      "type": "Strength",
+      "name": "Janeiro plank one hand",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s66",
+      "type": "Strength",
+      "name": "One shoulder side plank legs open",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s67",
+      "type": "Strength",
+      "name": "Shoulder mount plank passé hold",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s68",
+      "type": "Strength",
+      "name": "Split grip reverse plank legs open",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s69",
+      "type": "Strength",
+      "name": "Split grip plank legs open",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s70",
+      "type": "Strength",
+      "name": "Underarm flag plank closed legs",
+      "techValue": 0.9,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s71",
+      "type": "Strength",
+      "name": "Back grip plank",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s72",
+      "type": "Strength",
+      "name": "Back support plank",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s73",
+      "type": "Strength",
+      "name": "Cupgrip plank",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s74",
+      "type": "Strength",
+      "name": "Elbow plank",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s75",
+      "type": "Strength",
+      "name": "Floor based clock",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s76",
+      "type": "Strength",
+      "name": "Handstand plank",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s77",
+      "type": "Strength",
+      "name": "Iguana horizontal",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s78",
+      "type": "Strength",
+      "name": "Iron pencil",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s79",
+      "type": "Strength",
+      "name": "One shoulder side plank legs closed",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s80",
+      "type": "Strength",
+      "name": "Shouldermount horizontal",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s81",
+      "type": "Strength",
+      "name": "Split grip flag",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
+      "id": "s82",
+      "type": "Strength",
+      "name": "Split grip leg through plank",
+      "techValue": 1.0,
+      "criteria": {
+        "holdPosition": "Minimum 2 seconds",
+        "pointsOfContact": [],
+        "grip": null,
+        "armPosition": "",
+        "legPosition": "",
+        "bodyPosition": "",
+        "spinDirection": null,
+        "splitAngle": null,
+        "startingPosition": null
+      }
+    },
+    {
       "id": "s83",
       "type": "Strength",
       "name": "Split grip reverse plank",
