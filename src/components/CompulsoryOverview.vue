@@ -39,7 +39,7 @@ import CompulsoryCard from "./CompulsoryCard";
 import FilterContainer from "./FilterContainer";
 
 const verifyTrickLevel = (value, selectedLevels) => {
-  return selectedLevels.some(level => {
+  return selectedLevels.some((level) => {
     if (level === "Amature" && value <= 0.5) {
       return true;
     } else if (level === "Professional" && value >= 0.3 && value <= 0.8) {
@@ -60,7 +60,7 @@ export default {
       isLoading: false,
       selectedTypes: [],
       selectedLevels: [],
-      searchWord: ""
+      searchWord: "",
     };
   },
   computed: {
@@ -69,21 +69,21 @@ export default {
 
       // filter by type
       if (this.selectedTypes.length > 0) {
-        filteredList = this.compulsories.filter(trick =>
+        filteredList = this.compulsories.filter((trick) =>
           this.selectedTypes.includes(trick.type.replace(/\s+/g, "-"))
         );
       }
 
       // Filter by level
       if (this.selectedLevels.length > 0) {
-        filteredList = filteredList.filter(trick => {
+        filteredList = filteredList.filter((trick) => {
           return verifyTrickLevel(trick.techValue, this.selectedLevels);
         });
       }
 
       // filter by search word
       if (this.searchWord.length > 0) {
-        filteredList = filteredList.filter(trick => {
+        filteredList = filteredList.filter((trick) => {
           // check for name match
           const matchesName = trick.name
             .toLowerCase()
@@ -94,14 +94,14 @@ export default {
         });
       }
       return filteredList;
-    }
+    },
   },
   created() {
     this.loadCompulsories();
   },
   methods: {
     async getCompulsories() {
-      return new Promise(resolve => {
+      return new Promise((resolve) => {
         // Fake fetching
         setTimeout(() => resolve(Data.compulsories), 0);
       });
@@ -109,7 +109,7 @@ export default {
     async loadCompulsories() {
       // Values before load
       this.compulsories = [];
-      this.isLoading = true;
+      //this.isLoading = true; // temporarly removing this until proper design is added
       // Values after load
       this.compulsories = await this.getCompulsories();
       this.isLoading = false;
@@ -117,7 +117,7 @@ export default {
     filterByType(type) {
       if (this.selectedTypes.includes(type)) {
         // Removeing type from filter
-        this.selectedTypes = this.selectedTypes.filter(x => x !== type);
+        this.selectedTypes = this.selectedTypes.filter((x) => x !== type);
       } else {
         // Adding type to filter
         this.selectedTypes.push(type);
@@ -126,7 +126,7 @@ export default {
     filterByLevel(level) {
       if (this.selectedLevels.includes(level)) {
         // Removing level from filter
-        this.selectedLevels = this.selectedLevels.filter(x => x !== level);
+        this.selectedLevels = this.selectedLevels.filter((x) => x !== level);
       } else {
         // Adding level to filter
         this.selectedLevels.push(level);
@@ -134,8 +134,8 @@ export default {
     },
     filterbySearch(word) {
       this.searchWord = word.toLowerCase();
-    }
-  }
+    },
+  },
 };
 </script>
 
