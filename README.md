@@ -1,4 +1,7 @@
-# cop
+# Code of Points-project
+Hobby project in progress, please excuse all sloppy code! Will clean later.. some day :)
+
+Can be viewed at: https://pole-sport-compulsories.netlify.app/
 
 ## Project setup
 ```
