@@ -18,11 +18,11 @@
             pdf to bring with me for trainings. When preparing for nationals I often
             need to check the details of how a compulsory needs to be executed, and
             I found myself struggeling with finding specific compulsories on paper.
-            I hope you find this site as useful as I do, and enjoy using it whilde
+            I hope you find this site as useful as I do, and enjoy using it while
             practicing!
           </p>
           <p>
-            This site is not made in colaboration with IPSF, and all the content
+            This site is not made in collaboration with IPSF, and all the content
             is shamelessly stolen from their CoP pdf-file. I take zero resposibility
             for typos and incorrect data, but please reach out to me if you find
             something so I can correct it!
