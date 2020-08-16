@@ -10,22 +10,22 @@
         <div>
           <h1>About this site</h1>
           <p class="intro">
-            This site is made to give the pole community a simpler way of viewing
-            and browsing IPSF’s Code of Points compulsories.
+            This site is made to give the pole community a simpler way of
+            viewing and browsing IPSF’s Code of Points compulsories.
           </p>
           <p>
             As a pole sport athlete I was tired of printing a hundred pages long
-            pdf to bring with me for trainings. When preparing for nationals I often
-            need to check the details of how a compulsory needs to be executed, and
-            I found myself struggeling with finding specific compulsories on paper.
-            I hope you find this site as useful as I do, and enjoy using it while
-            practicing!
+            pdf to bring with me for trainings. When preparing for nationals I
+            often need to check the details of how a compulsory needs to be
+            executed, and I found myself struggeling with finding specific
+            compulsories on paper. I hope you find this site as useful as I do,
+            and enjoy using it while practicing!
           </p>
           <p>
-            This site is not made in collaboration with IPSF, and all the content
-            is shamelessly stolen from their CoP pdf-file. I take zero resposibility
-            for typos and incorrect data, but please reach out to me if you find
-            something so I can correct it!
+            This site is not made in collaboration with IPSF, and all the
+            content is shamelessly stolen from their CoP pdf-file. I take zero
+            resposibility for typos and incorrect data, but please reach out to
+            me if you find something so I can correct it!
           </p>
         </div>
       </main>
@@ -46,12 +46,14 @@
             href="https://www.instagram.com/martinemartine/"
             target="_blank"
             rel="noopener noreferrer"
-          >@martinemartine</a>, and my developer personality on twitter
+            >@martinemartine</a
+          >, and my developer personality on twitter
           <a
             href="https://twitter.com/MartineTrulsrud"
             target="_blank"
             rel="noopener noreferrer"
-          >@martinetrulsrud</a>
+            >@martinetrulsrud</a
+          >
           for any questions.
         </p>
       </aside>
@@ -61,6 +63,7 @@
 
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
+
 .about {
   background-color: $dark-mode-background;
   min-height: 100vh;
@@ -169,9 +172,9 @@ p {
 
   @media all and (max-width: 900px) {
     margin-left: 0;
+    margin-bottom: $ws-m;
     padding: 0;
     padding-right: 0.8rem;
-    padding-bottom: $ws-m;
 
     i {
       margin-left: -4px;
