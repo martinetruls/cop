@@ -10,32 +10,28 @@
       <h1>Pole Sport Compulsories</h1>
       <!-- Mobile only -->
       <router-link id="about" to="/about">About this site</router-link>
-      <p
-        class="show-count"
-      >Showing {{ compulsories.length > filteredList.length ? filteredList.length + " of" : ""}} {{ compulsories.length}} compulsories</p>
+      <p class="show-count" v-if="!isLoading">
+        Showing
+        {{
+          compulsories.length > filteredList.length
+            ? filteredList.length + " of"
+            : ""
+        }}
+        {{ compulsories.length }} compulsories
+      </p>
     </header>
 
-    <p v-if="isLoading">Loading...</p>
-    <div class="grid" v-if="!isLoading && filteredList.length">
-      <CompulsoryCard
-        v-for="compulsory in filteredList"
-        v-bind:key="compulsory.id"
-        v-bind:compulsory="compulsory"
-      ></CompulsoryCard>
-    </div>
-
-    <!-- Empty state -->
-    <div v-if="!isLoading && !filteredList.length" class="no-search-result">
-      Ops, searching for
-      <span class="search-word">{{ searchWord }}</span> did not match anything!
-      <div class="search-tip">Try searching for another compulsory name or ID</div>
-    </div>
+    <CardGrid
+      v-bind:compulsories="filteredList"
+      v-bind:isLoading="isLoading"
+      v-bind:searchWord="searchWord"
+    />
   </div>
 </template>
 
 <script>
 import Data from "../data/compulsories.json";
-import CompulsoryCard from "./CompulsoryCard";
+import CardGrid from "./CardGrid";
 import FilterContainer from "./FilterContainer";
 
 const verifyTrickLevel = (value, selectedLevels) => {
@@ -53,11 +49,11 @@ const verifyTrickLevel = (value, selectedLevels) => {
 
 export default {
   name: "CompulsoryOverview",
-  components: { CompulsoryCard, FilterContainer },
+  components: { CardGrid, FilterContainer },
   data() {
     return {
       compulsories: [],
-      isLoading: false,
+      isLoading: true,
       selectedTypes: [],
       selectedLevels: [],
       searchWord: "",
@@ -65,7 +61,7 @@ export default {
   },
   computed: {
     filteredList() {
-      let filteredList = Data.compulsories;
+      let filteredList = this.compulsories;
 
       // filter by type
       if (this.selectedTypes.length > 0) {
@@ -103,13 +99,13 @@ export default {
     async getCompulsories() {
       return new Promise((resolve) => {
         // Fake fetching
-        setTimeout(() => resolve(Data.compulsories), 0);
+        setTimeout(() => resolve(Data.compulsories), 1000);
       });
     },
     async loadCompulsories() {
       // Values before load
       this.compulsories = [];
-      //this.isLoading = true; // temporarly removing this until proper design is added
+      this.isLoading = true;
       // Values after load
       this.compulsories = await this.getCompulsories();
       this.isLoading = false;
@@ -141,7 +137,6 @@ export default {
 
 <style lang="scss" scoped>
 @import "../styles/vars.scss";
-
 .overview {
   margin-left: $filter-desktop-width;
 
@@ -216,26 +211,6 @@ h1 {
   }
 }
 
-.grid {
-  display: grid;
-  padding: $ws-xxl $ws-xxxl;
-  grid-template-columns: repeat(auto-fill, minmax(23rem, 1fr));
-  grid-template-rows: auto;
-  grid-gap: $ws-xl;
-
-  // Desktop small view
-  @media all and (max-width: 1150px) {
-    padding: $ws-xl;
-  }
-
-  // Mobile view - smallest
-  @media all and (max-width: $mobile-breakpoint) {
-    padding: $ws-xl $ws-m;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-    grid-gap: $ws-m;
-  }
-}
-
 $underline-gradient: linear-gradient(to right, $purple-20 0%, $ocean-20 100%);
 
 #about {
@@ -265,26 +240,4 @@ $underline-gradient: linear-gradient(to right, $purple-20 0%, $ocean-20 100%);
     background-size: 100% 100%;
   }
 }
-
-.no-search-result {
-  padding: $ws-xxxl $ws-m;
-  text-align: center;
-  margin: auto;
-  font-size: 2.4rem;
-  font-weight: 300;
-  max-width: 60rem;
-  word-break: break-word;
-}
-
-.search-word {
-  font-weight: 500;
-  font-style: italic;
-}
-
-.search-tip {
-  font-size: 1.6rem;
-  color: $dark-70;
-  margin-top: $ws-s;
-}
 </style>
-

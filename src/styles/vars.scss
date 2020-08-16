@@ -1,7 +1,7 @@
 // COLORS
 
 $turquoise-dark: rgb(0, 137, 151);
-$turquoise-60: #66b8c0;
+$turquoise-60: #67b9c1;
 $turquoise-light: #d0e8ec;
 
 $orange-dark: rgb(234, 74, 26);
@@ -18,20 +18,25 @@ $pink-light: #fedee6;
 $yellow: #fef4de;
 
 $ocean: #16c1d2;
+$ocean-o-40: rgba(22, 193, 210, 0.4);
 $ocean-20: #d0f3f6;
 
 // purple
 $purple-dark: rgb(33, 23, 179);
+$purple: rgb(53, 43, 199);
+
 $purple-o6: rgba(33, 23, 179, 0.6);
-$purple-60: #7973d1;
+$purple-o-50: rgba(113, 103, 254, 0.5);
+$purple-o-40: rgba(33, 23, 179, 0.4);
 $purple-o2: rgba(33, 23, 179, 0.2);
-$purple: #352bc7;
-$purple-bright-darker: #564ce6;
-$purple-bright: #7369fe;
+
+$purple-60: #7973d1;
 $purple-30: #9f99f8;
 $purple-20: #d6d4f4;
 $purple-18: #d6d7f2;
-$purple-trans-50: hsla(244, 99%, 70%, 0.5);
+
+$purple-bright-darker: #564ce6;
+$purple-bright: #7369fe;
 
 // dark
 $darker: #1b1c28;
@@ -53,7 +58,7 @@ $grey-10: #f5f6fa;
 
 $dark-model-link-color: $purple-30;
 
-$dark-mode-focus-color: $purple-trans-50;
+$dark-mode-focus-color: $purple-o-50;
 $dark-mode-focus: 0 0 0 2px $dark-mode-focus-color;
 
 // shadow

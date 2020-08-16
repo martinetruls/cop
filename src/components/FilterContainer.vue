@@ -25,7 +25,7 @@
             id="search"
             type="text"
             placeholder="Search"
-            @input="event => $emit('handleSearch', event.target.value)"
+            @input="(event) => $emit('handleSearch', event.target.value)"
           />
         </div>
 
@@ -35,13 +35,13 @@
             id="filter-types"
             label="Filter by type"
             :list="typeOptions"
-            @handleFilterChange="value => $emit('handleTypeFilter', value)"
+            @handleFilterChange="(value) => $emit('handleTypeFilter', value)"
           />
           <CheckboxGroup
             id="filter-levels"
             label="Filter by level"
             :list="levelOptions"
-            @handleFilterChange="value => $emit('handleLevelFilter', value)"
+            @handleFilterChange="(value) => $emit('handleLevelFilter', value)"
           />
         </div>
 
@@ -62,7 +62,7 @@ const typeOptions = [
   "Flexibility",
   "Strength",
   "Spins on spinning",
-  "Spins on static"
+  "Spins on static",
 ];
 
 export default {
@@ -72,7 +72,7 @@ export default {
     return {
       levelOptions: levelOptions,
       typeOptions: typeOptions,
-      isOpen: false
+      isOpen: false,
     };
   },
   methods: {
@@ -86,8 +86,8 @@ export default {
     closeFilters() {
       this.isOpen = false;
       document.body.classList.remove("no-scroll-mobile");
-    }
-  }
+    },
+  },
 };
 </script>
 

@@ -25,10 +25,11 @@ window.addEventListener("keydown", handleFirstTab);
 document.body.classList.add("hide-focus");
 
 export default {
-  name: "App"
+  name: "App",
 };
 </script>
 
 <style lang="scss">
 @import "./styles/global.scss";
+@import "./styles/animations.scss";
 </style>

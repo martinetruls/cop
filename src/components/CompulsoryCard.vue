@@ -1,8 +1,13 @@
 <template>
-  <router-link :to="{name: 'CompulsoryPage', params:{ id: compulsory.id } }">
+  <router-link :to="{ name: 'CompulsoryPage', params: { id: compulsory.id } }">
     <div class="card">
       <div class="img-wrapper">
-        <img :src="require(`../assets/compulsory-illustrations/${compulsory.id}.png`)" alt />
+        <img
+          :src="
+            require(`../assets/compulsory-illustrations/${compulsory.id}.png`)
+          "
+          :alt="compulsory.name"
+        />
       </div>
       <div class="text-wrapper">
         <div class="id">{{ compulsory.id }}</div>
@@ -23,8 +28,8 @@ export default {
   name: "CompulsoryCard",
   components: { Tag },
   props: {
-    compulsory: Object
-  }
+    compulsory: Object,
+  },
 };
 </script>
 
