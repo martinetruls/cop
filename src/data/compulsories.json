@@ -1335,14 +1335,14 @@
       "techValue": 0.8,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "pointsOfContact": ["One hand", "Sole of opposite foot"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Arms are fully extended. One hand has contact with the pole, the other hand has contact with the floor.",
+        "legPosition": "Both legs are fully extended in a split position",
+        "bodyPosition": "One-handed handstand, facing the pole",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
-        "startingPosition": null
+        "startingPosition": "From the floor (see glossary)"
       }
     },
     {
