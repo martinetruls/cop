@@ -1352,11 +1352,17 @@
       "techValue": 0.8,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "pointsOfContact": [
+          "Hand of outside arm",
+          "Underarm of inside arm",
+          "Glutes",
+          "Outside leg",
+          "Foot of outside leg"
+        ],
+        "grip": "Inside arm: underarm grip. Outside arm: basic or cup grip",
+        "armPosition": "Outside arm wraps around the inside leg and holds the pole at the ankle of opposite foot, inside arm is around the pole and leg, with the underarm in contact with the pole",
+        "legPosition": "Both legs are fully extended in a frontal split position, foot of outside leg should be holding the pole from behind. The front leg is the inside leg, the back leg is the outside leg.",
+        "bodyPosition": "Upright",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
@@ -1369,11 +1375,11 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "pointsOfContact": ["Front leg", "Side of torso", "Back of shoulder"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "No hands have contact with the pole, arms are fully extended and hands are holding foot/ankle of back leg",
+        "legPosition": "Front leg is wrapped, back leg and foot must be stretched over the head or in a ring position",
+        "bodyPosition": "Upright",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
@@ -1386,11 +1392,11 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "pointsOfContact": ["Neck", "Upper back", "One elbow"],
+        "grip": "Elbow grip",
+        "armPosition": "Elbow holds pole behind the back, other hand holds opposite leg",
+        "legPosition": "Both legs are fully extended in split position and parallel to the pole",
+        "bodyPosition": "Inverted",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
@@ -1403,11 +1409,11 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "pointsOfContact": ["Both hands", "Full length of both legs"],
+        "grip": "Split grip",
+        "armPosition": "Both hands hold the pole behind the legs",
+        "legPosition": "Both legs are fully extended in split position",
+        "bodyPosition": "Upper body is in a back arch",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
@@ -1420,11 +1426,11 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "pointsOfContact": ["Both hands", "Both legs"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Both arms are fully extended and hands hold the pole above the head at ankle/calf height",
+        "legPosition": "Both legs are fully extended in split position",
+        "bodyPosition": "Upright with back arch",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
