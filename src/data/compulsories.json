@@ -1528,7 +1528,7 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "pointsOfContact": ["Both hands"],
         "grip": null,
         "armPosition": "",
         "legPosition": "",
