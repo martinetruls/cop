@@ -1528,11 +1528,16 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": ["Both hands", "Upper leg"],
+        "pointsOfContact": [
+          "Both hands",
+          "Upper leg",
+          "pelvis",
+          "Thigh of the lower leg"
+        ],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Both arms are fully extended and hold the pole above the head at ankle height",
+        "legPosition": "Back leg is extended, lower leg is in passé",
+        "bodyPosition": "Upright",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
@@ -1545,11 +1550,11 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "pointsOfContact": ["One foot", "Both hands"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Grip of choice, both arms fully extended",
+        "legPosition": "Both legs are fully extended in split position, the line of the leg is parallel to the floor. The entire sole fo the foot must be on the pole",
+        "bodyPosition": "Inverted",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
@@ -1562,11 +1567,17 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "pointsOfContact": [
+          "Thigh of back leg",
+          "Elbow of back arm",
+          "Back of shoulder/neck",
+          "Forearm",
+          "Hand of lower arm"
+        ],
+        "grip": "Top arm is in elbow grip, bottom arn is in forearm grip",
+        "armPosition": "Top arm is holding the thigh of the back leg around the pole. Bottom arm is in holding onto the pole",
+        "legPosition": "Both legs are fully extended in a frontal split position",
+        "bodyPosition": "Torso is facing the floor",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
@@ -1579,11 +1590,16 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "pointsOfContact": [
+          "Underarm",
+          "Hand of inside arm",
+          "Side of torso",
+          "Thighs"
+        ],
+        "grip": "Flag grip",
+        "armPosition": "Inside arm is in flag grip, outside arm is fully extended and holding the inside leg at ankle/calf",
+        "legPosition": "Both legs are fully extended on the same side at the body",
+        "bodyPosition": "Inverted, back bend, chest is facing downwards",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
@@ -1596,11 +1612,11 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "pointsOfContact": ["Underarm", "Back of thigh of inside leg"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Underarm or bicep of inside arm ahs contact with the pole. Inside arm is fully extended. Outside arm holding ankle/calf of inside leg. No hand contact witht he pole.",
+        "legPosition": "Both legs fully extended in split position and parallel to floor",
+        "bodyPosition": "Upright",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
@@ -1613,11 +1629,11 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "pointsOfContact": ["Sole of one foot", "Both hands"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Basic or cup grip",
+        "legPosition": "Both legs are fully extended in split position. Back leg is parallel to the floor, no tolerance.",
+        "bodyPosition": "Parallel to the floor, with 20° tolerance.",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
@@ -1630,11 +1646,16 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "pointsOfContact": [
+          "Hands",
+          "Forearm of lower arm",
+          "Outside of lower leg calf",
+          "Top of foot of lower leg (not the arch of the foot)"
+        ],
+        "grip": "Wide basic grip",
+        "armPosition": "Upper arm is fully extended, lower forearm wraps around lower leg at the knee and holds the pole.",
+        "legPosition": "Both legs are fully extended and parallel to the pole. Upper leg has no contact with the pole",
+        "bodyPosition": "Inverted",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
@@ -1647,11 +1668,11 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "pointsOfContact": ["Inside of both arms", "Back of neck", "Shoulders"],
+        "grip": "Upper arm in elbow grip",
+        "armPosition": "Upper hand holds opposite foot, bottom hand holds opposite, lower ankle. Both arms wrapped around the pole.",
+        "legPosition": "Legs are in split position. Upper leg is bent in passé, bottom leg is fully extended",
+        "bodyPosition": "Upper body is parallel to the floor. Chest facing downwards",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
@@ -1664,14 +1685,14 @@
       "techValue": 0.9,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "pointsOfContact": ["One hand"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "One hand has contact with the floor and the arm is fully extended, the top arm is bent and the hand has contact with the pole",
+        "legPosition": "Both legs are fully extended in split position, line of split is parallel to the floor. The upper leg should be supported on the upper part of the tricep/shoulder of the arm on the same side. There must be no leg contact with the pole.",
+        "bodyPosition": "Inverted handstand",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
-        "startingPosition": null
+        "startingPosition": "From the floor (see glossary)"
       }
     },
     {
@@ -1681,11 +1702,11 @@
       "techValue": 1.0,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "pointsOfContact": ["One hand", "Opposite arm", "waist"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Inside arm is fully extended and holding the same leg. Outside arm is bent and holding the pole at / above the head.",
+        "legPosition": "Both legs are fully extended and horizontal",
+        "bodyPosition": "Inverted, hips parallel to the floor",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
