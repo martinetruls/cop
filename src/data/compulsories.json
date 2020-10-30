@@ -1719,13 +1719,19 @@
       "techValue": 1.0,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "pointsOfContact": [
+          "Outside hand",
+          "Forearm of inside arm",
+          "Inside shoulder",
+          "Torso",
+          "Nech (optional)"
+        ],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Inside arm is bent and forearm is in contact with the pole. Outside arm holds the pole behind the back.",
+        "legPosition": "Both legs are fully extended, closed, and both legs parallel to the floor and each other.",
+        "bodyPosition": "Inverted, hips parallel to the floor",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°",
+        "splitAngle": null,
         "startingPosition": null
       }
     },
@@ -1736,11 +1742,16 @@
       "techValue": 1.0,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "pointsOfContact": [
+          "One hand",
+          "Chest",
+          "One arm",
+          "One foot (optional)"
+        ],
+        "grip": "Wrap grip (upper arm)",
+        "armPosition": "Upper arm hold the upper leg at ankle/shin level above the head. Lower arm is fully extended and hold the pole.",
+        "legPosition": "Legs are in frontal split position and fully extended",
+        "bodyPosition": "Upright, facing the pole",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
         "startingPosition": null
@@ -1753,14 +1764,18 @@
       "techValue": 1.0,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
-        "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "pointsOfContact": [
+          "Underarm of inside arm",
+          "Side of torso",
+          "Back of one thigh"
+        ],
+        "grip": "Underarm grip",
+        "armPosition": "Both arms are fully extended, inside arm has contact witht he floor and is in underarm grip. The outside arm is holding the inside leg at the ankle / calf.",
+        "legPosition": "Both legs are fully extended in split position",
+        "bodyPosition": "Inverted handstand, chest is facing downwards",
         "spinDirection": null,
         "splitAngle": "Minimum 180°",
-        "startingPosition": null
+        "startingPosition": "From the floor (see glossary)"
       }
     },
     {
@@ -1770,13 +1785,16 @@
       "techValue": 1.0,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "pointsOfContact": [
+          "Both ankles",
+          "Back of shoulders (no nech contact)"
+        ],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Both arms are fully extended and open with no hand contact with the pole",
+        "legPosition": "Both legs are fully extended in straddle position with ankles to the pole (not the arch of the foot)",
+        "bodyPosition": "Torso is at 90° angle to the pole",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°",
+        "splitAngle": null,
         "startingPosition": null
       }
     },
@@ -1787,13 +1805,13 @@
       "techValue": 1.0,
       "criteria": {
         "holdPosition": "Minimum 2 seconds",
-        "pointsOfContact": [],
+        "pointsOfContact": ["Arch of the foot", "Lower back/buttocks"],
         "grip": null,
-        "armPosition": "",
-        "legPosition": "",
-        "bodyPosition": "",
+        "armPosition": "Both arms are fully extended and open with no hand contact with the pole",
+        "legPosition": "Both legs are fully extended in straddle position",
+        "bodyPosition": "Torso is at 90° angle to the pole",
         "spinDirection": null,
-        "splitAngle": "Minimum 180°",
+        "splitAngle": null,
         "startingPosition": null
       }
     },
