@@ -25,7 +25,7 @@
             id="search"
             type="text"
             placeholder="Search"
-            @input="(event) => $emit('handleSearch', event.target.value)"
+            @input="(event) => $emit('handle-search', event.target.value)"
           />
         </div>
 
@@ -35,13 +35,21 @@
             id="filter-types"
             label="Filter by type"
             :list="typeOptions"
-            @handleFilterChange="(value) => $emit('handleTypeFilter', value)"
+            @handleFilterChange="(value) => $emit('handle-type-filter', value)"
           />
           <CheckboxGroup
             id="filter-levels"
             label="Filter by level"
             :list="levelOptions"
-            @handleFilterChange="(value) => $emit('handleLevelFilter', value)"
+            @handleFilterChange="(value) => $emit('handle-level-filter', value)"
+          />
+          <CheckboxGroup
+            id="filter-other"
+            label="Personal filters"
+            :list="personalOptions"
+            @handleFilterChange="
+              (value) => $emit('handle-personal-filter', value)
+            "
           />
         </div>
 
@@ -64,6 +72,7 @@ const typeOptions = [
   "Spins on spinning",
   "Spins on static",
 ];
+const personalOptions = ["My favorites"];
 
 export default {
   name: "FilterContainer",
@@ -72,6 +81,7 @@ export default {
     return {
       levelOptions: levelOptions,
       typeOptions: typeOptions,
+      personalOptions: personalOptions,
       isOpen: false,
     };
   },

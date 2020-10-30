@@ -1,6 +1,13 @@
 <template>
-  <router-link :to="{ name: 'CompulsoryPage', params: { id: compulsory.id } }">
-    <div class="card">
+  <div class="card">
+    <Heart
+      :isSelected="isSelected"
+      :id="compulsory.id"
+      @update-favorites="$emit('update-favorites')"
+    />
+    <router-link
+      :to="{ name: 'CompulsoryPage', params: { id: compulsory.id } }"
+    >
       <div class="img-wrapper">
         <img
           :src="
@@ -17,18 +24,20 @@
 
         <h2>{{ compulsory.name | capitalize }}</h2>
       </div>
-    </div>
-  </router-link>
+    </router-link>
+  </div>
 </template>
 
 <script>
 import Tag from "./_shared/Tag";
+import Heart from "./_shared/Heart";
 
 export default {
   name: "CompulsoryCard",
-  components: { Tag },
+  components: { Tag, Heart },
   props: {
     compulsory: Object,
+    isSelected: Boolean,
   },
 };
 </script>
@@ -51,6 +60,7 @@ a {
   border-radius: $card-border-radius;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .text-wrapper {

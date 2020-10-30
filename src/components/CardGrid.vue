@@ -10,8 +10,10 @@
       <div class="grid" v-if="!isLoading && compulsories.length">
         <CompulsoryCard
           v-for="compulsory in compulsories"
-          v-bind:key="compulsory.id"
-          v-bind:compulsory="compulsory"
+          :key="compulsory.id"
+          :compulsory="compulsory"
+          :isSelected="favorites.includes(compulsory.id)"
+          @update-favorites="$emit('update-favorites')"
         ></CompulsoryCard>
       </div>
     </transition>
@@ -38,6 +40,7 @@ export default {
     isLoading: Boolean,
     compulsories: Array,
     searchWord: String,
+    favorites: Array,
   },
 };
 </script>

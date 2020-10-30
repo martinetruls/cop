@@ -1,9 +1,10 @@
 <template>
   <div class="overview">
     <FilterContainer
-      @handleTypeFilter="filterByType"
-      @handleLevelFilter="filterByLevel"
-      @handleSearch="filterbySearch"
+      @handle-type-filter="filterByType"
+      @handle-level-filter="filterByLevel"
+      @handle-personal-filter="filterPersonal"
+      @handle-search="filterbySearch"
     ></FilterContainer>
 
     <Header
@@ -16,6 +17,8 @@
       :compulsories="filteredList"
       :isLoading="isLoading"
       :searchWord="searchWord"
+      :favorites="favorites"
+      @update-favorites="updateFavorites"
     />
   </div>
 </template>
@@ -48,6 +51,8 @@ export default {
       isLoading: true,
       selectedTypes: [],
       selectedLevels: [],
+      selectedPersonal: [],
+      favorites: [],
       searchWord: "",
     };
   },
@@ -81,11 +86,20 @@ export default {
           return matchesName | matchesId;
         });
       }
+
+      // filter by favorite
+      if (this.selectedPersonal.includes("favorites")) {
+        filteredList = filteredList.filter((trick) =>
+          this.favorites.includes(trick.id)
+        );
+      }
       return filteredList;
     },
   },
   created() {
     this.loadCompulsories();
+    const savedFavorites = JSON.parse(localStorage.getItem("favorites"));
+    this.favorites = savedFavorites !== null ? savedFavorites : [];
   },
   methods: {
     async getCompulsories() {
@@ -120,8 +134,25 @@ export default {
         this.selectedLevels.push(level);
       }
     },
+    filterPersonal(selectedFilter) {
+      if (selectedFilter === "My-favorites") {
+        if (this.selectedPersonal.includes("favorites")) {
+          // Removing favorite filter
+          this.selectedPersonal = this.selectedPersonal.filter(
+            (filter) => filter !== "favorites"
+          );
+        } else {
+          // Adding filter
+          this.selectedPersonal.push("favorites");
+        }
+      }
+    },
     filterbySearch(word) {
       this.searchWord = word.toLowerCase();
+    },
+    updateFavorites() {
+      const savedFavorites = JSON.parse(localStorage.getItem("favorites"));
+      this.favorites = savedFavorites !== null ? savedFavorites : [];
     },
   },
 };
