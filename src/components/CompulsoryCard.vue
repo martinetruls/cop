@@ -1,10 +1,5 @@
 <template>
   <div class="card-wrapper">
-    <Heart
-      :isSelected="isSelected"
-      :id="compulsory.id"
-      @update-favorites="$emit('update-favorites')"
-    />
     <router-link
       :to="{ name: 'CompulsoryPage', params: { id: compulsory.id } }"
     >
@@ -27,6 +22,11 @@
         </div>
       </div>
     </router-link>
+    <Heart
+      :isSelected="isSelected"
+      :id="compulsory.id"
+      @update-favorites="$emit('update-favorites')"
+    />
   </div>
 </template>
 

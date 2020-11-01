@@ -1,10 +1,12 @@
 <template>
   <span class="heart">
     <button v-if="!isSelected" @click="addFavorite()">
-      <i class="material-icons">favorite_border</i>
+      <span class="visually-hidden">Add {{ id }} as favorite</span>
+      <i class="material-icons" aria-hidden="true">favorite_border</i>
     </button>
     <button v-if="isSelected" @click="removeFavorite()">
-      <i class="material-icons">favorite</i>
+      <span class="visually-hidden">Remove {{ id }} as favorite</span>
+      <i class="material-icons" aria-hidden="true">favorite</i>
     </button>
   </span>
 </template>
@@ -38,7 +40,6 @@ export default {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 1;
 }
 
 .heart button {
@@ -50,5 +51,15 @@ export default {
   .material-icons {
     font-size: 16px;
   }
+
+  &:focus {
+    outline: none;
+    box-shadow: $focus;
+  }
+}
+
+// when user is using mouse / touch
+.hide-focus .heart button:focus {
+  box-shadow: none;
 }
 </style>

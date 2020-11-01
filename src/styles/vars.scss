@@ -58,7 +58,10 @@ $grey-10: #f5f6fa;
 
 $dark-model-link-color: $purple-30;
 
-$dark-mode-focus-color: $purple-o-50;
+// focus
+$focus-color: $purple-bright-darker;
+$focus: 0 0 0 2px $focus-color;
+$dark-mode-focus-color: $purple-30;
 $dark-mode-focus: 0 0 0 2px $dark-mode-focus-color;
 
 // shadow
