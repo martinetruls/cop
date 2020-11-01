@@ -1,5 +1,5 @@
 <template>
-  <div class="card">
+  <div class="card-wrapper">
     <Heart
       :isSelected="isSelected"
       :id="compulsory.id"
@@ -8,21 +8,23 @@
     <router-link
       :to="{ name: 'CompulsoryPage', params: { id: compulsory.id } }"
     >
-      <div class="img-wrapper">
-        <img
-          :src="
-            require(`../assets/compulsory-illustrations/${compulsory.id}.png`)
-          "
-          :alt="compulsory.name"
-        />
-      </div>
-      <div class="text-wrapper">
-        <div class="id">{{ compulsory.id }}</div>
+      <div class="card">
+        <div class="img-wrapper">
+          <img
+            :src="
+              require(`../assets/compulsory-illustrations/${compulsory.id}.png`)
+            "
+            :alt="compulsory.name"
+          />
+        </div>
+        <div class="text-wrapper">
+          <div class="id">{{ compulsory.id }}</div>
 
-        <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
-        <Tag class="value" :label="compulsory.techValue | techValueFormat" />
+          <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
+          <Tag class="value" :label="compulsory.techValue | techValueFormat" />
 
-        <h2>{{ compulsory.name | capitalize }}</h2>
+          <h2>{{ compulsory.name | capitalize }}</h2>
+        </div>
       </div>
     </router-link>
   </div>
@@ -47,9 +49,8 @@ export default {
 
 $card-border-radius: 4px;
 
-a {
-  text-decoration: none;
-  color: $dark;
+.card-wrapper {
+  position: relative;
 }
 
 .card {
@@ -60,7 +61,11 @@ a {
   border-radius: $card-border-radius;
   display: flex;
   flex-direction: column;
-  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: $dark;
 }
 
 .text-wrapper {
