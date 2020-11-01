@@ -46,6 +46,7 @@
           <CheckboxGroup
             id="filter-other"
             label="Personal filters"
+            v-if="hasFavorites"
             :list="personalOptions"
             @handleFilterChange="
               (value) => $emit('handle-personal-filter', value)
@@ -76,6 +77,7 @@ const personalOptions = ["My favorites"];
 
 export default {
   name: "FilterContainer",
+  props: { hasFavorites: Boolean },
   components: { CheckboxGroup, Button, Backdrop },
   data() {
     return {

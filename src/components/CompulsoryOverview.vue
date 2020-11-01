@@ -5,6 +5,7 @@
       @handle-level-filter="filterByLevel"
       @handle-personal-filter="filterPersonal"
       @handle-search="filterbySearch"
+      :hasFavorites="!!favorites.length"
     ></FilterContainer>
 
     <Header
