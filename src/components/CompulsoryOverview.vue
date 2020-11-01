@@ -100,7 +100,7 @@ export default {
   created() {
     this.loadCompulsories();
     const savedFavorites = JSON.parse(localStorage.getItem("favorites"));
-    this.favorites = savedFavorites !== null ? savedFavorites : [];
+    this.favorites = savedFavorites || [];
   },
   methods: {
     async getCompulsories() {
@@ -136,6 +136,7 @@ export default {
       }
     },
     filterPersonal(selectedFilter) {
+      console.log("filtering personal");
       if (selectedFilter === "My-favorites") {
         if (this.selectedPersonal.includes("favorites")) {
           // Removing favorite filter
@@ -153,7 +154,18 @@ export default {
     },
     updateFavorites() {
       const savedFavorites = JSON.parse(localStorage.getItem("favorites"));
-      this.favorites = savedFavorites !== null ? savedFavorites : [];
+      this.favorites = savedFavorites || [];
+    },
+  },
+  watch: {
+    favorites: function() {
+      // if all favorites are removed, remove the selected filer
+      if (
+        !this.favorites.length &&
+        this.selectedPersonal.includes("favorites")
+      ) {
+        this.filterPersonal("My-favorites");
+      }
     },
   },
 };

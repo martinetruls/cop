@@ -24,7 +24,7 @@ export default {
     },
     addFavorite() {
       const currentState = JSON.parse(localStorage.getItem("favorites"));
-      let favorites = currentState !== null ? currentState : [];
+      let favorites = currentState || [];
       favorites.push(this.id);
       localStorage.setItem("favorites", JSON.stringify(favorites));
       this.$emit("update-favorites");
