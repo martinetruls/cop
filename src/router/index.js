@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+import PoleSingle from "../views/PoleSingle.vue";
+import StartPage from "../views/StartPage.vue";
 import PageNotFound from "../views/PageNotFound.vue";
 
 Vue.use(VueRouter);
@@ -8,8 +9,13 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: Home,
+    name: "StartPage",
+    component: StartPage,
+  },
+  {
+    path: "/pole-single",
+    name: "PoleSingle",
+    component: PoleSingle,
     children: [
       {
         path: "/compulsories/:id",

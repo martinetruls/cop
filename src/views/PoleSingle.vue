@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="pole-single">
     <router-view />
     <Overview />
   </div>
@@ -9,9 +9,9 @@
 import Overview from "../components/CompulsoryOverview.vue";
 
 export default {
-  name: "Home",
+  name: "PoleSingle",
   components: {
-    Overview
-  }
+    Overview,
+  },
 };
 </script>
