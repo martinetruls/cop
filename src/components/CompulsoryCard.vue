@@ -7,7 +7,7 @@
         <div class="img-wrapper">
           <img
             :src="
-              require(`../assets/compulsory-illustrations/${compulsory.id}.png`)
+              require(`../assets/compulsory-illustrations/${compulsory.id.toLowerCase()}.png`)
             "
             :alt="compulsory.name"
           />

@@ -3,17 +3,24 @@
     <div class="decorations" :class="compulsory.type | dashedType" />
     <div class="modal-header">
       <div class="img-wrapper">
-        <img :src="require(`../assets/compulsory-illustrations/${compulsory.id}.png`)" alt />
+        <img
+          :src="
+            require(`../assets/compulsory-illustrations/${compulsory.id.toLowerCase()}.png`)
+          "
+          alt
+        />
       </div>
 
       <div class="id-and-name">
-        <div class="id">{{compulsory.id}}</div>
+        <div class="id">{{ compulsory.id }}</div>
         <h2>{{ compulsory.name }}</h2>
       </div>
 
       <div class="type-and-value">
         <Tag class="type" :label="compulsory.type" :type="compulsory.type" />
-        <div class="value">Technical value: {{ compulsory.techValue | techValueFormat }}</div>
+        <div class="value">
+          Technical value: {{ compulsory.techValue | techValueFormat }}
+        </div>
       </div>
     </div>
     <CriteriaList :criteria="compulsory.criteria" />
@@ -30,13 +37,13 @@ export default {
   name: "Compulsory",
   components: { Modal, CriteriaList, Tag },
   props: {
-    id: String
+    id: String,
   },
   data() {
     return {
-      compulsory: Data.compulsories.find(comp => comp.id === this.id)
+      compulsory: Data.compulsories.find((comp) => comp.id === this.id),
     };
-  }
+  },
 };
 </script>
 
