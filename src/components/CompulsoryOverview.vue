@@ -99,7 +99,9 @@ export default {
   },
   created() {
     this.loadCompulsories();
-    const savedFavorites = JSON.parse(localStorage.getItem("favorites"));
+    const savedFavorites = JSON.parse(
+      localStorage.getItem("pole-single-favorites")
+    );
     this.favorites = savedFavorites || [];
   },
   methods: {
@@ -153,7 +155,9 @@ export default {
       this.searchWord = word.toLowerCase();
     },
     updateFavorites() {
-      const savedFavorites = JSON.parse(localStorage.getItem("favorites"));
+      const savedFavorites = JSON.parse(
+        localStorage.getItem("pole-single-favorites")
+      );
       this.favorites = savedFavorites || [];
     },
   },

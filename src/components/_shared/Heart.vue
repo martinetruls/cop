@@ -17,16 +17,18 @@ export default {
   props: { isSelected: Boolean, id: String },
   methods: {
     removeFavorite() {
-      let favorites = JSON.parse(localStorage.getItem("favorites"));
+      let favorites = JSON.parse(localStorage.getItem("pole-single-favorites"));
       favorites = favorites.filter((id) => id !== this.id);
-      localStorage.setItem("favorites", JSON.stringify(favorites));
+      localStorage.setItem("pole-single-favorites", JSON.stringify(favorites));
       this.$emit("update-favorites");
     },
     addFavorite() {
-      const currentState = JSON.parse(localStorage.getItem("favorites"));
+      const currentState = JSON.parse(
+        localStorage.getItem("pole-single-favorites")
+      );
       let favorites = currentState || [];
       favorites.push(this.id);
-      localStorage.setItem("favorites", JSON.stringify(favorites));
+      localStorage.setItem("pole-single-favorites", JSON.stringify(favorites));
       this.$emit("update-favorites");
     },
   },
